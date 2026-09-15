@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Formal evaluator for the zero-query, data-level poisoning experiment.
+"""Data-defined target-pool evaluator for frozen and development experiments.
 
-The target pool is defined from test graph fields and true labels only.  Model
+The target pool is defined from split graph fields and true labels only. Model
 predictions are produced only after the pool is fixed in memory, and are never
-used to include/exclude a target.
+used to include/exclude a target. Training access is reported separately from
+this data-only evaluation-target selection.
 """
 
 from __future__ import annotations
@@ -157,7 +158,7 @@ CLEAN_REFERENCE_MATCH_CONFIG_KEYS = (
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Evaluate the strict zero-query data-poisoning experiment.")
+    parser = argparse.ArgumentParser(description="Evaluate a data-defined pair target pool.")
     parser.add_argument("--graph-dir", required=True)
     parser.add_argument(
         "--graph-manifest",
@@ -166,6 +167,10 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--checkpoint", required=True)
     parser.add_argument("--output", required=True)
+    parser.add_argument("--expected-target-manifest", default=None,
+                        help="Validation-only public target CSV to match before model inference")
+    parser.add_argument("--expected-target-manifest-sha256", default=None,
+                        help="SHA-256 binding for --expected-target-manifest")
     parser.add_argument(
         "--evaluation-model-role",
         choices=["victim", "clean_reference"],
@@ -1558,8 +1563,115 @@ def validate_evaluation_phase_allocation_policy(
             )
 
 
+def training_access_context(training_result: dict[str, Any], *, split: str,
+                            model_role: str) -> dict[str, Any]:
+    """Report training intervention separately from zero-query target selection.
+
+    Missing/unrecognized provenance is unknown, not an assertion of data-only
+    access. Clean-reference optimization is not an attacker intervention.
+    """
+    config = training_result.get("config") or {}
+    protocol = training_result.get("training_protocol") or {}
+    projection = protocol.get("gradient_projection") or {}
+    objective = str(protocol.get("objective", ""))
+    explicit = (
+        projection.get("enabled") is True
+        or config.get("presentation") == "explicit_counterfactual"
+        or "counterfactual" in objective
+    )
+    ordinary = objective == "ordinary_binary_cross_entropy_symmetric_pair_labels"
+    control = True if explicit else False if ordinary else None
+    validation_selected = (
+        protocol.get("checkpoint_data") == "clean_validation_only"
+        or config.get("checkpoint_metric") in {"val_loss", "val_auc"}
+    )
+    independent = (
+        False if split == "val" and validation_selected else
+        True if split == "test" and validation_selected
+        and config.get("evaluate_test") is False else None
+    )
+    if model_role == "clean_reference":
+        threat_model = "clean_reference_response_baseline"
+        attacker_gradients = False
+    else:
+        threat_model = (
+            "training_procedure_control" if control is True else
+            "data_only_poisoning" if control is False else "unspecified_training_access"
+        )
+        attacker_gradients = control
+    return {
+        "metadata_version": "training_access_context_v1",
+        "threat_model": threat_model,
+        "evaluated_model_training_objective": objective or None,
+        "evaluated_model_objective_profile": config.get("objective_profile"),
+        "evaluated_model_training_procedure_controlled": control,
+        "victim_structure_parameters_or_gradients_used_by_attacker": attacker_gradients,
+        "clean_validation_used_for_checkpoint_selection": True if validation_selected else None,
+        "evaluation_split_not_used_for_training_checkpoint_selection": independent,
+        "training_asr_checkpoint_selection": (
+            False if protocol.get("checkpoint_data") == "clean_validation_only" else None
+        ),
+        "interpretation": (
+            "development_validation_clean_split_used_for_checkpoint_selection"
+            if split == "val" and validation_selected else
+            "see_recorded_training_and_evaluation_protocols"
+        ),
+    }
+
+
+def load_expected_target_manifest(path: Path, expected_sha256: str) -> pd.DataFrame:
+    if sha256_file(path) != expected_sha256:
+        raise ValueError("public target manifest SHA-256 mismatch")
+    frame = pd.read_csv(path, dtype={
+        name: str for name in ("scenario_id", "src_track_id", "dst_track_id")
+    }, keep_default_na=False)
+    if frame.empty or "scenario_id" not in frame or frame["scenario_id"].duplicated().any():
+        raise ValueError("public target manifest must have unique nonempty scenarios")
+    if (frame["scenario_id"] == "").any():
+        raise ValueError("public target manifest contains an empty scenario identity")
+    return frame
+
+
+def validate_public_target_pool(observed: pd.DataFrame, expected: pd.DataFrame) -> None:
+    """Match all target identities exactly; tolerate only float roundtrip noise."""
+    if set(observed.columns) != set(expected.columns) or len(observed) != len(expected):
+        raise ValueError("public target pool schema or row count differs")
+    if observed.empty or observed["scenario_id"].duplicated().any():
+        raise ValueError("generated public target pool is empty or has duplicate scenarios")
+    left = observed.sort_values("scenario_id").reset_index(drop=True)
+    right = expected.sort_values("scenario_id").reset_index(drop=True)
+    floating_columns = {
+        "orientation_destination_mean_speed_mps", "src_endpoint_speed_mps",
+        "dst_endpoint_speed_mps", "min_endpoint_speed_mps",
+        "allocation_total_feature_energy", "allocation_incident_edge_energy",
+        "allocation_endpoint_node_energy",
+    }
+    for column in expected.columns:
+        if column in floating_columns:
+            left_values = left[column].to_numpy(dtype=float)
+            right_values = right[column].to_numpy(dtype=float)
+            matches = np.isfinite(left_values).all() and np.isfinite(right_values).all() and np.allclose(
+                left_values, right_values,
+                rtol=1e-12, atol=1e-12, equal_nan=False,
+            )
+        else:
+            matches = np.array_equal(left[column].to_numpy(), right[column].to_numpy())
+        if not matches:
+            raise ValueError(f"public target pool differs at column {column}")
+
+
 def main() -> None:
     args = parse_args()
+    expected_targets = None
+    public_pool_binding = None
+    if bool(args.expected_target_manifest) != bool(args.expected_target_manifest_sha256):
+        raise ValueError("public target manifest requires both path and SHA-256")
+    if args.expected_target_manifest:
+        if args.split != "val" or args.max_graphs is not None or args.max_targets is not None:
+            raise ValueError("public pool binding requires full development validation")
+        expected_targets = load_expected_target_manifest(
+            Path(args.expected_target_manifest), args.expected_target_manifest_sha256
+        )
     validate_evaluation_phase_allocation_policy(
         str(args.split),
         str(args.allocation_policy),
@@ -1608,6 +1720,9 @@ def main() -> None:
         )
     with result_path.open(encoding="utf-8") as stream:
         training_result = json.load(stream)
+    access_context = training_access_context(
+        training_result, split=args.split, model_role=args.evaluation_model_role
+    )
     edge_feature_mode = validate_edge_feature_mode(
         training_result.get("config", {}).get(
             "edge_feature_mode", BASE_EDGE_FEATURE_MODE
@@ -1954,6 +2069,19 @@ def main() -> None:
             ]
         )
     target_frame = pd.DataFrame(target_records, columns=target_columns)
+    if expected_targets is not None:
+        # Still before constructing/loading either evaluated model.
+        validate_public_target_pool(target_frame, expected_targets)
+        if sha256_file(Path(args.expected_target_manifest)) != args.expected_target_manifest_sha256:
+            raise RuntimeError("public target manifest changed during target construction")
+        public_pool_binding = {
+            "path": str(Path(args.expected_target_manifest).resolve()),
+            "sha256": str(args.expected_target_manifest_sha256),
+            "rows": int(len(expected_targets)),
+            "all_identities_match": True,
+            "verified_before_model_inference": True,
+            "comparison": "exact_identity_and_allocation_with_1e-12_float_roundtrip_tolerance",
+        }
     output_path.parent.mkdir(parents=True, exist_ok=True)
     _atomic_csv_write(target_frame, target_manifest_path)
     target_manifest_hash = sha256_file(target_manifest_path)
@@ -2458,6 +2586,8 @@ def main() -> None:
         "experiment": (
             formal_contract["version"]
             if formal_contract is not None
+            else "training_procedure_control_validation"
+            if access_context["evaluated_model_training_procedure_controlled"] is True
             else (
                 "data_driven_bi_endpoint_allocation_validation"
                 if str(args.allocation_policy)
@@ -2477,6 +2607,7 @@ def main() -> None:
             if args.split == "val"
             else "test_informed_confirmatory_evaluation"
         ),
+        "training_access_context": access_context,
         **completion,
         "checkpoint": {
             "path": str(checkpoint),
@@ -2601,7 +2732,9 @@ def main() -> None:
                 == ALLOCATION_POLICY_FIXED_SYMMETRIC_BIEND_V1
             ),
             "source": (
-                "v5_validation_allocation_stratification"
+                "counterfactual_development_train_audits_and_clean_validation"
+                if access_context["evaluated_model_training_procedure_controlled"] is True
+                else "v5_validation_allocation_stratification"
                 if str(args.allocation_policy)
                 == ALLOCATION_POLICY_FIXED_SYMMETRIC_BIEND_V1
                 else None
@@ -2633,6 +2766,7 @@ def main() -> None:
             "sha256": target_manifest_hash,
             "rows": int(len(target_frame)),
             "frozen_before_model_inference": True,
+            "public_pool_binding": public_pool_binding,
         },
         "target_scores": {
             "path": str(score_path),
@@ -2776,9 +2910,13 @@ def main() -> None:
         "threat_model_audit": {
             "victim_queries_for_target_selection": 0,
             "validation_or_test_used_for_poison_selection": False,
-            "victim_structure_parameters_or_gradients_used_by_attacker": False,
-            "training_asr_checkpoint_selection": False,
-            "evaluation_split_not_used_for_training_checkpoint_selection": True,
+            "victim_structure_parameters_or_gradients_used_by_attacker": access_context[
+                "victim_structure_parameters_or_gradients_used_by_attacker"
+            ],
+            "training_asr_checkpoint_selection": access_context["training_asr_checkpoint_selection"],
+            "evaluation_split_not_used_for_training_checkpoint_selection": access_context[
+                "evaluation_split_not_used_for_training_checkpoint_selection"
+            ],
             "formal_training_protocol_verified": bool(
                 training_protocol_audit[
                     "formal_training_protocol_verified"

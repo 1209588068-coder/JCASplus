@@ -1,0 +1,369 @@
+[domain-replay] TRAIN context 64/512
+[domain-replay] TRAIN context 128/512
+[domain-replay] TRAIN context 192/512
+[domain-replay] TRAIN context 256/512
+[domain-replay] TRAIN context 320/512
+[domain-replay] TRAIN context 384/512
+[domain-replay] TRAIN context 448/512
+[domain-replay] TRAIN context 512/512
+[distribution-replication] continuation: residual/surrogate 1/200
+[distribution-replication] continuation: residual/surrogate 21/200
+[distribution-replication] continuation: residual/surrogate 41/200
+[distribution-replication] continuation: residual/surrogate 61/200
+[distribution-replication] continuation: residual/surrogate 81/200
+[distribution-replication] continuation: residual/surrogate 101/200
+[distribution-replication] continuation: residual/surrogate 121/200
+[distribution-replication] continuation: residual/surrogate 141/200
+[distribution-replication] continuation: residual/surrogate 161/200
+[distribution-replication] continuation: residual/surrogate 181/200
+[distribution-replication] continuation: residual/surrogate 200/200
+[distribution-replication] continuation: fitting fresh victim for 200 epochs
+=== training gcn model ===
+Epoch 0, training loss: 0.9118643999099731
+acc_val: 0.8596
+Epoch 10, training loss: 0.4420708119869232
+acc_val: 0.8848
+Epoch 20, training loss: 0.30853888392448425
+acc_val: 0.8695
+Epoch 30, training loss: 0.24673746526241302
+acc_val: 0.8920
+Epoch 40, training loss: 0.22248949110507965
+acc_val: 0.8992
+Epoch 50, training loss: 0.19214291870594025
+acc_val: 0.9019
+Epoch 60, training loss: 0.17664572596549988
+acc_val: 0.9010
+Epoch 70, training loss: 0.17289462685585022
+acc_val: 0.8983
+Epoch 80, training loss: 0.15337856113910675
+acc_val: 0.8907
+Epoch 90, training loss: 0.149118572473526
+acc_val: 0.8961
+Epoch 100, training loss: 0.15142367780208588
+acc_val: 0.8952
+Epoch 110, training loss: 0.134486585855484
+acc_val: 0.8943
+Epoch 120, training loss: 0.13329142332077026
+acc_val: 0.9006
+Epoch 130, training loss: 0.12101612240076065
+acc_val: 0.8920
+Epoch 140, training loss: 0.12515459954738617
+acc_val: 0.8871
+Epoch 150, training loss: 0.13122645020484924
+acc_val: 0.8988
+Epoch 160, training loss: 0.11842495948076248
+acc_val: 0.8902
+Epoch 170, training loss: 0.12882651388645172
+acc_val: 0.9006
+Epoch 180, training loss: 0.1208617091178894
+acc_val: 0.8907
+Epoch 190, training loss: 0.12479569017887115
+acc_val: 0.8898
+=== picking the best model according to the performance on validation ===
+[distribution-replication] unconditional: residual/surrogate 1/200
+[distribution-replication] unconditional: residual/surrogate 21/200
+[distribution-replication] unconditional: residual/surrogate 41/200
+[distribution-replication] unconditional: residual/surrogate 61/200
+[distribution-replication] unconditional: residual/surrogate 81/200
+[distribution-replication] unconditional: residual/surrogate 101/200
+[distribution-replication] unconditional: residual/surrogate 121/200
+[distribution-replication] unconditional: residual/surrogate 141/200
+[distribution-replication] unconditional: residual/surrogate 161/200
+[distribution-replication] unconditional: residual/surrogate 181/200
+[distribution-replication] unconditional: residual/surrogate 200/200
+[distribution-replication] unconditional: fitting fresh victim for 200 epochs
+=== training gcn model ===
+Epoch 0, training loss: 0.9113809466362
+acc_val: 0.8583
+Epoch 10, training loss: 0.4580209255218506
+acc_val: 0.8817
+Epoch 20, training loss: 0.31229814887046814
+acc_val: 0.8722
+Epoch 30, training loss: 0.25946539640426636
+acc_val: 0.8902
+Epoch 40, training loss: 0.2245323210954666
+acc_val: 0.8974
+Epoch 50, training loss: 0.19037888944149017
+acc_val: 0.9024
+Epoch 60, training loss: 0.177420973777771
+acc_val: 0.9010
+Epoch 70, training loss: 0.18005836009979248
+acc_val: 0.8979
+Epoch 80, training loss: 0.1484500765800476
+acc_val: 0.8983
+Epoch 90, training loss: 0.14421534538269043
+acc_val: 0.8929
+Epoch 100, training loss: 0.15963010489940643
+acc_val: 0.8992
+Epoch 110, training loss: 0.1391390711069107
+acc_val: 0.8988
+Epoch 120, training loss: 0.148385688662529
+acc_val: 0.9033
+Epoch 130, training loss: 0.1300152689218521
+acc_val: 0.8947
+Epoch 140, training loss: 0.13547435402870178
+acc_val: 0.8952
+Epoch 150, training loss: 0.12485966086387634
+acc_val: 0.8925
+Epoch 160, training loss: 0.11525723338127136
+acc_val: 0.8947
+Epoch 170, training loss: 0.1282840222120285
+acc_val: 0.8920
+Epoch 180, training loss: 0.14799025654792786
+acc_val: 0.8956
+Epoch 190, training loss: 0.14414171874523163
+acc_val: 0.8956
+=== picking the best model according to the performance on validation ===
+[distribution-replication] conditional: residual/surrogate 1/200
+[distribution-replication] conditional: residual/surrogate 21/200
+[distribution-replication] conditional: residual/surrogate 41/200
+[distribution-replication] conditional: residual/surrogate 61/200
+[distribution-replication] conditional: residual/surrogate 81/200
+[distribution-replication] conditional: residual/surrogate 101/200
+[distribution-replication] conditional: residual/surrogate 121/200
+[distribution-replication] conditional: residual/surrogate 141/200
+[distribution-replication] conditional: residual/surrogate 161/200
+[distribution-replication] conditional: residual/surrogate 181/200
+[distribution-replication] conditional: residual/surrogate 200/200
+[distribution-replication] conditional: fitting fresh victim for 200 epochs
+=== training gcn model ===
+Epoch 0, training loss: 0.9113854169845581
+acc_val: 0.8587
+Epoch 10, training loss: 0.4601837396621704
+acc_val: 0.8803
+Epoch 20, training loss: 0.30955860018730164
+acc_val: 0.8731
+Epoch 30, training loss: 0.2582484483718872
+acc_val: 0.8898
+Epoch 40, training loss: 0.22813567519187927
+acc_val: 0.8961
+Epoch 50, training loss: 0.19134901463985443
+acc_val: 0.9015
+Epoch 60, training loss: 0.17656001448631287
+acc_val: 0.8997
+Epoch 70, training loss: 0.18469294905662537
+acc_val: 0.8947
+Epoch 80, training loss: 0.1538592427968979
+acc_val: 0.8997
+Epoch 90, training loss: 0.14540569484233856
+acc_val: 0.8911
+Epoch 100, training loss: 0.1480848789215088
+acc_val: 0.9037
+Epoch 110, training loss: 0.1368575245141983
+acc_val: 0.8884
+Epoch 120, training loss: 0.1393219232559204
+acc_val: 0.8988
+Epoch 130, training loss: 0.12436988949775696
+acc_val: 0.8988
+Epoch 140, training loss: 0.12399183958768845
+acc_val: 0.8970
+Epoch 150, training loss: 0.11969025433063507
+acc_val: 0.8929
+Epoch 160, training loss: 0.11669113487005234
+acc_val: 0.9024
+Epoch 170, training loss: 0.1290545016527176
+acc_val: 0.8943
+Epoch 180, training loss: 0.1324734389781952
+acc_val: 0.8889
+Epoch 190, training loss: 0.11049984395503998
+acc_val: 0.8983
+=== picking the best model according to the performance on validation ===
+[domain-replay] TRAIN context 64/512
+[domain-replay] TRAIN context 128/512
+[domain-replay] TRAIN context 192/512
+[domain-replay] TRAIN context 256/512
+[domain-replay] TRAIN context 320/512
+[domain-replay] TRAIN context 384/512
+[domain-replay] TRAIN context 448/512
+[domain-replay] TRAIN context 512/512
+[distribution-replication] continuation: residual/surrogate 1/200
+[distribution-replication] continuation: residual/surrogate 21/200
+[distribution-replication] continuation: residual/surrogate 41/200
+[distribution-replication] continuation: residual/surrogate 61/200
+[distribution-replication] continuation: residual/surrogate 81/200
+[distribution-replication] continuation: residual/surrogate 101/200
+[distribution-replication] continuation: residual/surrogate 121/200
+[distribution-replication] continuation: residual/surrogate 141/200
+[distribution-replication] continuation: residual/surrogate 161/200
+[distribution-replication] continuation: residual/surrogate 181/200
+[distribution-replication] continuation: residual/surrogate 200/200
+[distribution-replication] continuation: fitting fresh victim for 200 epochs
+=== training gcn model ===
+Epoch 0, training loss: 0.7764719724655151
+acc_val: 0.8489
+Epoch 10, training loss: 0.48471859097480774
+acc_val: 0.8772
+Epoch 20, training loss: 0.3091248571872711
+acc_val: 0.8803
+Epoch 30, training loss: 0.2406151443719864
+acc_val: 0.8884
+Epoch 40, training loss: 0.21765859425067902
+acc_val: 0.8992
+Epoch 50, training loss: 0.18661560118198395
+acc_val: 0.9037
+Epoch 60, training loss: 0.17379693686962128
+acc_val: 0.9019
+Epoch 70, training loss: 0.16253702342510223
+acc_val: 0.9078
+Epoch 80, training loss: 0.15413041412830353
+acc_val: 0.9042
+Epoch 90, training loss: 0.1427241712808609
+acc_val: 0.8952
+Epoch 100, training loss: 0.1234620213508606
+acc_val: 0.9060
+Epoch 110, training loss: 0.14059953391551971
+acc_val: 0.9024
+Epoch 120, training loss: 0.13898169994354248
+acc_val: 0.8925
+Epoch 130, training loss: 0.12596090137958527
+acc_val: 0.9037
+Epoch 140, training loss: 0.12173575162887573
+acc_val: 0.8952
+Epoch 150, training loss: 0.12441159784793854
+acc_val: 0.8997
+Epoch 160, training loss: 0.12755466997623444
+acc_val: 0.8943
+Epoch 170, training loss: 0.1027480810880661
+acc_val: 0.8925
+Epoch 180, training loss: 0.1055040955543518
+acc_val: 0.8992
+Epoch 190, training loss: 0.11076513677835464
+acc_val: 0.8961
+=== picking the best model according to the performance on validation ===
+[distribution-replication] unconditional: residual/surrogate 1/200
+[distribution-replication] unconditional: residual/surrogate 21/200
+[distribution-replication] unconditional: residual/surrogate 41/200
+[distribution-replication] unconditional: residual/surrogate 61/200
+[distribution-replication] unconditional: residual/surrogate 81/200
+[distribution-replication] unconditional: residual/surrogate 101/200
+[distribution-replication] unconditional: residual/surrogate 121/200
+[distribution-replication] unconditional: residual/surrogate 141/200
+[distribution-replication] unconditional: residual/surrogate 161/200
+[distribution-replication] unconditional: residual/surrogate 181/200
+[distribution-replication] unconditional: residual/surrogate 200/200
+[distribution-replication] unconditional: fitting fresh victim for 200 epochs
+=== training gcn model ===
+Epoch 0, training loss: 0.776796817779541
+acc_val: 0.8489
+Epoch 10, training loss: 0.4650524854660034
+acc_val: 0.8776
+Epoch 20, training loss: 0.3079454004764557
+acc_val: 0.8776
+Epoch 30, training loss: 0.2389170229434967
+acc_val: 0.8961
+Epoch 40, training loss: 0.21490508317947388
+acc_val: 0.9015
+Epoch 50, training loss: 0.1860830932855606
+acc_val: 0.9028
+Epoch 60, training loss: 0.180334210395813
+acc_val: 0.9037
+Epoch 70, training loss: 0.1646638661623001
+acc_val: 0.9055
+Epoch 80, training loss: 0.1529720276594162
+acc_val: 0.8992
+Epoch 90, training loss: 0.1466490626335144
+acc_val: 0.9033
+Epoch 100, training loss: 0.13682283461093903
+acc_val: 0.9055
+Epoch 110, training loss: 0.13746018707752228
+acc_val: 0.9060
+Epoch 120, training loss: 0.13640961050987244
+acc_val: 0.9010
+Epoch 130, training loss: 0.12708555161952972
+acc_val: 0.9042
+Epoch 140, training loss: 0.12083285301923752
+acc_val: 0.8992
+Epoch 150, training loss: 0.11279507726430893
+acc_val: 0.8956
+Epoch 160, training loss: 0.1321992725133896
+acc_val: 0.8934
+Epoch 170, training loss: 0.13663026690483093
+acc_val: 0.8974
+Epoch 180, training loss: 0.1291523277759552
+acc_val: 0.9069
+Epoch 190, training loss: 0.14048367738723755
+acc_val: 0.8974
+=== picking the best model according to the performance on validation ===
+[distribution-replication] conditional: residual/surrogate 1/200
+[distribution-replication] conditional: residual/surrogate 21/200
+[distribution-replication] conditional: residual/surrogate 41/200
+[distribution-replication] conditional: residual/surrogate 61/200
+[distribution-replication] conditional: residual/surrogate 81/200
+[distribution-replication] conditional: residual/surrogate 101/200
+[distribution-replication] conditional: residual/surrogate 121/200
+[distribution-replication] conditional: residual/surrogate 141/200
+[distribution-replication] conditional: residual/surrogate 161/200
+[distribution-replication] conditional: residual/surrogate 181/200
+[distribution-replication] conditional: residual/surrogate 200/200
+[distribution-replication] conditional: fitting fresh victim for 200 epochs
+=== training gcn model ===
+Epoch 0, training loss: 0.7767842411994934
+acc_val: 0.8489
+Epoch 10, training loss: 0.46503183245658875
+acc_val: 0.8776
+Epoch 20, training loss: 0.3111729919910431
+acc_val: 0.8776
+Epoch 30, training loss: 0.23834963142871857
+acc_val: 0.8947
+Epoch 40, training loss: 0.21559569239616394
+acc_val: 0.9028
+Epoch 50, training loss: 0.18747955560684204
+acc_val: 0.9051
+Epoch 60, training loss: 0.1787743866443634
+acc_val: 0.9001
+Epoch 70, training loss: 0.15779125690460205
+acc_val: 0.9033
+Epoch 80, training loss: 0.15268351137638092
+acc_val: 0.9024
+Epoch 90, training loss: 0.14706426858901978
+acc_val: 0.8983
+Epoch 100, training loss: 0.13461755216121674
+acc_val: 0.9055
+Epoch 110, training loss: 0.14100272953510284
+acc_val: 0.8988
+Epoch 120, training loss: 0.1379939317703247
+acc_val: 0.9046
+Epoch 130, training loss: 0.12018848210573196
+acc_val: 0.9069
+Epoch 140, training loss: 0.12113355100154877
+acc_val: 0.8970
+Epoch 150, training loss: 0.11430686712265015
+acc_val: 0.9042
+Epoch 160, training loss: 0.1318354308605194
+acc_val: 0.8884
+Epoch 170, training loss: 0.132792130112648
+acc_val: 0.9024
+Epoch 180, training loss: 0.12892696261405945
+acc_val: 0.8961
+Epoch 190, training loss: 0.1389823704957962
+acc_val: 0.8934
+=== picking the best model according to the performance on validation ===
+{
+  "status": "DISTRIBUTION_REPLICATION_COMPLETE_REVIEW_REQUIRED",
+  "at": "2026-10-27T05:22:33.834912+00:00",
+  "plan": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/plan.json",
+    "sha256": "1de80324d4867aa1bbc98a8bd52140f1b733dbe8bfca591b58ef6a6785907eb9"
+  },
+  "new_seed_reports": {
+    "20260622": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260622/summary.json",
+      "sha256": "89c841a6ae7c03c26bc8fce0988b65599c5f07f05242b30641ee1a4128f847b7"
+    },
+    "20260623": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/summary.json",
+      "sha256": "3a4c97c9cba8dfc7f5782f3f450e3d228f1e9a58a99f09eb66a67a743eaba1df"
+    }
+  },
+  "reused_seed": 20260621,
+  "aggregate": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/aggregate.json",
+    "sha256": "e6983a86e3a5bac5934ec02cda6ceff13fd79d8390cee6db38940e79f5f6fece"
+  },
+  "original_val_arrays_loaded": false,
+  "original_test_arrays_loaded": false,
+  "full_pipeline_replication": false,
+  "independent_confirmation": false,
+  "automatic_promotion": false,
+  "automatic_followup": false
+}

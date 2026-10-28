@@ -1,0 +1,45 @@
+{
+  "status": "DISTRIBUTION_REPLICATION_SEED_COMPLETE",
+  "seed": 20260623,
+  "at": "2026-10-27T05:22:19.971801+00:00",
+  "plan": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/plan.json",
+    "sha256": "5cc3caa286f28d7ca39e50e613a0e626d0e8767ee69de21fa48c45b24aee134b"
+  },
+  "reports": {
+    "continuation": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/audit/continuation/summary.json",
+      "sha256": "d29fbc6acb1a4fc0dbd8fb74423cc71e2488c2760d84d0b313298f6225feaf90"
+    },
+    "unconditional": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/audit/unconditional/summary.json",
+      "sha256": "97e1f3207742f945219bc16aa78c5da0dfa84a1f81864db69cf58a88a20762f6"
+    },
+    "conditional": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/audit/conditional/summary.json",
+      "sha256": "f6a13f482f2a5f85743f63041f10cc6e203913a20ae398c2c06fc7e6c092ee53"
+    }
+  },
+  "review": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/review.json",
+    "sha256": "b071299716e674f6acc8ce76e2126c4a9b7810f87606854c590ba4047623a7be"
+  },
+  "distribution": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/distribution_metrics.json",
+    "sha256": "27c64bf4e6be94bbb2d002fe5b38ae95f62f9d7e19be176836a4f6cbe191750f"
+  },
+  "optimization_complete": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/optimization_complete.json",
+    "sha256": "149d6ba73699307f0c999c2d4b424b6eab55343b5b29d24104bbbf13b033bb44"
+  },
+  "train_dev_ledger": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/train_dev_graph_access_ledger.json",
+    "sha256": "613c3bccd1c9aff8ad9b61f389ec23db62a32e4362d364543e3d27700d2f05bb"
+  },
+  "audit_ledger": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/audit_graph_access_ledger.json",
+    "sha256": "9f9a45516237250202045ae03d3e068fc39fb09fa2ec8a8be69d1fcdd67b917a"
+  },
+  "original_val_arrays_loaded": false,
+  "original_test_arrays_loaded": false
+}

@@ -1,0 +1,47 @@
+{
+  "status": "ALL_ARMS_NO_UPDATE_SMOKE_PASS",
+  "arms": [
+    "continuation",
+    "unconditional",
+    "conditional"
+  ],
+  "optimizer_steps": 0,
+  "initial_generator_sha256": "2f6354691d657ee40d08b17ce6d5a02361fa3702cc6e663d3b99a0943ea47239",
+  "initial_surrogate_sha256": "579c7252ec71344b9d635776ac9712783c33790ab98b8496ae03919cb6a24ecc",
+  "initial_discriminator_sha256": "907f71a81413a496c1038ba10c81604aa0d06c10f99080b73aba342dcbfc1a21",
+  "projected_outer_output_sha256": "e30af4636d607c5c17f2d9509d020c915cf97ec58ab847cd4b72c9dc6bb87abe",
+  "smoke": {
+    "continuation": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260622/training/continuation/smoke.json",
+      "sha256": "15df461169bc70c96145faf1fc52e102dfa0f6786e300153d9c3d50f093f3d03"
+    },
+    "unconditional": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260622/training/unconditional/smoke.json",
+      "sha256": "2fb5e271f75beecc826af5e42925d9aa4efde0a11029f6a87e21f864dc08ad6e"
+    },
+    "conditional": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260622/training/conditional/smoke.json",
+      "sha256": "963cf41fbc04e49113b87a0bb749fc97e890b3a3e6e102d4809e3b76bd222431"
+    }
+  },
+  "replicate_seed": 20260622,
+  "replication_seeds": {
+    "continuation": 20263622,
+    "discriminator": 20261622,
+    "victim": 20260622
+  },
+  "shared_victim_initialization": {
+    "victim_seed": 20260622,
+    "initial_torch_seed": 20260622,
+    "initialization_digest": "34bafd58f79b6b934da3c2afbb42a69268daa4bf794a3627467abb121ae18dd7",
+    "fit_rng_digest": "0b86ce2542d8b025578282b0a96b3b7762f7dda4384cf3bcb0c8cec9203ad5a0"
+  },
+  "expected_continuation_rng": "f566574b2a7edf34e61069782daa219b4e87235a218bde7583298bd92eafad14",
+  "distribution_reference": {
+    "train_selected": "1dd81dcb66e43831a748c1423c1849d1f828af6ec26eb2d14481e075504f6987",
+    "train_conditions": "adeee6e6fc1bbb4e8b9c99e1c27d718425e6dd4cdf64cb69e49be43310334089",
+    "train_moving": "0bbdc45c6a2a65bcd39f9f9207c21c7078dbca735f3b278bb2289190e8b25dca",
+    "reference_rows": "804c7d9260240ac0c2afb66c04ebdeb03db64cc6d3d345344b44fa9e316aef9f",
+    "reference_scenes_without_target": "13d16fc6d43af8602de443ce59f4fa9e8964b23080b3a3c6df6d5ce62037b306"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "ALL3_AMPLITUDE_VICTIMS_COMPLETE",
+  "plan_sha256": "965021d7ab9781d9bcfb5e854c4584e128a787d8b8e73afeb22f277cfbd59cb3",
+  "seeds": [
+    20260621,
+    20260622,
+    20260623
+  ],
+  "victim_epochs_total": 600,
+  "generator_updates": 0,
+  "training": {
+    "20260621": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/training/seed20260621/training.json",
+      "sha256": "c988bf85032fe292de7b9203834ee3487d9f8fc88bde0a1e1b59478c8a2d6777"
+    },
+    "20260622": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/training/seed20260622/training.json",
+      "sha256": "81cd31310dbff60697ce10964e1efe4a1826d0511c77b11d47ff705e0e3a620a"
+    },
+    "20260623": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/training/seed20260623/training.json",
+      "sha256": "ed6edf0c672b4a521f2a37f3787fc40f0e525ad140ab1cba00eb8e6b4b5db8a0"
+    }
+  },
+  "final_model_hashes": {
+    "20260621": {
+      "generator": "eb81cd1a8d0f5d3d6a9e0ed41e9c19c835121c792a74230d3071f7c7112c2f15",
+      "victim": "06ea6d03a4669bd332392b3d1e74900c637c6c4fab7fd873ed51ecd6c243e593"
+    },
+    "20260622": {
+      "generator": "80c0025e5d06403c9f01b0132268b82be4e0334c0e3453dac7315a9d71a10a94",
+      "victim": "a944099b096e1997fe389874f20bb306c981e535369f02649f174320b8a1360c"
+    },
+    "20260623": {
+      "generator": "6fdfcf36dff3a0f123104347e1107b224eac24929ca7b5e5cbe69755ee7304fa",
+      "victim": "aaae6abd5f45c1df23bee0f10de94f9b6271d89aed7c9c24c1028e5227e15880"
+    }
+  },
+  "audit_arrays_loaded": false,
+  "train_dev_ledger": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/training/train_dev_graph_access_ledger.json",
+    "sha256": "613c3bccd1c9aff8ad9b61f389ec23db62a32e4362d364543e3d27700d2f05bb"
+  }
+}

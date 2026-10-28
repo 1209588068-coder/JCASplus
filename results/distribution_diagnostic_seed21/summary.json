@@ -1,0 +1,139 @@
+{
+  "status": "DISTRIBUTION_AUDIT_COMPLETE_REVIEW_REQUIRED",
+  "at": "2026-10-27T02:11:52.906906+00:00",
+  "elapsed_seconds": 40.80260806402657,
+  "plan": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_audit_v1/audit_20261027_seed20260621_v1/plan.json",
+    "sha256": "748f8b1ccb4fa88b8c7643ec3b16c3394f295fa1977c2da965d005fa2cb7fd4a"
+  },
+  "metrics": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_audit_v1/audit_20261027_seed20260621_v1/distribution_metrics.json",
+    "sha256": "036848fa1f2d27546ec974f9c05724a7487f3c374bc3246a6cc4c2ecb3018dca"
+  },
+  "comparisons": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_audit_v1/audit_20261027_seed20260621_v1/comparisons.json",
+    "sha256": "873b97bb30af3e44d3d60af0f8b29273de8fd1cb5e78d0f337a300275743f3e4"
+  },
+  "comparison_csv": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_audit_v1/audit_20261027_seed20260621_v1/comparison.csv",
+    "sha256": "b8af0e8a271fd9420966d856f03ab348422e5b32ad2fbdca7b8bd912a4c70eaf"
+  },
+  "reference": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_audit_v1/audit_20261027_seed20260621_v1/reference.json",
+    "sha256": "4658a20fefefbbba313faa9d0dc0baa423f4b4af850874dc8edb152a7cdc0bb9"
+  },
+  "arrays": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_audit_v1/audit_20261027_seed20260621_v1/collected_features.npz",
+    "sha256": "da4562c88eacefc71f4176003370b2ac01799d2a4aff9294314a8dbe9e3cedbd"
+  },
+  "ledger": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_audit_v1/audit_20261027_seed20260621_v1/graph_access_ledger.json",
+    "sha256": "5c03be6a48f654245d602f9ad663374859f9b6621ca68e5dbdaf711897d60b33"
+  },
+  "integrity": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_audit_v1/audit_20261027_seed20260621_v1/integrity.json",
+    "sha256": "fbe124821d0c58b9ff486f6b02eb68a9d50a8414d81b4b29f4531f4ea8060881"
+  },
+  "reference_identity": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_audit_v1/audit_20261027_seed20260621_v1/reference_identity.csv",
+    "sha256": "98eaebf02462fed579d59a73ba2c3f7a014caaa36dcf706bcc19b2a2429a5e97"
+  },
+  "target_identity": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_audit_v1/audit_20261027_seed20260621_v1/target_identity.csv",
+    "sha256": "2b11d88f5ee2a8d48716f950657b0a25e49a6b1bf357d38cb1205e9bc186cfb6"
+  },
+  "original_performance_review": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/review.json",
+    "sha256": "3e54b1e845098ba71b5377cffa2f80fbe649acb2b265b2fddfabd55c5c6c4b3b"
+  },
+  "user_revised_usability_view": {
+    "continuation": {
+      "checks": {
+        "adjacent_incremental_fp_strictly_below_5pct": true,
+        "victim_not_all_negative": true,
+        "original_auc_drop_at_most_0p005": false,
+        "original_recall_drop_at_most_0p05": true,
+        "overall_incremental_asr_at_least_80pct": true,
+        "moving_incremental_asr_at_least_80pct": true
+      },
+      "meets_user_revised_criteria": false,
+      "original85_gate": {
+        "passed": false,
+        "checks": {
+          "overall_incremental_asr_at_least_85pct": true,
+          "moving_incremental_asr_at_least_85pct": false,
+          "adjacent_incremental_fp_strictly_below_5pct": true,
+          "victim_not_all_negative": true,
+          "original_auc_drop_at_most_0p005": false,
+          "original_recall_drop_at_most_0p05": true
+        },
+        "status": "BELOW_PREREGISTERED_PILOT_THRESHOLDS"
+      },
+      "original_gate_unchanged": true
+    },
+    "unconditional": {
+      "checks": {
+        "adjacent_incremental_fp_strictly_below_5pct": true,
+        "victim_not_all_negative": true,
+        "original_auc_drop_at_most_0p005": true,
+        "original_recall_drop_at_most_0p05": true,
+        "matched_continuation_auc_drop_at_most_0p005": true,
+        "matched_continuation_recall_drop_at_most_0p05": true,
+        "overall_incremental_asr_at_least_80pct": true,
+        "moving_incremental_asr_at_least_80pct": true
+      },
+      "meets_user_revised_criteria": true,
+      "original85_gate": {
+        "passed": false,
+        "checks": {
+          "overall_incremental_asr_at_least_85pct": false,
+          "moving_incremental_asr_at_least_85pct": true,
+          "adjacent_incremental_fp_strictly_below_5pct": true,
+          "victim_not_all_negative": true,
+          "original_auc_drop_at_most_0p005": true,
+          "original_recall_drop_at_most_0p05": true,
+          "matched_continuation_auc_drop_at_most_0p005": true,
+          "matched_continuation_recall_drop_at_most_0p05": true
+        },
+        "status": "BELOW_PREREGISTERED_PILOT_THRESHOLDS"
+      },
+      "original_gate_unchanged": true
+    },
+    "conditional": {
+      "checks": {
+        "adjacent_incremental_fp_strictly_below_5pct": true,
+        "victim_not_all_negative": true,
+        "original_auc_drop_at_most_0p005": true,
+        "original_recall_drop_at_most_0p05": true,
+        "matched_continuation_auc_drop_at_most_0p005": true,
+        "matched_continuation_recall_drop_at_most_0p05": true,
+        "overall_incremental_asr_at_least_80pct": true,
+        "moving_incremental_asr_at_least_80pct": true
+      },
+      "meets_user_revised_criteria": true,
+      "original85_gate": {
+        "passed": false,
+        "checks": {
+          "overall_incremental_asr_at_least_85pct": false,
+          "moving_incremental_asr_at_least_85pct": false,
+          "adjacent_incremental_fp_strictly_below_5pct": true,
+          "victim_not_all_negative": true,
+          "original_auc_drop_at_most_0p005": true,
+          "original_recall_drop_at_most_0p05": true,
+          "matched_continuation_auc_drop_at_most_0p005": true,
+          "matched_continuation_recall_drop_at_most_0p05": true
+        },
+        "status": "BELOW_PREREGISTERED_PILOT_THRESHOLDS"
+      },
+      "original_gate_unchanged": true
+    }
+  },
+  "optimizer_steps": 0,
+  "new_ASR_evaluation": false,
+  "original_val_arrays_loaded": false,
+  "original_test_arrays_loaded": false,
+  "independent_confirmation": false,
+  "physical_validity_claim": false,
+  "automatic_promotion": false,
+  "automatic_training": false
+}

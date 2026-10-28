@@ -1,0 +1,30 @@
+{
+  "status": "DEVELOPMENT_DIAGNOSTIC_COMPLETE_REVIEW_REQUIRED",
+  "at": "2026-10-27T12:57:24.778683+00:00",
+  "seeds": [
+    20260621,
+    20260622,
+    20260623
+  ],
+  "reports": [
+    {
+      "path": "/home/mizhou/JCAS/results/moving_development_forward_v1_20261027/seed20260621/summary.json",
+      "sha256": "d978c3e25e029b0a8c534e517b2fcfceb27a000ed9f3f0d2b82783c3a9923c3f"
+    },
+    {
+      "path": "/home/mizhou/JCAS/results/moving_development_forward_v1_20261027/seed20260622/summary.json",
+      "sha256": "283c3a81aeb2125e2d3141bf32809f5291b449f6b2bbc357dc5476691c04785c"
+    },
+    {
+      "path": "/home/mizhou/JCAS/results/moving_development_forward_v1_20261027/seed20260623/summary.json",
+      "sha256": "3d316ca55f1ea25bf6ef2c8f0ec22ef837ca5d69e08ef2e75e5e557d96134c8a"
+    }
+  ],
+  "graph_reads": 640,
+  "optimizer_steps": 0,
+  "original_val_arrays_loaded": false,
+  "original_test_arrays_loaded": false,
+  "internal_audit_arrays_loaded": false,
+  "confirmation_arrays_loaded": false,
+  "automatic_followup": false
+}

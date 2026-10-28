@@ -1,0 +1,204 @@
+{
+  "evaluation": {
+    "metrics": {
+      "clean_reference": {
+        "targets": {
+          "all": {
+            "targets": 224,
+            "absolute_asr": 0.026785714285714284,
+            "triggered_target_class_count": 6,
+            "incremental_asr": 0.008928571428571428,
+            "incremental_flips": 2,
+            "conditional_flip": 0.009259259259259259,
+            "clean_negative_targets": 216,
+            "clean_activation_rate": 0.03571428571428571,
+            "target_probability_delta_mean": -0.030070094573303795
+          },
+          "slow": {
+            "targets": 164,
+            "absolute_asr": 0.03048780487804878,
+            "triggered_target_class_count": 5,
+            "incremental_asr": 0.012195121951219513,
+            "incremental_flips": 2,
+            "conditional_flip": 0.012578616352201259,
+            "clean_negative_targets": 159,
+            "clean_activation_rate": 0.03048780487804878,
+            "target_probability_delta_mean": -0.024569523783666898
+          },
+          "moving": {
+            "targets": 60,
+            "absolute_asr": 0.016666666666666666,
+            "triggered_target_class_count": 1,
+            "incremental_asr": 0.0,
+            "incremental_flips": 0,
+            "conditional_flip": 0.0,
+            "clean_negative_targets": 57,
+            "clean_activation_rate": 0.05,
+            "target_probability_delta_mean": -0.04510498806497799
+          }
+        },
+        "normal_pairs": 4399,
+        "normal_positive_pairs": 489,
+        "normal_negative_pairs": 3910,
+        "clean_pair_auc": 0.8958012332700485,
+        "clean_pair_accuracy": 0.9086155944532849,
+        "clean_pair_positive_recall": 0.4212678936605317,
+        "clean_prediction_distribution": {
+          "class_0": 4074,
+          "class_1": 325
+        },
+        "clean_confusion_matrix": {
+          "true_negative": 3791,
+          "false_positive": 119,
+          "false_negative": 283,
+          "true_positive": 206
+        },
+        "all_clean_predictions_negative": false,
+        "clean_class_one_probability_min": 1.584588617362239e-27,
+        "clean_class_one_probability_max": 0.9999872446060181,
+        "collateral": {
+          "adj_negative": 1202,
+          "adj_flip": 18,
+          "nonincident_negative": 2484,
+          "nonincident_flip": 3,
+          "adj_positive": 199,
+          "adj_suppressed": 0,
+          "adjacent_incremental_fp": 0.014975041597337771,
+          "nonincident_incremental_fp": 0.0012077294685990338,
+          "adjacent_positive_suppression": 0.0
+        }
+      },
+      "victim": {
+        "targets": {
+          "all": {
+            "targets": 224,
+            "absolute_asr": 0.9553571428571429,
+            "triggered_target_class_count": 214,
+            "incremental_asr": 0.90625,
+            "incremental_flips": 203,
+            "conditional_flip": 0.9530516431924883,
+            "clean_negative_targets": 213,
+            "clean_activation_rate": 0.049107142857142856,
+            "target_probability_delta_mean": 0.8608721317852742
+          },
+          "slow": {
+            "targets": 164,
+            "absolute_asr": 0.9695121951219512,
+            "triggered_target_class_count": 159,
+            "incremental_asr": 0.926829268292683,
+            "incremental_flips": 152,
+            "conditional_flip": 0.9681528662420382,
+            "clean_negative_targets": 157,
+            "clean_activation_rate": 0.042682926829268296,
+            "target_probability_delta_mean": 0.8917721242276138
+          },
+          "moving": {
+            "targets": 60,
+            "absolute_asr": 0.9166666666666666,
+            "triggered_target_class_count": 55,
+            "incremental_asr": 0.85,
+            "incremental_flips": 51,
+            "conditional_flip": 0.9107142857142857,
+            "clean_negative_targets": 56,
+            "clean_activation_rate": 0.06666666666666667,
+            "target_probability_delta_mean": 0.7764121524428803
+          }
+        },
+        "normal_pairs": 4399,
+        "normal_positive_pairs": 489,
+        "normal_negative_pairs": 3910,
+        "clean_pair_auc": 0.8857588167302128,
+        "clean_pair_accuracy": 0.9054330529665833,
+        "clean_pair_positive_recall": 0.3987730061349693,
+        "clean_prediction_distribution": {
+          "class_0": 4082,
+          "class_1": 317
+        },
+        "clean_confusion_matrix": {
+          "true_negative": 3788,
+          "false_positive": 122,
+          "false_negative": 294,
+          "true_positive": 195
+        },
+        "all_clean_predictions_negative": false,
+        "clean_class_one_probability_min": 2.3276805891692513e-21,
+        "clean_class_one_probability_max": 0.9999986886978149,
+        "collateral": {
+          "adj_negative": 1202,
+          "adj_flip": 8,
+          "nonincident_negative": 2484,
+          "nonincident_flip": 4,
+          "adj_positive": 199,
+          "adj_suppressed": 3,
+          "adjacent_incremental_fp": 0.0066555740432612314,
+          "nonincident_incremental_fp": 0.001610305958132045,
+          "adjacent_positive_suppression": 0.01507537688442211
+        }
+      }
+    },
+    "audit_counts": {
+      "registered_scenes": 256,
+      "processed_scenes": 256,
+      "scenes_without_eligible_negative_target": 32,
+      "all_pair_nodes": 10511,
+      "supervised_pairs": 4399,
+      "targets": 224,
+      "triggered_supervised_pair_rows": 4394
+    },
+    "raw_targets": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/audit/continuation/targets.csv",
+      "sha256": "0e08be87e4d6a8b01f610d13f5f3ce8cbe8b13d6b6f12293bbb9534e79688a1a",
+      "rows": 224
+    },
+    "raw_clean_scores": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/audit/continuation/clean_pair_scores.csv",
+      "sha256": "9eeb52bd7b1bb2342e951f7f6a2a170a0f476ca6b48ef47998d05135b15c277a",
+      "rows": 4399
+    },
+    "raw_triggered_pair_scores": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/audit/continuation/triggered_pair_scores.csv",
+      "sha256": "67e19db32c9fdfd045ec70be33df7d4104f971cbedc0e97fa9f324ca47bae72f",
+      "rows": 4394
+    },
+    "topology_preserved": true,
+    "non_target_input_feature_rows_preserved": true,
+    "feature_changes": {
+      "target_rows_changed": 224,
+      "target_rows_unchanged": 0,
+      "maximum_changed_coordinates_per_target": 24
+    },
+    "target_selection_uses_predictions": false,
+    "threshold": "supplied binary model argmax; no threshold calibration",
+    "target_hash": "SHA256(seed:spear-audit-target:scenario_id:canonical_src_track_id:canonical_dst_track_id)",
+    "metric_definitions": {
+      "absolute_asr": "triggered class-one predictions / all frozen eligible true-negative targets",
+      "incremental_asr": "same-model clean-zero to triggered-one transitions / all frozen targets",
+      "conditional_flip": "same transitions / clean-zero targets; this is the only clean-prediction-conditioned denominator",
+      "collateral": "per-scene pooled transitions among eligible non-target line-graph neighbors or nonincident pairs; rates use all true-label members of the relevant group"
+    },
+    "original_val_arrays_loaded": false,
+    "original_test_arrays_loaded": false,
+    "evaluation_split": "train_replay",
+    "original_source_split": "train",
+    "original_train_arrays_loaded": true
+  },
+  "unchanged_model_hashes": {
+    "generator": "2bebd23068b8a04904c26fe8278f7a601e527bcd5bbacc7c90b0b571bbcbc35c",
+    "clean_reference": "dff3c8c5c59bafbab265e2284137512c2353880d2dba191ed441e2f612074883",
+    "victim": "0c4850c5145393ee8655469014d9523bb85a342bf245bf0eb6b33dad284c014e"
+  },
+  "targets_identity_verified": 224,
+  "clean_reference_replay": {
+    "pairs": 4399,
+    "maximum_probability_error": 0.0,
+    "predictions_identical": true
+  },
+  "budgets": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/audit/continuation/budgets.json",
+    "sha256": "df013d3975766d2be4488c7937459625e96d9c0561fae70e0276c6d7e78d411c"
+  },
+  "training": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/continuation/training.json",
+    "sha256": "8169d5f5de72b5beabd811b88473cd1202c555b5c4a8039e84a745b64de718d4"
+  }
+}

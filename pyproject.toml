@@ -3,9 +3,9 @@ requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "jcas-av2-robustness"
-version = "6.4.0.dev0"
-description = "Offline AV2 vehicle-pair graph-model robustness research"
+name = "jcas-spear-current"
+version = "0.1.0"
+description = "Offline AV2 pair-line-graph robustness research: retained SPEAR-derived method"
 readme = "README.md"
 requires-python = ">=3.12"
 dynamic = ["dependencies"]
@@ -14,27 +14,8 @@ dynamic = ["dependencies"]
 dependencies = {file = ["requirements.txt"]}
 
 [tool.setuptools.packages.find]
-include = ["jcas*"]
+include = ["spear_current*"]
 
 [project.scripts]
-jcas-build-graphs = "jcas.workflows.graph_builder:main"
-jcas-train = "jcas.workflows.trainer:main"
-jcas-evaluate = "jcas.workflows.evaluator:main"
-jcas-build-poison-manifest = "jcas.workflows.poison_manifest:main"
-jcas-build-v6-manifest = "jcas.workflows.fixed_symmetric_manifest:main"
-jcas-build-v6-2-motion-manifest = "jcas.workflows.motion_prioritized_manifest:main"
-jcas-build-v6-3-motion-schedule = "jcas.workflows.motion_schedule_manifest:main"
-jcas-verify-v6-3-motion-schedule = "jcas.release.verify_motion_schedule_manifest:main"
-jcas-freeze-v6-3-pilot = "jcas.release.freeze_v6_3_pilot:main"
-jcas-freeze-v6-4-slow-pilot = "jcas.release.freeze_v6_4_slow_pilot:main"
-jcas-finalize-v6-4-slow-pilot = "jcas.release.finalize_v6_4_slow_pilot:main"
-jcas-freeze-v6-2-pilot = "jcas.release.freeze_v6_2_pilot:main"
-jcas-freeze-v6 = "jcas.release.freeze_v6:main"
-jcas-freeze-code-release = "jcas.release.freeze_code_release:main"
-jcas-finalize-v6 = "jcas.release.finalize_v6:main"
-jcas-verify-release = "jcas.release.source_integrity:main"
-jcas-audit-trigger-learnability = "jcas.workflows.trigger_learnability_audit:main"
-jcas-audit-paired-target-response = "jcas.workflows.paired_target_response_audit:main"
-jcas-train-paired-counterfactual = "jcas.workflows.paired_counterfactual_trainer:main"
-jcas-train-explicit-counterfactual = "jcas.workflows.explicit_counterfactual_trainer:main"
-jcas-audit-counterfactual-gradients = "jcas.workflows.counterfactual_gradient_conflict_audit:main"
+jcas-current-train = "spear_current.train:main"
+jcas-current-evaluate = "spear_current.evaluate:main"

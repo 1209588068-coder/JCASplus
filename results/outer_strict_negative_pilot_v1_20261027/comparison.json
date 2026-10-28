@@ -1,0 +1,321 @@
+{
+  "status": "PILOT_COMPLETE_REVIEW_REQUIRED",
+  "scope": "single fixed original-TRAIN DEV pilot; development evidence only",
+  "comparison_model": "victim",
+  "preregistered_gates": {
+    "overall_incremental_asr_min": 0.8,
+    "moving_incremental_asr_min": 0.8,
+    "adjacent_incremental_fp_max_exclusive": 0.05,
+    "clean_prediction_classes_required": [
+      0,
+      1
+    ],
+    "clean_auc_max_drop_vs_baseline": 0.005,
+    "clean_auc_max_drop_vs_reference": 0.005,
+    "positive_recall_max_drop_vs_baseline": 0.05,
+    "positive_recall_max_drop_vs_reference": 0.05,
+    "moving_incremental_count_gain_min": 1,
+    "overall_incremental_count_gain_min": 0
+  },
+  "population_identity_sha256": {
+    "scenes": "f1b96425eb7d03dc83e07d63693b336a94fcade4235ce2c2ba99552ca3334395",
+    "eligible_clean_pairs": "bc4eae6b389cf2098a1c163d82b5fd60fafb92756f44485116e6a7965d8d08f2",
+    "targets": "8b30ed9e719562cec0e35f8de6750e6ace023882f10bf6fd6f03cc945efef6db",
+    "triggered_pairs": "ef7e47e8d27d846ab57f880d9b8341769a3b61b7e0852b860d475b91b08e5dce"
+  },
+  "population_counts": {
+    "dev": {
+      "registered_scenes": 128,
+      "processed_scenes": 128,
+      "scenes_without_eligible_negative_target": 16,
+      "all_pair_nodes": 5450,
+      "supervised_pairs": 2223,
+      "targets": 112,
+      "triggered_supervised_pair_rows": 2219
+    },
+    "clean_pairs": {
+      "count": 2223,
+      "positive_count": 280,
+      "negative_count": 1943
+    },
+    "targets": {
+      "all": 112,
+      "slow": 79,
+      "moving": 33
+    },
+    "collateral": {
+      "adj_negative": 578,
+      "nonincident_negative": 1253,
+      "adj_positive": 112
+    }
+  },
+  "pool_identity_and_counts_match": true,
+  "measurements": {
+    "baseline": {
+      "clean": {
+        "count": 2223,
+        "positive_count": 280,
+        "negative_count": 1943,
+        "confusion": {
+          "true_negative": 1868,
+          "false_positive": 75,
+          "false_negative": 151,
+          "true_positive": 129
+        },
+        "prediction_counts": {
+          "class_0": 2019,
+          "class_1": 204
+        },
+        "auc": 0.909727225939269,
+        "positive_recall": {
+          "numerator": 129,
+          "denominator": 280,
+          "value": 0.4607142857142857
+        }
+      },
+      "incremental_asr": {
+        "all": {
+          "numerator": 92,
+          "denominator": 112,
+          "value": 0.8214285714285714
+        },
+        "slow": {
+          "numerator": 65,
+          "denominator": 79,
+          "value": 0.8227848101265823
+        },
+        "moving": {
+          "numerator": 27,
+          "denominator": 33,
+          "value": 0.8181818181818182
+        }
+      },
+      "adjacent_incremental_fp": {
+        "numerator": 4,
+        "denominator": 578,
+        "value": 0.006920415224913495
+      },
+      "collateral_denominators": {
+        "adj_negative": 578,
+        "nonincident_negative": 1253,
+        "adj_positive": 112
+      }
+    },
+    "candidate": {
+      "clean": {
+        "count": 2223,
+        "positive_count": 280,
+        "negative_count": 1943,
+        "confusion": {
+          "true_negative": 1892,
+          "false_positive": 51,
+          "false_negative": 163,
+          "true_positive": 117
+        },
+        "prediction_counts": {
+          "class_0": 2055,
+          "class_1": 168
+        },
+        "auc": 0.9136313506359828,
+        "positive_recall": {
+          "numerator": 117,
+          "denominator": 280,
+          "value": 0.41785714285714287
+        }
+      },
+      "incremental_asr": {
+        "all": {
+          "numerator": 96,
+          "denominator": 112,
+          "value": 0.8571428571428571
+        },
+        "slow": {
+          "numerator": 72,
+          "denominator": 79,
+          "value": 0.9113924050632911
+        },
+        "moving": {
+          "numerator": 24,
+          "denominator": 33,
+          "value": 0.7272727272727273
+        }
+      },
+      "adjacent_incremental_fp": {
+        "numerator": 1,
+        "denominator": 578,
+        "value": 0.0017301038062283738
+      },
+      "collateral_denominators": {
+        "adj_negative": 578,
+        "nonincident_negative": 1253,
+        "adj_positive": 112
+      }
+    },
+    "clean_reference": {
+      "count": 2223,
+      "positive_count": 280,
+      "negative_count": 1943,
+      "confusion": {
+        "true_negative": 1885,
+        "false_positive": 58,
+        "false_negative": 151,
+        "true_positive": 129
+      },
+      "prediction_counts": {
+        "class_0": 2036,
+        "class_1": 187
+      },
+      "auc": 0.9112344680538196,
+      "positive_recall": {
+        "numerator": 129,
+        "denominator": 280,
+        "value": 0.4607142857142857
+      }
+    }
+  },
+  "performance_gates": {
+    "overall_incremental_asr": {
+      "numerator": 96,
+      "denominator": 112,
+      "value": 0.8571428571428571,
+      "operator": ">=",
+      "threshold": 0.8,
+      "passed": true,
+      "reason": "defined"
+    },
+    "moving_incremental_asr": {
+      "numerator": 24,
+      "denominator": 33,
+      "value": 0.7272727272727273,
+      "operator": ">=",
+      "threshold": 0.8,
+      "passed": false,
+      "reason": "defined"
+    },
+    "adjacent_incremental_fp": {
+      "numerator": 1,
+      "denominator": 578,
+      "value": 0.0017301038062283738,
+      "operator": "<",
+      "threshold": 0.05,
+      "passed": true,
+      "reason": "defined"
+    },
+    "noncollapsed_clean_predictions": {
+      "class_0": 2055,
+      "class_1": 168,
+      "denominator": 2223,
+      "rule": "both binary prediction classes have positive counts",
+      "passed": true
+    },
+    "clean_auc_vs_baseline": {
+      "value": 0.9136313506359828,
+      "reference_value": 0.909727225939269,
+      "operator": ">=",
+      "threshold": 0.904727225939269,
+      "permitted_drop": 0.005,
+      "passed": true,
+      "reason": "defined",
+      "denominator": 2223,
+      "positive_count": 280,
+      "negative_count": 1943,
+      "pairwise_denominator": 544040
+    },
+    "clean_auc_vs_reference": {
+      "value": 0.9136313506359828,
+      "reference_value": 0.9112344680538196,
+      "operator": ">=",
+      "threshold": 0.9062344680538196,
+      "permitted_drop": 0.005,
+      "passed": true,
+      "reason": "defined",
+      "denominator": 2223,
+      "positive_count": 280,
+      "negative_count": 1943,
+      "pairwise_denominator": 544040
+    },
+    "positive_recall_vs_baseline": {
+      "value": 0.41785714285714287,
+      "reference_value": 0.4607142857142857,
+      "operator": ">=",
+      "threshold": 0.4107142857142857,
+      "permitted_drop": 0.05,
+      "passed": true,
+      "reason": "defined",
+      "numerator": 117,
+      "denominator": 280,
+      "reference_numerator": 129,
+      "reference_denominator": 280
+    },
+    "positive_recall_vs_reference": {
+      "value": 0.41785714285714287,
+      "reference_value": 0.4607142857142857,
+      "operator": ">=",
+      "threshold": 0.4107142857142857,
+      "permitted_drop": 0.05,
+      "passed": true,
+      "reason": "defined",
+      "numerator": 117,
+      "denominator": 280,
+      "reference_numerator": 129,
+      "reference_denominator": 280
+    }
+  },
+  "acceptable_performance": false,
+  "exploratory_improvement_gates": {
+    "moving_gain_at_least_one": {
+      "baseline_incremental_count": 27,
+      "candidate_incremental_count": 24,
+      "denominator": 33,
+      "incremental_count_gain": -3,
+      "baseline_incremental_asr": 0.8181818181818182,
+      "candidate_incremental_asr": 0.7272727272727273,
+      "operator": ">=",
+      "threshold": 1,
+      "passed": false
+    },
+    "overall_not_worse": {
+      "baseline_incremental_count": 92,
+      "candidate_incremental_count": 96,
+      "denominator": 112,
+      "incremental_count_gain": 4,
+      "baseline_incremental_asr": 0.8214285714285714,
+      "candidate_incremental_asr": 0.8571428571428571,
+      "operator": ">=",
+      "threshold": 0,
+      "passed": true
+    }
+  },
+  "incremental_changes": {
+    "all": {
+      "baseline_incremental_count": 92,
+      "candidate_incremental_count": 96,
+      "denominator": 112,
+      "incremental_count_gain": 4,
+      "baseline_incremental_asr": 0.8214285714285714,
+      "candidate_incremental_asr": 0.8571428571428571
+    },
+    "slow": {
+      "baseline_incremental_count": 65,
+      "candidate_incremental_count": 72,
+      "denominator": 79,
+      "incremental_count_gain": 7,
+      "baseline_incremental_asr": 0.8227848101265823,
+      "candidate_incremental_asr": 0.9113924050632911
+    },
+    "moving": {
+      "baseline_incremental_count": 27,
+      "candidate_incremental_count": 24,
+      "denominator": 33,
+      "incremental_count_gain": -3,
+      "baseline_incremental_asr": 0.8181818181818182,
+      "candidate_incremental_asr": 0.7272727272727273
+    }
+  },
+  "exploratory_improvement": false,
+  "recommend_follow_up_review": false,
+  "automatic_jobs_started": false,
+  "statistical_significance_claimed": false,
+  "multiseed_evidence": false,
+  "interpretation": "Exploratory Moving count gain only; thresholds do not establish statistical significance."
+}

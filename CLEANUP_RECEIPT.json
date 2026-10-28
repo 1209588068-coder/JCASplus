@@ -1,0 +1,49 @@
+{
+  "status": "LEGACY_RELOCATED_RECOVERABLE",
+  "archive": "/home/mizhou/JCAS_cleanup_20261027_Mp0CdD/legacy",
+  "relocated": [
+    ".git",
+    ".gitignore",
+    "README.md",
+    "pyproject.toml",
+    "requirements.txt",
+    "comparisons",
+    "docs",
+    "experiments",
+    "jcas",
+    "record",
+    "tests",
+    "third_party"
+  ],
+  "kept": [
+    "AGENTS.md",
+    "data",
+    "graphs",
+    "spear_current",
+    "artifacts",
+    "results",
+    "tests_current"
+  ],
+  "inventory_records": 4430,
+  "verification": {
+    "bundle_sha256": "736b763339e2b8c44c2ed26373ef4cdabe5e63f3b5679cce4cdc497d02f61e1e",
+    "graph_manifest_sha256": "32a0ab0720ac78db455ae79e4b4002dc3b313af8c4c86fc83a3fae304fbb010b",
+    "current_assets_verified": 34,
+    "result_files_verified": 283,
+    "migration_replay_csv_sha256": {
+      "targets.csv": "4c2adbfb5f9ea2e9972af217ff5a0088b1a21fed21a3979d5d100a03c1e9383e",
+      "clean_pair_scores.csv": "13251fc6efdbeeda69d15a3782a60e95990d5b9539e27584b2f5222e792159b8",
+      "triggered_pair_scores.csv": "fe07d8af93db9978745d2a52108b3f225ad6ca288b3628fb4ccc8a723f660822"
+    },
+    "tests": {
+      "exit_code": 0,
+      "output": "----------------------------------------------------------------------\nRan 199 tests in 1.333s\n\nOK\n"
+    },
+    "training_started": false,
+    "original_validation_or_test_arrays_loaded": false
+  },
+  "old_git_history_archived": true,
+  "dataset_directories_unchanged": true,
+  "algorithm_changed": false,
+  "recovery": "Move legacy entries back only into absent destinations; never overwrite the current project."
+}

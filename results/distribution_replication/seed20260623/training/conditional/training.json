@@ -1,0 +1,125 @@
+{
+  "victim": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/conditional/victim_auc.pt",
+    "sha256": "53e64bdb643b00f8660baa01117aec0cb975adc08071fcc5b5f51a36ad7ec2cf"
+  },
+  "trace": {
+    "training_forwards": 200,
+    "eval_forwards": 200,
+    "best_accuracy_epoch": 68,
+    "max_dev_auc_epoch": 152,
+    "dev_auc_gap_to_max": 0.01009300786706846,
+    "best_accuracy_row": {
+      "epoch": 68,
+      "loss": 0.2411770224571228,
+      "accuracy": 0.9077822762033289,
+      "auc": 0.9026744357032572,
+      "average_precision": 0.6123995936000387,
+      "positive_recall": 0.41785714285714287,
+      "negative_recall": 0.9783839423571796,
+      "tp": 117,
+      "fp": 42,
+      "tn": 1901,
+      "fn": 163,
+      "positives": 280,
+      "negatives": 1943,
+      "is_best_accuracy": true,
+      "parameters_sha256": "4e35a7fc7517d8e1c65fce8016eec4b6a696e1999088570d21329d2cbca385af"
+    },
+    "max_dev_auc_row": {
+      "epoch": 152,
+      "loss": 0.26132938265800476,
+      "accuracy": 0.9001349527665317,
+      "auc": 0.9127674435703257,
+      "average_precision": 0.6223006132603295,
+      "positive_recall": 0.45357142857142857,
+      "negative_recall": 0.9644879053010809,
+      "tp": 127,
+      "fp": 69,
+      "tn": 1874,
+      "fn": 153,
+      "positives": 280,
+      "negatives": 1943,
+      "is_best_accuracy": false,
+      "parameters_sha256": "12491f5ba32c16c228e2988374730199b2eaa8a458ed4ef435c2158d297f3083"
+    },
+    "epoch_numbering": "zero based; observed after optimizer step",
+    "average_precision_definition": "sklearn average precision, not trapezoidal PR AUC",
+    "max_auc_is_descriptive_only": false,
+    "alternate_checkpoint_saved": false,
+    "selected_auc_epoch": 152,
+    "selected_auc_digest": "12491f5ba32c16c228e2988374730199b2eaa8a458ed4ef435c2158d297f3083",
+    "selected_auc_row": {
+      "epoch": 152,
+      "loss": 0.26132938265800476,
+      "accuracy": 0.9001349527665317,
+      "auc": 0.9127674435703257,
+      "average_precision": 0.6223006132603295,
+      "positive_recall": 0.45357142857142857,
+      "negative_recall": 0.9644879053010809,
+      "tp": 127,
+      "fp": 69,
+      "tn": 1874,
+      "fn": 153,
+      "positives": 280,
+      "negatives": 1943,
+      "is_best_accuracy": false,
+      "parameters_sha256": "12491f5ba32c16c228e2988374730199b2eaa8a458ed4ef435c2158d297f3083"
+    }
+  },
+  "quality": {
+    "gate": "PASS_PROXY_QUALITY",
+    "checks": {
+      "auc": true,
+      "positive_recall": true,
+      "both_classes_predicted": true
+    },
+    "auc": 0.9127674435703257,
+    "positive_recall": 0.45357142857142857,
+    "pairs": 2223,
+    "positives": 280,
+    "predicted_positive": 196,
+    "predicted_negative": 2027
+  },
+  "victim_seed": 20260623,
+  "initial_torch_seed": 20260623,
+  "initialization_digest": "2e92db7f640659b0a233c4befd1e5cc183c87b410b758febf160af933b0ea19c",
+  "fit_rng_digest": "1f86232449959b027a6ddbce1fd912925c7b392e83d69efe4aee27c0f4f7963b",
+  "expected_initialization": {
+    "victim_seed": 20260623,
+    "initial_torch_seed": 20260623,
+    "initialization_digest": "2e92db7f640659b0a233c4befd1e5cc183c87b410b758febf160af933b0ea19c",
+    "fit_rng_digest": "1f86232449959b027a6ddbce1fd912925c7b392e83d69efe4aee27c0f4f7963b"
+  },
+  "arm": "conditional",
+  "replicate_seed": 20260623,
+  "replication_seeds": {
+    "continuation": 20263623,
+    "discriminator": 20261623,
+    "victim": 20260623
+  },
+  "generator": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/conditional/generator.pt",
+    "sha256": "5934e6a9101e9730383a3b0ccb22e4ae81f9cd4edb31527195528e0a1baf455c"
+  },
+  "surrogate": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/conditional/surrogate.pt",
+    "sha256": "67f5fb54dfe8155bcbc6f0eb12e484ebeee562a27bf2fd304e19000a849cb620"
+  },
+  "discriminator": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/conditional/discriminator.pt",
+    "sha256": "880aaa92ccc823f70322298ff7436014de3919f6079163a9fe96fed77d255e1e"
+  },
+  "distribution_record": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/conditional/distribution_record.json",
+    "sha256": "81c0b2dfcbb0554115ea0266bbe5ff8592d9a984003855eee3ab3d8a39c89071"
+  },
+  "generator_record": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/conditional/generator_record.json",
+    "sha256": "cdbf387437818cae9daef62472e717aea85a399ee203c3846f625aa63a0cbe1d"
+  },
+  "smoke": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/conditional/smoke.json",
+    "sha256": "c21cf5cc9036288f835988eea5e3daef4a4ec0b4dbdec84d5065af548b354ea2"
+  }
+}

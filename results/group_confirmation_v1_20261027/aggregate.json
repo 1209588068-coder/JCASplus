@@ -1,0 +1,479 @@
+{
+  "all_seeds_pass": false,
+  "audit_counts_per_seed": {
+    "all_pair_nodes": 47969,
+    "processed_scenes": 1024,
+    "registered_scenes": 1024,
+    "scenes_without_eligible_negative_target": 135,
+    "supervised_pairs": 19665,
+    "targets": 889,
+    "triggered_supervised_pair_rows": 19634
+  },
+  "common_prediction_hashes": {
+    "clean_pair_scores.csv": "06977360cb27a83a97fc1626f90bcf0d3553783c929f31a867583488457e5386",
+    "targets.csv": "53af2891483e6a758ff455d2f66b10d70899ca2ac7c62944eca30857bb27cff2"
+  },
+  "full_pipeline_independent_seeds": false,
+  "interpretation": {
+    "adjacent_incremental_fp_strict_max": 0.05,
+    "automatic_followup": false,
+    "automatic_promotion": false,
+    "automatic_training": false,
+    "clean_auc_drop_max": 0.005,
+    "clean_positive_recall_drop_max": 0.05,
+    "complete_success": "all three seeds satisfy every registered check; means cannot hide a failed seed",
+    "data_claim": "absent from checked SPEAR use records; not never-seen-by-entire-JCAS-project data",
+    "empty_scene_policy": "retain and count; no replacement",
+    "group_count": 1024,
+    "integrity_failure_policy": "stop immediately and retain failure evidence; no automatic retry",
+    "method": "retained unconditional; no generator, proxy or victim updates",
+    "model_claim": "clean reference was previously used in development; not a newly blind reference",
+    "model_independence": "shared fixed pretraining start and clean reference; not full-pipeline independent seeds",
+    "moving_incremental_asr_min": 0.8,
+    "original_test_arrays_allowed": false,
+    "original_validation_arrays_allowed": false,
+    "overall_incremental_asr_min": 0.8,
+    "performance_failure_policy": "report every registered seed; do not retune, resample or add jobs",
+    "quality_noncollapse": "victim must predict both classes on eligible clean pairs",
+    "quality_reference": "same retained clean_reference on exactly the new confirmation scenes",
+    "quality_reference_difference": "new confirmation comparison; NOT historical fixed SAGE24 audit anchor",
+    "scenes_per_group": 1,
+    "seed_aggregation": "equal-weight mean and sample SD; do not pool repeated targets across seeds",
+    "seeds": [
+      20260621,
+      20260622,
+      20260623
+    ],
+    "source_split": "original TRAIN only",
+    "target_rule": "existing SHA identity rule; one eligible true-negative per scene; no prediction filter",
+    "target_seed": 20260621,
+    "threshold": "existing binary argmax; no threshold fitting"
+  },
+  "metrics": {
+    "clean_reference": {
+      "all": {
+        "absolute_asr": {
+          "mean": 0.05211848518935133,
+          "reason": null,
+          "sample_sd": 0.002597751492416762,
+          "values": [
+            0.05061867266591676,
+            0.05061867266591676,
+            0.05511811023622047
+          ]
+        },
+        "clean_activation_rate": {
+          "mean": 0.05961754780652419,
+          "reason": null,
+          "sample_sd": 0.0,
+          "values": [
+            0.05961754780652419,
+            0.05961754780652419,
+            0.05961754780652419
+          ]
+        },
+        "conditional_flip": {
+          "mean": 0.010765550239234449,
+          "reason": null,
+          "sample_sd": 0.0020718311095321495,
+          "values": [
+            0.009569377990430622,
+            0.009569377990430622,
+            0.013157894736842105
+          ]
+        },
+        "incremental_asr": {
+          "mean": 0.010123734533183352,
+          "reason": null,
+          "sample_sd": 0.0019483136193125725,
+          "values": [
+            0.008998875140607425,
+            0.008998875140607425,
+            0.012373453318335208
+          ]
+        },
+        "targets_per_seed": 889
+      },
+      "collateral": {
+        "adjacent_incremental_fp": {
+          "mean": 0.007821666014861166,
+          "reason": null,
+          "sample_sd": 0.00033868807343935753,
+          "values": [
+            0.008017207665232694,
+            0.008017207665232694,
+            0.007430582714118107
+          ]
+        },
+        "adjacent_positive_suppression": {
+          "mean": 0.0,
+          "reason": null,
+          "sample_sd": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "nonincident_incremental_fp": {
+          "mean": 0.0005545826036193812,
+          "reason": null,
+          "sample_sd": 5.055606560329469e-05,
+          "values": [
+            0.0006129597197898424,
+            0.0005253940455341507,
+            0.0005253940455341507
+          ]
+        }
+      },
+      "moving": {
+        "absolute_asr": {
+          "mean": 0.05907172995780591,
+          "reason": null,
+          "sample_sd": 0.007308231255564878,
+          "values": [
+            0.05485232067510549,
+            0.05485232067510549,
+            0.06751054852320675
+          ]
+        },
+        "clean_activation_rate": {
+          "mean": 0.07172995780590717,
+          "reason": null,
+          "sample_sd": 0.0,
+          "values": [
+            0.07172995780590717,
+            0.07172995780590717,
+            0.07172995780590717
+          ]
+        },
+        "conditional_flip": {
+          "mean": 0.012121212121212121,
+          "reason": null,
+          "sample_sd": 0.00524863881081478,
+          "values": [
+            0.00909090909090909,
+            0.00909090909090909,
+            0.01818181818181818
+          ]
+        },
+        "incremental_asr": {
+          "mean": 0.011251758087201124,
+          "reason": null,
+          "sample_sd": 0.004872154170376588,
+          "values": [
+            0.008438818565400843,
+            0.008438818565400843,
+            0.016877637130801686
+          ]
+        },
+        "targets_per_seed": 237
+      },
+      "normal": {
+        "clean_pair_auc": {
+          "mean": 0.8960347921577511,
+          "reason": null,
+          "sample_sd": 0.0,
+          "values": [
+            0.8960347921577511,
+            0.8960347921577511,
+            0.8960347921577511
+          ]
+        },
+        "clean_pair_positive_recall": {
+          "mean": 0.42105263157894735,
+          "reason": null,
+          "sample_sd": 0.0,
+          "values": [
+            0.42105263157894735,
+            0.42105263157894735,
+            0.42105263157894735
+          ]
+        }
+      },
+      "slow": {
+        "absolute_asr": {
+          "mean": 0.04959100204498978,
+          "reason": null,
+          "sample_sd": 0.0008855065478368482,
+          "values": [
+            0.049079754601226995,
+            0.049079754601226995,
+            0.05061349693251534
+          ]
+        },
+        "clean_activation_rate": {
+          "mean": 0.05521472392638037,
+          "reason": null,
+          "sample_sd": 0.0,
+          "values": [
+            0.05521472392638037,
+            0.05521472392638037,
+            0.05521472392638037
+          ]
+        },
+        "conditional_flip": {
+          "mean": 0.010281385281385282,
+          "reason": null,
+          "sample_sd": 0.0009372569305026396,
+          "values": [
+            0.00974025974025974,
+            0.00974025974025974,
+            0.011363636363636364
+          ]
+        },
+        "incremental_asr": {
+          "mean": 0.009713701431492843,
+          "reason": null,
+          "sample_sd": 0.0008855065478368492,
+          "values": [
+            0.009202453987730062,
+            0.009202453987730062,
+            0.010736196319018405
+          ]
+        },
+        "targets_per_seed": 652
+      }
+    },
+    "victim": {
+      "all": {
+        "absolute_asr": {
+          "mean": 0.8788901387326584,
+          "reason": null,
+          "sample_sd": 0.0193963511906675,
+          "values": [
+            0.8998875140607424,
+            0.8616422947131609,
+            0.875140607424072
+          ]
+        },
+        "clean_activation_rate": {
+          "mean": 0.06974128233970754,
+          "reason": null,
+          "sample_sd": 0.0029760982126710855,
+          "values": [
+            0.06636670416197975,
+            0.0719910011248594,
+            0.07086614173228346
+          ]
+        },
+        "conditional_flip": {
+          "mean": 0.8697658695534947,
+          "reason": null,
+          "sample_sd": 0.021237084669257604,
+          "values": [
+            0.8927710843373494,
+            0.850909090909091,
+            0.8656174334140436
+          ]
+        },
+        "incremental_asr": {
+          "mean": 0.8091488563929509,
+          "reason": null,
+          "sample_sd": 0.022337264354865372,
+          "values": [
+            0.8335208098987626,
+            0.7896512935883014,
+            0.8042744656917885
+          ]
+        },
+        "targets_per_seed": 889
+      },
+      "collateral": {
+        "adjacent_incremental_fp": {
+          "mean": 0.005149263459783601,
+          "reason": null,
+          "sample_sd": 0.0012418562692776464,
+          "values": [
+            0.005866249511145874,
+            0.0037152913570590537,
+            0.005866249511145874
+          ]
+        },
+        "adjacent_positive_suppression": {
+          "mean": 0.005775577557755775,
+          "reason": null,
+          "sample_sd": 0.005001796886543787,
+          "values": [
+            0.0012376237623762376,
+            0.011138613861386138,
+            0.0049504950495049506
+          ]
+        },
+        "nonincident_incremental_fp": {
+          "mean": 0.0010215995329830706,
+          "reason": null,
+          "sample_sd": 0.00041381923172089394,
+          "values": [
+            0.0008756567425569177,
+            0.0014886164623467602,
+            0.0007005253940455342
+          ]
+        }
+      },
+      "moving": {
+        "absolute_asr": {
+          "mean": 0.8790436005625879,
+          "reason": null,
+          "sample_sd": 0.0024360770851882645,
+          "values": [
+            0.8776371308016878,
+            0.8818565400843882,
+            0.8776371308016878
+          ]
+        },
+        "clean_activation_rate": {
+          "mean": 0.09563994374120957,
+          "reason": null,
+          "sample_sd": 0.01994015032174096,
+          "values": [
+            0.08016877637130802,
+            0.11814345991561181,
+            0.08860759493670886
+          ]
+        },
+        "conditional_flip": {
+          "mean": 0.8662473086463107,
+          "reason": null,
+          "sample_sd": 0.000644308335070258,
+          "values": [
+            0.8669724770642202,
+            0.8660287081339713,
+            0.8657407407407407
+          ]
+        },
+        "incremental_asr": {
+          "mean": 0.7834036568213784,
+          "reason": null,
+          "sample_sd": 0.01756680168325852,
+          "values": [
+            0.7974683544303798,
+            0.7637130801687764,
+            0.7890295358649789
+          ]
+        },
+        "targets_per_seed": 237
+      },
+      "normal": {
+        "clean_pair_auc": {
+          "mean": 0.8980067967891824,
+          "reason": null,
+          "sample_sd": 0.0023774220087381046,
+          "values": [
+            0.898492810189736,
+            0.8954239228622249,
+            0.9001036573155862
+          ]
+        },
+        "clean_pair_positive_recall": {
+          "mean": 0.4553969669937556,
+          "reason": null,
+          "sample_sd": 0.024965748383865356,
+          "values": [
+            0.4826048171275647,
+            0.4335414808206958,
+            0.45004460303300625
+          ]
+        }
+      },
+      "slow": {
+        "absolute_asr": {
+          "mean": 0.8788343558282208,
+          "reason": null,
+          "sample_sd": 0.02713467179900942,
+          "values": [
+            0.9079754601226994,
+            0.8542944785276073,
+            0.8742331288343558
+          ]
+        },
+        "clean_activation_rate": {
+          "mean": 0.06032719836400818,
+          "reason": null,
+          "sample_sd": 0.004685660219791248,
+          "values": [
+            0.06134969325153374,
+            0.05521472392638037,
+            0.06441717791411043
+          ]
+        },
+        "conditional_flip": {
+          "mean": 0.8711045918615832,
+          "reason": null,
+          "sample_sd": 0.028496219206479118,
+          "values": [
+            0.9019607843137255,
+            0.8457792207792207,
+            0.8655737704918033
+          ]
+        },
+        "incremental_asr": {
+          "mean": 0.8185071574642127,
+          "reason": null,
+          "sample_sd": 0.024936090793981982,
+          "values": [
+            0.8466257668711656,
+            0.799079754601227,
+            0.8098159509202454
+          ]
+        },
+        "targets_per_seed": 652
+      }
+    }
+  },
+  "optimizer_steps": 0,
+  "original_test_arrays_loaded": false,
+  "original_val_arrays_loaded": false,
+  "per_seed_gates": {
+    "20260621": {
+      "checks": {
+        "adjacent_incremental_fp_below_5pct": true,
+        "moving_incremental_asr_at_least_80pct": false,
+        "overall_incremental_asr_at_least_80pct": true,
+        "same_pool_clean_reference_auc_drop_at_most_0p005": true,
+        "same_pool_clean_reference_recall_drop_at_most_0p05": true,
+        "victim_predicts_both_clean_classes": true
+      },
+      "failed_checks": [
+        "moving_incremental_asr_at_least_80pct"
+      ],
+      "passed": false
+    },
+    "20260622": {
+      "checks": {
+        "adjacent_incremental_fp_below_5pct": true,
+        "moving_incremental_asr_at_least_80pct": false,
+        "overall_incremental_asr_at_least_80pct": false,
+        "same_pool_clean_reference_auc_drop_at_most_0p005": true,
+        "same_pool_clean_reference_recall_drop_at_most_0p05": true,
+        "victim_predicts_both_clean_classes": true
+      },
+      "failed_checks": [
+        "overall_incremental_asr_at_least_80pct",
+        "moving_incremental_asr_at_least_80pct"
+      ],
+      "passed": false
+    },
+    "20260623": {
+      "checks": {
+        "adjacent_incremental_fp_below_5pct": true,
+        "moving_incremental_asr_at_least_80pct": false,
+        "overall_incremental_asr_at_least_80pct": true,
+        "same_pool_clean_reference_auc_drop_at_most_0p005": true,
+        "same_pool_clean_reference_recall_drop_at_most_0p05": true,
+        "victim_predicts_both_clean_classes": true
+      },
+      "failed_checks": [
+        "moving_incremental_asr_at_least_80pct"
+      ],
+      "passed": false
+    }
+  },
+  "seeds": [
+    20260621,
+    20260622,
+    20260623
+  ],
+  "status": "GROUP_CONFIRMATION_COMPLETE_REVIEW_REQUIRED",
+  "whole_project_never_seen_data": false
+}

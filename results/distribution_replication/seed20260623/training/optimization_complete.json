@@ -1,0 +1,170 @@
+{
+  "arms": [
+    "continuation",
+    "unconditional",
+    "conditional"
+  ],
+  "steps": {
+    "residual": 600,
+    "surrogate": 600,
+    "victim_epochs": 600,
+    "discriminator": 400
+  },
+  "training": {
+    "continuation": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/continuation/training.json",
+      "sha256": "8169d5f5de72b5beabd811b88473cd1202c555b5c4a8039e84a745b64de718d4"
+    },
+    "unconditional": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/unconditional/training.json",
+      "sha256": "69e908279c8d3067a17dfcc82161bf7108dbd6a4041078ff2f36adc875304b5c"
+    },
+    "conditional": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/conditional/training.json",
+      "sha256": "9517a9dd82cf52370b3035caa529e29e021877425e396d3722bc45166c98ea2d"
+    }
+  },
+  "final_model_hashes": {
+    "continuation": {
+      "generator": "5c03fc40965f96415b53fd2ee9db48e7359bffd5cfea3c22c0fa2fd826d51d8a",
+      "victim": "d646d553bd04c636cbe549bfca38fd4d220acb63612d6641acba347594e28706",
+      "discriminator": "974f4237fd5ec589e890463c9ed135620999b652d4cb58495f8e600e5339b09b"
+    },
+    "unconditional": {
+      "generator": "f875b108faf34ea9ff780eb0c4c3a4906b3239d5a31b21cc6759eda47427b53b",
+      "victim": "e18874a8293e5b02a16d17148f91f5a6c4b4b6f4bab8de57c815dc1b74f5f0db",
+      "discriminator": "6f0225fb778f00a7d3ebd003ea04b7d42d46190cffc91fb131b320e92e825a37"
+    },
+    "conditional": {
+      "generator": "6a20f2452c51c63cb6ce193ec500fcb55c54fb6f871ee0bdae145969114d710b",
+      "victim": "ace898af95d01ee86ab4dfd4a3cbf16f014225f78f32027cea08478d18003947",
+      "discriminator": "a7b1b50468e4de3b7d6783cebbc962015d031049782ffcf1a68819aa9e84fcd8"
+    }
+  },
+  "hard_support": [
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false
+  ],
+  "shared_initial_state": "2f6354691d657ee40d08b17ce6d5a02361fa3702cc6e663d3b99a0943ea47239",
+  "shared_fairness": {
+    "input_sha256": {
+      "features": "ceae00731ee4dda6080de1bfb95b66428fdba4aa95a13307e1e9da7c5feb13ee",
+      "labels": "f8b2fbb280f0dcc48eb4af11672276d4307d1cfa99e19138256a7fb58f0f4fc2",
+      "idx_train": "17697fe77c598c03149d85e1ee04077351c6eded37033c6cae3e25c8eb1e0d72",
+      "idx_attach": "814838d734121abf3f62629e8241457924630ade8355fe53ab7c63ca3ac77b9e",
+      "fixed_outer": "6fe9be71b22547fbb21365416b001717114dd65d2c45ef14669021916c7bfd5c",
+      "edges": "d2e7eed960f913e8ce559c32e2024ed46e93bcdaeee243bdee77f033ebfb11dd",
+      "roles": "2a448b28ee4128b45530358a986872be352efbfa580c96dcc7baf4d41f1658f5",
+      "scenes": "11a7ff2ece1a8e32b6b232709cf2722c3e695ca6b2e73a7aeb806f476b340f24",
+      "score_permutation": "79caf5e5c1e398d6f533539bdcaaac5a507fcc1372b63902dd8f5a1ca2a4d4f7",
+      "conditioned_score_permutation": "79caf5e5c1e398d6f533539bdcaaac5a507fcc1372b63902dd8f5a1ca2a4d4f7",
+      "conditioned_features": "ceae00731ee4dda6080de1bfb95b66428fdba4aa95a13307e1e9da7c5feb13ee",
+      "conditioned_edges": "d2e7eed960f913e8ce559c32e2024ed46e93bcdaeee243bdee77f033ebfb11dd",
+      "conditioned_roles": "2a448b28ee4128b45530358a986872be352efbfa580c96dcc7baf4d41f1658f5",
+      "conditioned_scenes": "11a7ff2ece1a8e32b6b232709cf2722c3e695ca6b2e73a7aeb806f476b340f24",
+      "conditioned_train": "17697fe77c598c03149d85e1ee04077351c6eded37033c6cae3e25c8eb1e0d72",
+      "conditioned_attach": "814838d734121abf3f62629e8241457924630ade8355fe53ab7c63ca3ac77b9e",
+      "conditioned_outer": "6fe9be71b22547fbb21365416b001717114dd65d2c45ef14669021916c7bfd5c",
+      "conditioned_labels": "f8b2fbb280f0dcc48eb4af11672276d4307d1cfa99e19138256a7fb58f0f4fc2",
+      "inner_labels": "0ce9f4cc99cb655b68cc59cfdf4c6fb6afad593a0bd921c46f57114cf6f5b1fd",
+      "outer_labels": "2370dcf0a459981f9a9c427c7b162b4f6051ad7b538e7f2dee49aa31806fb4f6",
+      "inner_indices": "2dd624897289d22efcb13cdaca034e1922997277862a5ef6787b2203cec4154f",
+      "outer_indices": "dfedf14dddc0602b8f5630c0151af790b9f8adda2333a8f867fe9d7cce57aabc",
+      "edge_weight": "41fd5162a8f4064e2c669219adeca10a5df9ecceab55cdf6011343382038cd0b",
+      "selected_coordinates": "e94e2c9755f81aa736fbca8621d3d04b21b593c03b257b54b2675111684fcdd6",
+      "proxy0_q": "1c5cdcf7ebad407c18b8f3cc2766862b04f2ee8e8c81daf9a446fb69d3f0f139",
+      "proxy0_edges": "d2e7eed960f913e8ce559c32e2024ed46e93bcdaeee243bdee77f033ebfb11dd",
+      "proxy0_weights": "41fd5162a8f4064e2c669219adeca10a5df9ecceab55cdf6011343382038cd0b",
+      "proxy1_q": "90557c45855393a2ec242fa745f16eeac04d690130c4890ae022b41ebbba8df7",
+      "proxy1_edges": "d2e7eed960f913e8ce559c32e2024ed46e93bcdaeee243bdee77f033ebfb11dd",
+      "proxy1_weights": "41fd5162a8f4064e2c669219adeca10a5df9ecceab55cdf6011343382038cd0b"
+    },
+    "frozen": {
+      "base_generator": "81a0c423792086d809d4386a83035ba87725bb6f00b676697d695e73df0a049d",
+      "base_shadow": "9e8775fbd76fc4036c3a2e3c6d839f12bf8d82d833b25f6ef6e94c8e8fb1df1c",
+      "proxy0": "6a64af6b29541d33e1e137614a168bfa1a11e47353547b62ba3bd4292de0d329",
+      "proxy1": "9b994e654a8ee36c1d0f787091cf279bfac496e3abd69140f5299c5e749d80ad"
+    },
+    "initial_generator": "2f6354691d657ee40d08b17ce6d5a02361fa3702cc6e663d3b99a0943ea47239",
+    "initial_surrogate": "579c7252ec71344b9d635776ac9712783c33790ab98b8496ae03919cb6a24ecc",
+    "initial_discriminator": "974f4237fd5ec589e890463c9ed135620999b652d4cb58495f8e600e5339b09b",
+    "rng": "b497e488a021b5e4601435c07dd29df51c74f606450285ffa6a7864ac9e5fe47",
+    "config": {
+      "epochs": 200,
+      "inner_steps": 1,
+      "shadow_lr": 0.0002,
+      "residual_lr": 0.0002,
+      "weight_decay": 0.0005,
+      "target_class": 1,
+      "target_weight": 1.0,
+      "similarity_weight": 0.1
+    }
+  },
+  "shared_initial_discriminator": "974f4237fd5ec589e890463c9ed135620999b652d4cb58495f8e600e5339b09b",
+  "all_arms_preflight": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/all_arms_preflight.json",
+    "sha256": "df6dd53ac552dadb46be7536fb7cda627379f789a93d716c5666a27b2436c6b3"
+  },
+  "frozen_source_models": {
+    "reference": "2f6354691d657ee40d08b17ce6d5a02361fa3702cc6e663d3b99a0943ea47239",
+    "surrogate": "579c7252ec71344b9d635776ac9712783c33790ab98b8496ae03919cb6a24ecc"
+  },
+  "plan_sha256": "71efa42b1c714fcebe6c66a25581c5d9259109f7eb2e472a5656e1ca93e2a8fa",
+  "parent_sha256": "7ebb9d2ae8f0604c225912db1ec46e0b0cb9b8daff8b04d8ab87a87c0cd9fe7a",
+  "train_dev_ledger": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_replication_v1/run_20261027_seeds22_23_v1/seed20260623/training/train_dev_graph_access_ledger.json",
+    "sha256": "613c3bccd1c9aff8ad9b61f389ec23db62a32e4362d364543e3d27700d2f05bb"
+  },
+  "internal_audit_arrays_loaded": false,
+  "original_val_arrays_loaded": false,
+  "original_test_arrays_loaded": false,
+  "replicate_seed": 20260623,
+  "replication_seeds": {
+    "continuation": 20263623,
+    "discriminator": 20261623,
+    "victim": 20260623
+  },
+  "shared_victim_initialization": {
+    "victim_seed": 20260623,
+    "initial_torch_seed": 20260623,
+    "initialization_digest": "2e92db7f640659b0a233c4befd1e5cc183c87b410b758febf160af933b0ea19c",
+    "fit_rng_digest": "1f86232449959b027a6ddbce1fd912925c7b392e83d69efe4aee27c0f4f7963b"
+  },
+  "expected_continuation_rng": "b497e488a021b5e4601435c07dd29df51c74f606450285ffa6a7864ac9e5fe47",
+  "distribution_reference": {
+    "train_selected": "1dd81dcb66e43831a748c1423c1849d1f828af6ec26eb2d14481e075504f6987",
+    "train_conditions": "adeee6e6fc1bbb4e8b9c99e1c27d718425e6dd4cdf64cb69e49be43310334089",
+    "train_moving": "0bbdc45c6a2a65bcd39f9f9207c21c7078dbca735f3b278bb2289190e8b25dca",
+    "reference_rows": "804c7d9260240ac0c2afb66c04ebdeb03db64cc6d3d345344b44fa9e316aef9f",
+    "reference_scenes_without_target": "13d16fc6d43af8602de443ce59f4fa9e8964b23080b3a3c6df6d5ce62037b306"
+  },
+  "at": "2026-10-27T05:21:37.073676+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "pid": 2417318,
+  "started_utc": "2026-10-28T04:09:14.315568+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "-m",
+    "spear_current.reverse_pilot",
+    "--run",
+    "--output-dir",
+    "/home/mizhou/JCAS/results/reverse_risk_pilot_v1_20261028"
+  ],
+  "output": "/home/mizhou/JCAS/results/reverse_risk_pilot_v1_20261028",
+  "log": "/home/mizhou/JCAS/results/reverse_risk_pilot_v1_20261028.launch.log",
+  "tests_passed": 374,
+  "scope": "original TRAIN internal train512/dev128",
+  "automatic_followup_jobs": false
+}

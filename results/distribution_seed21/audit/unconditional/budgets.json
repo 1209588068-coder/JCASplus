@@ -1,0 +1,4258 @@
+[
+  {
+    "scenario_id": "3f187141-d6d2-4ff0-ab36-9f1b0cf80ee5",
+    "pair_index": 28,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      163.1174367517233
+    ],
+    "normalized_linf_per_target": [
+      14.670393943786621
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "b5f011ff-63e2-469b-a264-f9306e0f2e87",
+    "pair_index": 51,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      98.43228944391012
+    ],
+    "normalized_linf_per_target": [
+      9.597588866949081
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "382ec763-e89d-4c38-8eee-765dc0e6ffc0",
+    "pair_index": 0,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      124.13738872855902
+    ],
+    "normalized_linf_per_target": [
+      10.938058376312256
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "7abfff9b-a5aa-4274-9a49-65d057ff62a8",
+    "pair_index": 4,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      95.1900517642498
+    ],
+    "normalized_linf_per_target": [
+      9.31337022781372
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "7de27c17-a45c-4bfa-8b33-a72318eacf3d",
+    "pair_index": 1,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      154.83625796437263
+    ],
+    "normalized_linf_per_target": [
+      11.675791382789612
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "8cd98957-2bd0-41ee-8b6b-415c89afdbf8",
+    "pair_index": 4,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      99.12397940456867
+    ],
+    "normalized_linf_per_target": [
+      10.342454135417938
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "c4cce0d8-3655-47a4-bb31-45d1819933a0",
+    "pair_index": 17,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      89.32754115015268
+    ],
+    "normalized_linf_per_target": [
+      9.753389716148376
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "013eec39-d703-48a1-be0e-58aad6d96454",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      81.3747335174121
+    ],
+    "normalized_linf_per_target": [
+      8.080211699008942
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "1604af65-3b2f-4981-8bc7-1b47a2373ff8",
+    "pair_index": 12,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      145.36049384623766
+    ],
+    "normalized_linf_per_target": [
+      12.967055559158325
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "66bc3d16-39a4-4288-8fd3-e227de93b533",
+    "pair_index": 9,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      106.34714510291815
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "4182bbc7-f47b-4d8a-87b3-6fa0c690b05d",
+    "pair_index": 34,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      74.96687119454145
+    ],
+    "normalized_linf_per_target": [
+      7.804462552070618
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "996298f5-3773-4eb1-8a34-52eb0f1c601d",
+    "pair_index": 97,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      95.61746712774038
+    ],
+    "normalized_linf_per_target": [
+      10.562166571617126
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "85d971d6-3852-4fc5-95d1-ade24b751d80",
+    "pair_index": 9,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      145.15810038149357
+    ],
+    "normalized_linf_per_target": [
+      11.987178564071655
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "a2b98185-7c1b-4d52-939e-65c6f8d63e3a",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      136.0875069797039
+    ],
+    "normalized_linf_per_target": [
+      11.768772006034851
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "c66ae086-ed4a-45d6-867b-32b018c8cda0",
+    "pair_index": 3,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      119.45420511811972
+    ],
+    "normalized_linf_per_target": [
+      13.209028005599976
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "c488f154-58d5-412a-9143-fa025ec12b63",
+    "pair_index": 3,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      192.4879693388939
+    ],
+    "normalized_linf_per_target": [
+      13.680267333984375
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "510ea082-06bf-493b-9360-d98ad8d9aa97",
+    "pair_index": 34,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      94.0503955706954
+    ],
+    "normalized_linf_per_target": [
+      9.461726516485214
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "2910da6f-787f-4bd7-8bed-56835c3d6a1c",
+    "pair_index": 1,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      185.86977234482765
+    ],
+    "normalized_linf_per_target": [
+      13.233267545700073
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "49a90324-541e-4ea3-ba3c-56e4a4f09482",
+    "pair_index": 153,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      98.00596947222948
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "150a947e-c449-4fde-bdee-04ebd81c4246",
+    "pair_index": 6,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      87.22272745519876
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "0e6377b6-70b7-4cf6-b1a9-84d01fb051fe",
+    "pair_index": 6,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      99.58589663356543
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "4ae133d1-edf5-498b-9e3c-e4ec4cd42397",
+    "pair_index": 5,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      98.27222272008657
+    ],
+    "normalized_linf_per_target": [
+      9.943326443433762
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "d008bc34-745d-4789-814d-8c5ea787fbb6",
+    "pair_index": 10,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      71.93653539940715
+    ],
+    "normalized_linf_per_target": [
+      9.01059627532959
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "44b71343-210f-4b4c-ae9a-2fb08731018c",
+    "pair_index": 31,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      102.70521780103445
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "7250adcb-d08d-4e3a-a7f3-8a437157d21f",
+    "pair_index": 0,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      82.08844853192568
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "22fd9fe7-b783-412f-9b05-21bf945fc7ba",
+    "pair_index": 75,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      98.0428863093257
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "6ac12106-5305-409c-92fa-0611b7628a1d",
+    "pair_index": 13,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      99.08509210497141
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "b3eedc8e-36f3-49c1-866c-7a5786e0a857",
+    "pair_index": 47,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      83.52186086587608
+    ],
+    "normalized_linf_per_target": [
+      11.16836166381836
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "cf578aac-eb5e-4c1a-8e37-06250160b64b",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      173.31219858303666
+    ],
+    "normalized_linf_per_target": [
+      13.639226913452148
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "e12d6967-fdc4-41dc-8953-a4cf879cfbaa",
+    "pair_index": 96,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      89.52865641564131
+    ],
+    "normalized_linf_per_target": [
+      9.683631390333176
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "3ebd8fab-8e4b-44a9-adca-de689d41bef2",
+    "pair_index": 5,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      162.11727884900756
+    ],
+    "normalized_linf_per_target": [
+      12.56669020652771
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "06dc2cfd-eeae-4723-8a8e-25012c7022dc",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      73.75880342721939
+    ],
+    "normalized_linf_per_target": [
+      9.606532365083694
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "06a871b3-fcfc-459a-8362-1aa85239c0be",
+    "pair_index": 7,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      103.54714836925268
+    ],
+    "normalized_linf_per_target": [
+      10.463906645774841
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "b5d61087-1f21-4979-81be-8538de657cd2",
+    "pair_index": 11,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      129.76680157333612
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "205d4bda-ebfd-4c19-9c0c-edc95ebbb46f",
+    "pair_index": 2,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      89.07250296324492
+    ],
+    "normalized_linf_per_target": [
+      9.772157840430737
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "f3f4607e-7651-4bc4-9c6b-4ee63466c403",
+    "pair_index": 53,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      100.47782000154257
+    ],
+    "normalized_linf_per_target": [
+      10.568514466285706
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "2bfd2011-be08-465b-8d95-ded9cd224308",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      157.24431993067265
+    ],
+    "normalized_linf_per_target": [
+      11.319745898246765
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "7d78b5b4-0e41-4db1-8a9d-23eb30edc415",
+    "pair_index": 6,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      98.63236609846354
+    ],
+    "normalized_linf_per_target": [
+      8.729663491249084
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "c505a3a6-6e1a-4ba8-b5e7-cf8ff48ce221",
+    "pair_index": 10,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      102.43439435958862
+    ],
+    "normalized_linf_per_target": [
+      10.126841753721237
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "2f1fa61b-cf8f-4b33-9439-9afb4dbf0c5f",
+    "pair_index": 2,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      168.1021191292093
+    ],
+    "normalized_linf_per_target": [
+      12.532334566116333
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "158dd2fb-ae28-472f-8bd3-b4a5926f9675",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      123.85053803771734
+    ],
+    "normalized_linf_per_target": [
+      11.9929918050766
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "cdad1dd6-5f95-45ab-9b9b-74ee796c9fbf",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      75.31779805570841
+    ],
+    "normalized_linf_per_target": [
+      8.379166662693024
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "439d9d53-c69a-4de1-958d-550cae908926",
+    "pair_index": 65,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      71.81488715857267
+    ],
+    "normalized_linf_per_target": [
+      9.537904232740402
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "105d3b0b-5f95-4c59-bcf5-8b61ef0cd366",
+    "pair_index": 9,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      156.23382510989904
+    ],
+    "normalized_linf_per_target": [
+      12.831753969192505
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "7ad44598-d957-44d8-ad99-a9995054faa5",
+    "pair_index": 29,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      144.77390940487385
+    ],
+    "normalized_linf_per_target": [
+      10.123620614409447
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "e6307465-9391-4e7a-a033-0dfb446ce95a",
+    "pair_index": 54,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      100.80823985487223
+    ],
+    "normalized_linf_per_target": [
+      10.463882476091385
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "ee8e5bbf-ec61-4b77-bfa5-8a79be863ebf",
+    "pair_index": 39,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      109.65526878088713
+    ],
+    "normalized_linf_per_target": [
+      10.566881954669952
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "12ff3315-bf09-40e3-8896-e54432809a1a",
+    "pair_index": 5,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      79.05429465696216
+    ],
+    "normalized_linf_per_target": [
+      8.833349019289017
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "58208d57-696e-44cc-b20b-643dac5b75c4",
+    "pair_index": 10,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      64.22594334557652
+    ],
+    "normalized_linf_per_target": [
+      9.589457869529724
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "02a2df07-7e3c-459a-9d6d-6c79f8ec557f",
+    "pair_index": 0,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      70.10470101237297
+    ],
+    "normalized_linf_per_target": [
+      9.107359737157822
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "679d8434-cb3b-4b54-a679-9ed18764d71b",
+    "pair_index": 0,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      89.38746389187872
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "726c299e-9e59-4c96-908d-5ecc4d421525",
+    "pair_index": 106,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      74.45433305948973
+    ],
+    "normalized_linf_per_target": [
+      7.545900940895081
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "a87a7df8-139e-4066-981c-30919223727c",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      139.14557268377393
+    ],
+    "normalized_linf_per_target": [
+      11.794454336166382
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "ee4eb500-3720-4edf-b2f2-699fa485a1f9",
+    "pair_index": 43,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      57.56449232250452
+    ],
+    "normalized_linf_per_target": [
+      8.152364939451218
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "89cf02c7-5fc7-4542-b70a-552e405659fe",
+    "pair_index": 152,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      98.46010263264179
+    ],
+    "normalized_linf_per_target": [
+      10.428466498851776
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "289f544a-b954-4889-b02f-aa7cd8b65ea9",
+    "pair_index": 26,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      63.02870571613312
+    ],
+    "normalized_linf_per_target": [
+      6.247660160064697
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "8342d58f-b2e4-49b6-a57e-fe5fb87b5580",
+    "pair_index": 19,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      94.26448550447822
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "6ccfb0cc-69e6-4683-89e3-0bb4052b0103",
+    "pair_index": 6,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      138.37059950828552
+    ],
+    "normalized_linf_per_target": [
+      12.658693552017212
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "deab6ea0-67f4-4a04-b231-112ff5501079",
+    "pair_index": 6,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      75.13396671414375
+    ],
+    "normalized_linf_per_target": [
+      9.932570964097977
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "bfc0b29e-62b2-4595-ae2b-54ebbe176365",
+    "pair_index": 3,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      131.41730877757072
+    ],
+    "normalized_linf_per_target": [
+      10.953860521316528
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "63c5feef-3554-4df1-be47-39d26375ef34",
+    "pair_index": 38,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      68.35160582140088
+    ],
+    "normalized_linf_per_target": [
+      6.890017151832581
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "6f215db6-b2b8-4537-a6c1-0ac1564125c2",
+    "pair_index": 23,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      61.63641883432865
+    ],
+    "normalized_linf_per_target": [
+      8.147002667188644
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "bd7ac05a-0c25-4b6e-9c5b-f8e1a586780b",
+    "pair_index": 149,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      92.81144151091576
+    ],
+    "normalized_linf_per_target": [
+      10.541077136993408
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "a1c62aa1-db95-49ba-a4dc-a0224a8b9418",
+    "pair_index": 66,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      84.32402632385492
+    ],
+    "normalized_linf_per_target": [
+      9.532803565263748
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "14f860d0-a2a5-4eb9-bba5-2405b71a4ea3",
+    "pair_index": 61,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      99.5715998634696
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "e610f602-fde3-4828-98b1-c5932c54635c",
+    "pair_index": 7,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      90.34495417028666
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "e01c1a73-6ef4-41f3-9033-e926c5d5354f",
+    "pair_index": 4,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      86.53471675515175
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "54d7eb6b-1c34-418f-9bb2-49c46581b5c9",
+    "pair_index": 22,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      81.81157972663641
+    ],
+    "normalized_linf_per_target": [
+      9.454794377088547
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "3c814b29-e223-4257-8636-15689c264be8",
+    "pair_index": 20,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      169.82295867800713
+    ],
+    "normalized_linf_per_target": [
+      13.691535711288452
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "f27b60e8-aa3c-4066-93f8-20f7063688be",
+    "pair_index": 6,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      102.87889033928514
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "d2215688-facb-476d-954f-db45a8a55afe",
+    "pair_index": 13,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      40.16219312697649
+    ],
+    "normalized_linf_per_target": [
+      4.606416672468185
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "da6ca80c-0add-4abd-b753-8f1da160c682",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      148.46956745255738
+    ],
+    "normalized_linf_per_target": [
+      12.887024164199829
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "3397cf52-0af3-406d-a3d6-9a445440a2e4",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      118.07022104784846
+    ],
+    "normalized_linf_per_target": [
+      11.02564001083374
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "40cf90f2-528b-4428-a7c9-bc5e29b4aa5e",
+    "pair_index": 9,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      68.21752706170082
+    ],
+    "normalized_linf_per_target": [
+      8.393611751496792
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "cda67683-027f-494e-ada4-de1f8d11a5ac",
+    "pair_index": 56,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      99.20622196048498
+    ],
+    "normalized_linf_per_target": [
+      10.168644726276398
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "60ef8734-011e-44dc-b2fa-2c01c6e98436",
+    "pair_index": 6,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      179.49772302806377
+    ],
+    "normalized_linf_per_target": [
+      13.064844131469727
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "daed3c55-7c16-4f3e-8a99-23783ba7849a",
+    "pair_index": 11,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      53.391666896641254
+    ],
+    "normalized_linf_per_target": [
+      6.775924175977707
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "2cc2cbf4-9503-46ed-b669-bd0f068ce7ea",
+    "pair_index": 4,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      89.54978174716234
+    ],
+    "normalized_linf_per_target": [
+      8.948598086833954
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "279426b1-0100-4506-b3f5-b0d5f500c89e",
+    "pair_index": 37,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      63.97713855654001
+    ],
+    "normalized_linf_per_target": [
+      8.469254940748215
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "da89ebb5-0aa4-4967-bc34-c90a2ced2ac0",
+    "pair_index": 19,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      182.4351210668683
+    ],
+    "normalized_linf_per_target": [
+      12.585094451904297
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "07d53bdc-9422-4163-8d57-63dd7b679cc4",
+    "pair_index": 13,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      92.27797138690948
+    ],
+    "normalized_linf_per_target": [
+      9.360674262046814
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "f31d1e0a-6088-44d3-9af8-83ea084d1b18",
+    "pair_index": 3,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      159.8697444498539
+    ],
+    "normalized_linf_per_target": [
+      11.82393217086792
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "26610275-2db0-4454-ad01-b392c7177503",
+    "pair_index": 11,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      69.87983313947916
+    ],
+    "normalized_linf_per_target": [
+      8.158573597669601
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "7a0a2f61-7aa0-4f79-9caa-77e5f1bbdeab",
+    "pair_index": 13,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      95.41890010982752
+    ],
+    "normalized_linf_per_target": [
+      9.535889118909836
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "b3e8f0ba-bbbf-413c-80af-ebeb68ba69c2",
+    "pair_index": 12,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      139.30818632617593
+    ],
+    "normalized_linf_per_target": [
+      12.597280502319336
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "eb72c6b2-5d17-4c96-8ba9-fb3a468de7d5",
+    "pair_index": 12,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      191.38292860984802
+    ],
+    "normalized_linf_per_target": [
+      14.174864292144775
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "2d727781-8cb3-4d12-8299-02fb061eab1e",
+    "pair_index": 0,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      66.98598761856556
+    ],
+    "normalized_linf_per_target": [
+      8.900180637836456
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "ab9cb4cb-1e91-4ace-b1fd-11e32b9d871c",
+    "pair_index": 6,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      89.77368355542421
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "32de71e6-c976-45c6-9e3a-097f2a7c2988",
+    "pair_index": 14,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      115.33265619724989
+    ],
+    "normalized_linf_per_target": [
+      10.57133686542511
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "426f662e-63db-48bd-9479-f02c22a63ddd",
+    "pair_index": 173,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      92.66353423148394
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "992ead2b-f304-49f1-96ba-4ad9aa30f929",
+    "pair_index": 6,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      107.3670864328742
+    ],
+    "normalized_linf_per_target": [
+      10.562091886997223
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "c3bcea8d-0d94-4a8b-ade5-2f33503f3272",
+    "pair_index": 46,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      106.59289524704218
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "a6ad80c7-eee6-437f-8916-0e3d16d3bd6b",
+    "pair_index": 123,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      113.37384402751923
+    ],
+    "normalized_linf_per_target": [
+      10.463906556367874
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "27277b15-ddf8-4c67-84bd-070f2f4d4030",
+    "pair_index": 7,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      94.63210625946522
+    ],
+    "normalized_linf_per_target": [
+      11.100452184677124
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "8bec4620-e97b-435a-873e-cb4a5bd05b3a",
+    "pair_index": 15,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      111.46427925117314
+    ],
+    "normalized_linf_per_target": [
+      9.357021361589432
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "e67b4d1f-db08-4cee-bef8-3461f8eac723",
+    "pair_index": 9,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      104.81823807954788
+    ],
+    "normalized_linf_per_target": [
+      11.062031865119934
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "15564087-28fa-4995-8b43-4a4d72e4ac11",
+    "pair_index": 3,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      88.19124818593264
+    ],
+    "normalized_linf_per_target": [
+      10.282115429639816
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "d5d4bf8c-63a2-4e4e-900a-b3b319f608ce",
+    "pair_index": 8,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      157.09417171776295
+    ],
+    "normalized_linf_per_target": [
+      11.842387676239014
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "875086e5-182c-48f1-9864-5470f9e31106",
+    "pair_index": 1,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      179.61209425330162
+    ],
+    "normalized_linf_per_target": [
+      14.812182426452637
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "3db53d52-c8e4-4e7f-afdb-4204908c6680",
+    "pair_index": 11,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      126.31594124436378
+    ],
+    "normalized_linf_per_target": [
+      11.872753381729126
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "c5b980da-c1f1-4574-ba49-bb4c67a33897",
+    "pair_index": 14,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      52.6788570843637
+    ],
+    "normalized_linf_per_target": [
+      7.029259651899338
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "d8e99c21-b3fc-41ce-8950-7ea32b30fd87",
+    "pair_index": 13,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      102.52716150134802
+    ],
+    "normalized_linf_per_target": [
+      10.557537198066711
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "88e6bbb5-22b0-44d3-ba41-759df09d5c87",
+    "pair_index": 16,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      82.61047441512346
+    ],
+    "normalized_linf_per_target": [
+      8.536643922328949
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "e5d6ab5a-759c-4a6a-8a7c-5a1243e8fc82",
+    "pair_index": 5,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      155.8335503935814
+    ],
+    "normalized_linf_per_target": [
+      17.053675174713135
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "ca826ae3-56f4-46bb-95bf-945356281e94",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      151.0982910990715
+    ],
+    "normalized_linf_per_target": [
+      12.661608934402466
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "b37fa69a-bf86-4afe-b1f9-3ae52bb81bde",
+    "pair_index": 10,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      83.78364825248718
+    ],
+    "normalized_linf_per_target": [
+      9.727231115102768
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "acaa3878-e832-4e7b-a10b-66d04e57c9a9",
+    "pair_index": 3,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      82.6512078717351
+    ],
+    "normalized_linf_per_target": [
+      7.854267567396164
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "6c343235-17d9-4dc7-ad11-b7b61e534c6d",
+    "pair_index": 9,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      146.15303279459476
+    ],
+    "normalized_linf_per_target": [
+      10.511706590652466
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "39bd027e-c96b-4de6-a604-172c1b4899cc",
+    "pair_index": 4,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      130.29914325475693
+    ],
+    "normalized_linf_per_target": [
+      11.224882125854492
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "180d5dd5-247c-4ec7-b72e-80eaf36074d1",
+    "pair_index": 1,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      171.5975456237793
+    ],
+    "normalized_linf_per_target": [
+      13.046481132507324
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "1660621d-8c23-412a-bb25-65f3f25f9fb1",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      110.30824974179268
+    ],
+    "normalized_linf_per_target": [
+      9.579494029283524
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "544d1f0f-17c2-441f-b6c5-4c954b3c7ea6",
+    "pair_index": 39,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      91.80089985579252
+    ],
+    "normalized_linf_per_target": [
+      10.46390649676323
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "29af2a78-9a6d-4073-b49b-9d73ddae34a2",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      128.48918989300728
+    ],
+    "normalized_linf_per_target": [
+      12.10262155532837
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "8d6a1999-51fb-42f0-b0c3-54636a4cecb3",
+    "pair_index": 28,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      80.82005098182708
+    ],
+    "normalized_linf_per_target": [
+      10.463190197944641
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "7a4e70ad-2390-476e-968c-afa33733480e",
+    "pair_index": 15,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      107.6653750911355
+    ],
+    "normalized_linf_per_target": [
+      11.216435074806213
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "9027e3fd-acad-4632-9550-91fb03356ea6",
+    "pair_index": 6,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      76.76595128327608
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "38658473-3263-40fb-8158-ca96f798b3f5",
+    "pair_index": 132,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      100.9329561367631
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "579a8466-9bac-4048-8e48-d61767291fd6",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      155.64084164053202
+    ],
+    "normalized_linf_per_target": [
+      14.059582710266113
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "ad92583b-f691-4898-aa62-349833c90630",
+    "pair_index": 4,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      100.64921439439058
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "4bfa3963-5a53-4133-8c14-c05bbd5f5544",
+    "pair_index": 14,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      101.73383191972971
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "e71a57cf-f8d8-4db9-9f4f-d41192f8e947",
+    "pair_index": 7,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      120.71342070773244
+    ],
+    "normalized_linf_per_target": [
+      11.29967188835144
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "a8d8e8aa-3adc-45ed-8602-0a889d09e617",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      156.2002972960472
+    ],
+    "normalized_linf_per_target": [
+      13.21184229850769
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "826b41e6-7f8b-4b96-9c64-87c6c8f4951b",
+    "pair_index": 93,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      89.77577141672373
+    ],
+    "normalized_linf_per_target": [
+      9.685911536216736
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "a55724d3-7f2d-4b94-a4f2-5cc877b502ce",
+    "pair_index": 89,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      72.99820118397474
+    ],
+    "normalized_linf_per_target": [
+      8.407561749219894
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "1e47369f-fdda-4e6a-91bc-ff1a4fe53427",
+    "pair_index": 174,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      105.45111907273531
+    ],
+    "normalized_linf_per_target": [
+      10.484052032232285
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "bc813c68-1891-4e4a-93c5-8c2f540d09cb",
+    "pair_index": 17,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      97.87915404886007
+    ],
+    "normalized_linf_per_target": [
+      9.75446504354477
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "876bfe08-1a5d-4e7a-bbad-b37d6e4472aa",
+    "pair_index": 38,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      116.08364363759756
+    ],
+    "normalized_linf_per_target": [
+      10.568382859230042
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "cca7bd39-3ef3-4ba0-bcd6-a44b600e5158",
+    "pair_index": 0,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      122.50800234824419
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "b29431d1-118e-48c0-b330-477fce104fe6",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      39.35303555428982
+    ],
+    "normalized_linf_per_target": [
+      5.705070972442627
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "4630fdf9-97a5-4c7b-b57d-d7746afa5d9e",
+    "pair_index": 7,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      56.78362799063325
+    ],
+    "normalized_linf_per_target": [
+      4.902909457683563
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "f33afe41-217e-4067-aaff-2fd6e3e81f6c",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      132.36146095395088
+    ],
+    "normalized_linf_per_target": [
+      11.665810704231262
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "a82d0da3-7512-4bfa-937d-7d79501a679f",
+    "pair_index": 4,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      92.23366593569517
+    ],
+    "normalized_linf_per_target": [
+      9.676948815584183
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "6c9a3f86-4a06-47b3-8a2a-2c731504d79f",
+    "pair_index": 4,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      137.51142805814743
+    ],
+    "normalized_linf_per_target": [
+      12.041483402252197
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "72f1c7d9-bef4-4c95-911b-e339c4881ccd",
+    "pair_index": 4,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      177.79547530412674
+    ],
+    "normalized_linf_per_target": [
+      15.305948257446289
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "cada341e-fefd-4e5d-b68c-065451337675",
+    "pair_index": 10,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      93.19401673227549
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "9e358f5a-654a-41c8-bc35-508e93c4f980",
+    "pair_index": 7,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      57.674893505871296
+    ],
+    "normalized_linf_per_target": [
+      7.304358929395676
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "bd41d66f-f4c1-4fb5-b830-e63bab654bbf",
+    "pair_index": 3,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      149.0273920800537
+    ],
+    "normalized_linf_per_target": [
+      11.528609991073608
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "8a48d12c-c054-4a0c-aaea-336a050def33",
+    "pair_index": 8,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      55.51386454701424
+    ],
+    "normalized_linf_per_target": [
+      5.402296110987663
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "4415e84e-e92d-45ed-9ad3-10f8bc425e62",
+    "pair_index": 15,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      123.55431138724089
+    ],
+    "normalized_linf_per_target": [
+      10.52251523733139
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "c06e4c29-eb90-40fa-8697-939b2fc1f097",
+    "pair_index": 15,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      95.41997927706689
+    ],
+    "normalized_linf_per_target": [
+      11.446197509765625
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "9646efc9-cecd-43e0-bf63-508559ef4e74",
+    "pair_index": 99,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      65.5274341031909
+    ],
+    "normalized_linf_per_target": [
+      7.969658821821213
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "7c263c73-4bce-4d55-9b7b-5439ff5daa15",
+    "pair_index": 34,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      106.94272322952747
+    ],
+    "normalized_linf_per_target": [
+      9.975856825709343
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "236ddf2b-78c4-4b2f-8452-f7c2f987cea3",
+    "pair_index": 8,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      87.30646914243698
+    ],
+    "normalized_linf_per_target": [
+      10.018713027238846
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "c11b40b3-255b-4da1-a9d5-d6f07cb1eea9",
+    "pair_index": 22,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      157.79112076759338
+    ],
+    "normalized_linf_per_target": [
+      14.19740104675293
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "829bd57c-d6bf-4391-a3dd-4e292f578289",
+    "pair_index": 1,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      66.79960916936398
+    ],
+    "normalized_linf_per_target": [
+      5.926785662770271
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "e87d2259-e915-41a0-b897-b661eaf34357",
+    "pair_index": 4,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      64.70000980049372
+    ],
+    "normalized_linf_per_target": [
+      6.08666130900383
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "2b53a0f8-c932-4c49-90b1-c60119e1d1c6",
+    "pair_index": 19,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      90.53311984241009
+    ],
+    "normalized_linf_per_target": [
+      9.396066278219223
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "fa3fcd50-d743-4932-acc7-15a55d9d7506",
+    "pair_index": 3,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      61.60427013784647
+    ],
+    "normalized_linf_per_target": [
+      7.9132279753685
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "e8d32508-4fe3-4caa-8b04-6dabd6940587",
+    "pair_index": 10,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      131.93672454357147
+    ],
+    "normalized_linf_per_target": [
+      9.997992277145386
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "6ed44ff2-7561-49d8-b2f0-297d30737563",
+    "pair_index": 6,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      93.74020323902369
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "a184098e-cfd2-4a42-be19-8c7d741b952f",
+    "pair_index": 6,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      110.19675959646702
+    ],
+    "normalized_linf_per_target": [
+      10.012088440358639
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "6e807556-f06e-49a2-9dd1-71e5d4a80a64",
+    "pair_index": 1,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      138.63723765686154
+    ],
+    "normalized_linf_per_target": [
+      11.126573920249939
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "928ad068-ff36-4383-9090-803945e91dc7",
+    "pair_index": 6,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      103.14575350284576
+    ],
+    "normalized_linf_per_target": [
+      9.876039415597916
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "2a4c602e-0368-449a-9b0e-5846a6ff5c83",
+    "pair_index": 65,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      116.09238722920418
+    ],
+    "normalized_linf_per_target": [
+      10.897739231586456
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "e59aca2a-3dd2-4f64-9d89-a9dd0c3c2ab0",
+    "pair_index": 0,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      78.54361422359943
+    ],
+    "normalized_linf_per_target": [
+      9.55848640203476
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "4fc8a8f9-fd7d-4be5-b470-39f8646d51bd",
+    "pair_index": 13,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      121.69841766357422
+    ],
+    "normalized_linf_per_target": [
+      14.757546424865723
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "a312d189-7d4a-493c-9e2f-fbf4b13b5286",
+    "pair_index": 5,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      69.77804100513458
+    ],
+    "normalized_linf_per_target": [
+      7.870133399963379
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "63203b20-8e5e-4760-b077-96e3be4b868c",
+    "pair_index": 138,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      102.26431853324175
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "73da8525-022e-42a5-984e-608099608b83",
+    "pair_index": 25,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      45.48261899501085
+    ],
+    "normalized_linf_per_target": [
+      6.407808750867844
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "58799de8-3ac2-4da6-b69e-69252823d4f7",
+    "pair_index": 0,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      98.40830546617508
+    ],
+    "normalized_linf_per_target": [
+      10.847348093986511
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "ed5551d4-180b-47e5-804d-5ab26b8ee827",
+    "pair_index": 12,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      151.5912587493658
+    ],
+    "normalized_linf_per_target": [
+      12.398543357849121
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "08b6b4c0-51ec-4664-a158-a8ebf4605f2c",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      63.555513478815556
+    ],
+    "normalized_linf_per_target": [
+      8.39943978190422
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "0a39295e-3523-46b5-95b5-69266c60be2a",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      107.98592818900943
+    ],
+    "normalized_linf_per_target": [
+      10.415856838226318
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "5e54581f-17a0-418a-b5d3-00e050ad5ce2",
+    "pair_index": 33,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      86.87983361631632
+    ],
+    "normalized_linf_per_target": [
+      10.00455042719841
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "815ef2dd-0074-43e9-bfc9-8753f6507ccb",
+    "pair_index": 9,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      100.84047213941813
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "2f187afc-d9c1-4c1f-bbcc-fa5f915aa59b",
+    "pair_index": 3,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      108.40521115064621
+    ],
+    "normalized_linf_per_target": [
+      9.837877362966537
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "48fb1715-44cd-4e6a-9ea1-95687017c3c3",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      143.283617570356
+    ],
+    "normalized_linf_per_target": [
+      11.551498889923096
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "c2b9c504-9aeb-4eb8-a169-f44cfc9027d0",
+    "pair_index": 24,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      125.57029570639133
+    ],
+    "normalized_linf_per_target": [
+      11.975888133049011
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "c34371d1-a6a6-4427-8b89-441fe085e4e4",
+    "pair_index": 4,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      180.85778000950813
+    ],
+    "normalized_linf_per_target": [
+      13.135660409927368
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "3425bffb-4d78-4c6a-8073-0733ec8088bd",
+    "pair_index": 0,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      78.32508967071772
+    ],
+    "normalized_linf_per_target": [
+      8.596651524305344
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "195d4388-abdc-4a9e-b15b-cbb0d2d25347",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      178.1314448863268
+    ],
+    "normalized_linf_per_target": [
+      13.019829511642456
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "d61165db-0cf9-4131-b97f-5227deb52ec2",
+    "pair_index": 19,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      113.14402747899294
+    ],
+    "normalized_linf_per_target": [
+      10.4808469414711
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "3aed80e9-b925-4025-97d8-dcd3d96af7f8",
+    "pair_index": 21,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      94.25352346897125
+    ],
+    "normalized_linf_per_target": [
+      9.677677184343338
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "d22a22bb-886e-4322-9a3a-84ae6143134f",
+    "pair_index": 47,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      99.07549350708723
+    ],
+    "normalized_linf_per_target": [
+      9.611825436353683
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "69e212c5-4acf-4998-bb99-f78607674e37",
+    "pair_index": 10,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      69.785082526505
+    ],
+    "normalized_linf_per_target": [
+      8.66112357378006
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "3261135a-a9f4-4a6d-81c6-56d6dfe48133",
+    "pair_index": 1,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      115.06430790573359
+    ],
+    "normalized_linf_per_target": [
+      10.487403810024261
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "7a252189-d2a3-4959-a6ec-6d725cfda143",
+    "pair_index": 1,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      77.46312514692545
+    ],
+    "normalized_linf_per_target": [
+      9.20541426539421
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "41a4e9fa-0861-4564-a7c3-4e6b9a39917c",
+    "pair_index": 46,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      50.752363450825214
+    ],
+    "normalized_linf_per_target": [
+      6.40492245554924
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "9ec9b3a4-1f42-4d65-9ca6-69107e4df67a",
+    "pair_index": 38,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      88.51310085505247
+    ],
+    "normalized_linf_per_target": [
+      9.570825517177582
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "024b4238-870b-43ce-8664-f224178a13c0",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      83.53885262459517
+    ],
+    "normalized_linf_per_target": [
+      10.187006443738937
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "bc1de3d4-875e-4b5e-b6c2-5043d65c6289",
+    "pair_index": 15,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      63.57518858462572
+    ],
+    "normalized_linf_per_target": [
+      7.466231793165207
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "853cc67d-12c8-4c02-a0c9-7826f746fed0",
+    "pair_index": 51,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      95.62405263632536
+    ],
+    "normalized_linf_per_target": [
+      10.045755326747894
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "878795de-17ea-4a8b-94fb-1df3984694bd",
+    "pair_index": 15,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      95.21447549015284
+    ],
+    "normalized_linf_per_target": [
+      9.61399120092392
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "7e816049-d8ae-4af4-8531-7f590c049cee",
+    "pair_index": 1,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      117.89414890110493
+    ],
+    "normalized_linf_per_target": [
+      10.463866353034973
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "8dc08d6d-ad1e-4473-b07f-6d21d689f05c",
+    "pair_index": 227,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      107.69391510635614
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "c5994fec-7fcf-430d-9429-ee4bc083e07a",
+    "pair_index": 22,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      146.5600505322218
+    ],
+    "normalized_linf_per_target": [
+      10.684029340744019
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "1c22fe2d-0d8f-438b-a63a-4002bc252c11",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      157.51870811730623
+    ],
+    "normalized_linf_per_target": [
+      13.07911992073059
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "077c3909-c5c1-4e73-919b-32b7aaa31680",
+    "pair_index": 9,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      134.50065418332815
+    ],
+    "normalized_linf_per_target": [
+      10.551487505435944
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "a4ccfd9f-21f8-47af-87a7-40cf6830847e",
+    "pair_index": 6,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      85.29715833812952
+    ],
+    "normalized_linf_per_target": [
+      9.3607859313488
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "cb0b759c-f2f1-4671-9d53-29b90a534b39",
+    "pair_index": 0,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      158.80176446400583
+    ],
+    "normalized_linf_per_target": [
+      12.346591472625732
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "6df77f59-240b-4e49-a00c-3ccc62451442",
+    "pair_index": 94,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      91.43971533328295
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "98d373ff-d8e4-4549-b1c2-f5d0b6a24e26",
+    "pair_index": 1,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      176.17285811901093
+    ],
+    "normalized_linf_per_target": [
+      14.405349254608154
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "6dc615f4-3bb6-458a-a2ca-d3acdc8e070e",
+    "pair_index": 5,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      70.89852388203144
+    ],
+    "normalized_linf_per_target": [
+      10.163304775953293
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "f29b29df-c4d7-434b-8a2f-3fd96203f0e1",
+    "pair_index": 22,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      120.74933541566133
+    ],
+    "normalized_linf_per_target": [
+      9.964582450687885
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "ce28fd18-422b-4c81-b378-2326a5de8c53",
+    "pair_index": 28,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      97.35250275582075
+    ],
+    "normalized_linf_per_target": [
+      10.542820930480957
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "1f593362-a65f-43a8-959a-829e16e35a06",
+    "pair_index": 3,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      44.527828723192215
+    ],
+    "normalized_linf_per_target": [
+      4.804596781730652
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "9f42afca-3a25-4129-9ce7-78e155d852e7",
+    "pair_index": 6,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      123.30981612578034
+    ],
+    "normalized_linf_per_target": [
+      12.399807453155518
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "1e632db1-891b-4a1a-b02b-e602135c2475",
+    "pair_index": 1,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      58.12428895011544
+    ],
+    "normalized_linf_per_target": [
+      6.976160049438477
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "48804282-3db4-41d8-8e1e-ee8a28d9cd04",
+    "pair_index": 75,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      108.90812451392412
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "84f1270b-9670-4a21-9a96-ceaeed313d4f",
+    "pair_index": 1,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      193.2335775643587
+    ],
+    "normalized_linf_per_target": [
+      13.933861017227173
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "75320409-a3b2-4fd1-8cf0-befcc5b9226b",
+    "pair_index": 8,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      118.42302814871073
+    ],
+    "normalized_linf_per_target": [
+      10.463905096054077
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "5c4f93fd-ef24-41a7-bfe6-b4a57af9e94d",
+    "pair_index": 21,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      71.70719768106937
+    ],
+    "normalized_linf_per_target": [
+      7.552917450666428
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "06b9063d-89b5-43ab-90a7-ca638bb0d42b",
+    "pair_index": 130,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      84.6085583716631
+    ],
+    "normalized_linf_per_target": [
+      8.096451252698898
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "9323b563-b82c-4996-a956-e0859585511a",
+    "pair_index": 11,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      101.06712990254164
+    ],
+    "normalized_linf_per_target": [
+      10.489438116550446
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "8298fc0d-014a-4aac-badf-d5fab892498d",
+    "pair_index": 15,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      119.14667848497629
+    ],
+    "normalized_linf_per_target": [
+      12.201038360595703
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "482b2088-c23d-4eef-837a-d409215f1c82",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      100.0966074615717
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "946e6db2-9b19-461f-91a3-327437223997",
+    "pair_index": 41,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      103.27310674265027
+    ],
+    "normalized_linf_per_target": [
+      9.461716175079346
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "65fdb316-90a0-4614-899b-5164a2fae09c",
+    "pair_index": 0,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      96.89211685210466
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "95307ce9-fc8a-4a90-954b-ef521216666b",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      107.14204872399569
+    ],
+    "normalized_linf_per_target": [
+      10.955524682998657
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "006c1c67-be11-4969-abf8-bc873c1568a5",
+    "pair_index": 7,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      100.52213256061077
+    ],
+    "normalized_linf_per_target": [
+      9.414327502250671
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "5637ded5-5ae6-4ae1-98b7-0f1b988ac792",
+    "pair_index": 7,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      100.67804823815823
+    ],
+    "normalized_linf_per_target": [
+      10.32003340125084
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "3be3bb90-5728-430f-b1be-dc39d0279896",
+    "pair_index": 51,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      92.18695154041052
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "cd5643e8-5541-45ce-958d-fc267118ee9f",
+    "pair_index": 36,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      165.19932466745377
+    ],
+    "normalized_linf_per_target": [
+      13.482643365859985
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "bf75addd-4814-4cdf-a7fa-b95584cd5971",
+    "pair_index": 2,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      113.59973668307066
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "6e90d699-5332-4702-b2e3-5f42ec35c8e3",
+    "pair_index": 47,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      113.59359001368284
+    ],
+    "normalized_linf_per_target": [
+      10.552034854888916
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "6ed177ed-d08d-4b8c-9523-caa7255e8002",
+    "pair_index": 3,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      95.0449885353446
+    ],
+    "normalized_linf_per_target": [
+      10.99655532836914
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "6d72c4a2-618d-4739-a17c-1168f35a4141",
+    "pair_index": 12,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      85.41193268448114
+    ],
+    "normalized_linf_per_target": [
+      9.82857272028923
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "8b5e2e4c-4132-4bd1-aea9-b094a337798c",
+    "pair_index": 8,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      118.94915010035038
+    ],
+    "normalized_linf_per_target": [
+      11.43239450454712
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "d7177e09-229c-4789-a706-f3834cef879b",
+    "pair_index": 12,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      101.11643807590008
+    ],
+    "normalized_linf_per_target": [
+      10.195934116840363
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "0749a7dc-fe73-4732-9a16-1ea66b0ea8ff",
+    "pair_index": 6,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      169.76365534216166
+    ],
+    "normalized_linf_per_target": [
+      15.049723148345947
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "835482ac-d883-48c9-b4fe-cffbbcd68f24",
+    "pair_index": 28,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      103.83961557596922
+    ],
+    "normalized_linf_per_target": [
+      10.463906735181808
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "2938f64f-7447-4de2-94e8-7490acefcb89",
+    "pair_index": 20,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      66.81446140445769
+    ],
+    "normalized_linf_per_target": [
+      6.825941741466522
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "7ac4319e-7fd3-41e7-a661-564d48aec198",
+    "pair_index": 3,
+    "motion_regime": "slow",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      86.25915419310331
+    ],
+    "normalized_linf_per_target": [
+      8.302866458892822
+    ],
+    "non_target_changed_rows": 0
+  },
+  {
+    "scenario_id": "b90e46c3-f417-4e83-b66d-b82a708ae0ae",
+    "pair_index": 100,
+    "motion_regime": "moving",
+    "coordinates_outside_domain": 0,
+    "space": "standardized_784D_not_physical_units",
+    "target_count": 1,
+    "support_capacity": 24,
+    "actual_changed_coordinates_per_target": [
+      24
+    ],
+    "normalized_l1_per_target": [
+      95.07652527093887
+    ],
+    "normalized_linf_per_target": [
+      10.887406826019287
+    ],
+    "non_target_changed_rows": 0
+  }
+]

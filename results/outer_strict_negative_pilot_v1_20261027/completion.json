@@ -1,0 +1,23 @@
+{
+  "status": "PILOT_COMPLETE_REVIEW_REQUIRED",
+  "seed": 20260621,
+  "completed_arms": [
+    "original_outer",
+    "strict_negative_outer"
+  ],
+  "graph_arrays_read": 640,
+  "optimizer_steps_per_arm": {
+    "generator": 200,
+    "surrogate": 200,
+    "discriminator": 200,
+    "victim": 200
+  },
+  "victim_epochs_per_arm": 200,
+  "original_validation_arrays_loaded": false,
+  "original_test_arrays_loaded": false,
+  "audit_arrays_loaded": false,
+  "confirmation_arrays_loaded": false,
+  "automatic_followup_jobs": false,
+  "elapsed_seconds": 4602.732473850949,
+  "completed_utc": "2026-10-27T14:59:43.078838+00:00"
+}

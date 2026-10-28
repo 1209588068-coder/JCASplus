@@ -1,0 +1,9 @@
+{
+  "status": "ARM_COMPLETE",
+  "arm": "strict_negative_outer",
+  "seed": 20260621,
+  "initial_generator_state_sha256": "f4a7fe844f4e4b109758488e8d7bfde88a02bd6c1bc9ca6867db8f06a727d799",
+  "generator_steps": 200,
+  "victim_epochs": 200,
+  "original_inputs_unchanged": true
+}

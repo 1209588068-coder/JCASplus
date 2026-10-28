@@ -1,0 +1,111 @@
+{
+  "victim": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/training/unconditional/victim_auc.pt",
+    "sha256": "45a1bcb05fd24e31550d26ad030eac538ad88c40a06dc522a92e3a8504d3c0c0"
+  },
+  "trace": {
+    "training_forwards": 200,
+    "eval_forwards": 200,
+    "best_accuracy_epoch": 118,
+    "max_dev_auc_epoch": 189,
+    "dev_auc_gap_to_max": 0.003031027130357855,
+    "best_accuracy_row": {
+      "epoch": 118,
+      "loss": 0.2515040338039398,
+      "accuracy": 0.9073324336482231,
+      "auc": 0.9066961988089112,
+      "average_precision": 0.6095295547404773,
+      "positive_recall": 0.46785714285714286,
+      "negative_recall": 0.970663921770458,
+      "tp": 131,
+      "fp": 57,
+      "tn": 1886,
+      "fn": 149,
+      "positives": 280,
+      "negatives": 1943,
+      "is_best_accuracy": true,
+      "parameters_sha256": "afcd27f61c4524d9986eff5777d927a097f57b4defaf30ebaf44d26cc01cbbd2"
+    },
+    "max_dev_auc_row": {
+      "epoch": 189,
+      "loss": 0.26768484711647034,
+      "accuracy": 0.8983355825461089,
+      "auc": 0.909727225939269,
+      "average_precision": 0.6200377797462348,
+      "positive_recall": 0.4607142857142857,
+      "negative_recall": 0.9613998970663922,
+      "tp": 129,
+      "fp": 75,
+      "tn": 1868,
+      "fn": 151,
+      "positives": 280,
+      "negatives": 1943,
+      "is_best_accuracy": false,
+      "parameters_sha256": "e63f4b77aa8aadfd7b8d711648c6270744c4aa50d354d33132518079a62d2263"
+    },
+    "epoch_numbering": "zero based; observed after optimizer step",
+    "average_precision_definition": "sklearn average precision, not trapezoidal PR AUC",
+    "max_auc_is_descriptive_only": false,
+    "alternate_checkpoint_saved": false,
+    "selected_auc_epoch": 189,
+    "selected_auc_digest": "e63f4b77aa8aadfd7b8d711648c6270744c4aa50d354d33132518079a62d2263",
+    "selected_auc_row": {
+      "epoch": 189,
+      "loss": 0.26768484711647034,
+      "accuracy": 0.8983355825461089,
+      "auc": 0.909727225939269,
+      "average_precision": 0.6200377797462348,
+      "positive_recall": 0.4607142857142857,
+      "negative_recall": 0.9613998970663922,
+      "tp": 129,
+      "fp": 75,
+      "tn": 1868,
+      "fn": 151,
+      "positives": 280,
+      "negatives": 1943,
+      "is_best_accuracy": false,
+      "parameters_sha256": "e63f4b77aa8aadfd7b8d711648c6270744c4aa50d354d33132518079a62d2263"
+    }
+  },
+  "quality": {
+    "gate": "PASS_PROXY_QUALITY",
+    "checks": {
+      "auc": true,
+      "positive_recall": true,
+      "both_classes_predicted": true
+    },
+    "auc": 0.909727225939269,
+    "positive_recall": 0.4607142857142857,
+    "pairs": 2223,
+    "positives": 280,
+    "predicted_positive": 204,
+    "predicted_negative": 2019
+  },
+  "initialization_digest": "cf5aa0801c088184fb869d8d4129a249bae8a926bd922c12b0446a1ce7b3c3d0",
+  "fit_rng_digest": "2f92b33e83652d5a0a0fdfc51659899df73cf2686b46afdb0e05cf9783ce5db4",
+  "arm": "unconditional",
+  "generator": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/training/unconditional/generator.pt",
+    "sha256": "1e28dcc3ecf510a6e22b9fc2728fe684e840f41f882b28cffab57776af7add87"
+  },
+  "surrogate": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/training/unconditional/surrogate.pt",
+    "sha256": "3948a78329c357e3104c3dd6fe05c93913292e2a7def9259738f77e936dbea97"
+  },
+  "discriminator": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/training/unconditional/discriminator.pt",
+    "sha256": "e8adb07503b3e55274a4079a78ccb972848a2d668b01911e9799bc4310c68d87"
+  },
+  "distribution_record": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/training/unconditional/distribution_record.json",
+    "sha256": "c91ee766aefb5c7dcff2c10bf99bb28fc36595cdb364977cdd1a0ff709e626e4"
+  },
+  "generator_record": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/training/unconditional/generator_record.json",
+    "sha256": "9bae2794ddd058e750f2630766d8f0762823cd1fb52e8dc9c6069b66699b9cc0"
+  },
+  "smoke": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/training/unconditional/smoke.json",
+    "sha256": "01fca65a4e91e87b34345f87b05f4e03cfe2499feffb2fa3c9af686ea736b5f3"
+  }
+}

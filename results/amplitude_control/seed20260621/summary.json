@@ -1,0 +1,19 @@
+{
+  "status": "AMPLITUDE_CONTROL_SEED_COMPLETE",
+  "seed": 20260621,
+  "review": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/seed20260621/review.json",
+    "sha256": "10ef8b7473dbf7b6a65f8ad1b7dd7e74b530b1f1c0fd24f14a603c6be72c2c15"
+  },
+  "distribution": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/seed20260621/distribution_metrics.json",
+    "sha256": "d0feb74b7cc9a1a60453922c6780f698c5b8a8f5d3dff8c6beff8b5bc255b75f"
+  },
+  "report": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/seed20260621/audit/summary.json",
+    "sha256": "a1096806a2533475106ad812da9204aee97dc323bceeef933750e2039563ed74"
+  },
+  "original_val_arrays_loaded": false,
+  "original_test_arrays_loaded": false,
+  "independent_confirmation": false
+}

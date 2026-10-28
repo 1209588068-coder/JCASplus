@@ -1,0 +1,177 @@
+[domain-replay] TRAIN context 64/512
+[domain-replay] TRAIN context 128/512
+[domain-replay] TRAIN context 192/512
+[domain-replay] TRAIN context 256/512
+[domain-replay] TRAIN context 320/512
+[domain-replay] TRAIN context 384/512
+[domain-replay] TRAIN context 448/512
+[domain-replay] TRAIN context 512/512
+[amplitude-control] seed20260621: fitting fresh victim 200 epochs
+=== training gcn model ===
+Epoch 0, training loss: 0.7734358906745911
+acc_val: 0.8722
+Epoch 10, training loss: 0.5437207818031311
+acc_val: 0.8776
+Epoch 20, training loss: 0.2970779836177826
+acc_val: 0.8767
+Epoch 30, training loss: 0.23827305436134338
+acc_val: 0.8848
+Epoch 40, training loss: 0.20126307010650635
+acc_val: 0.9010
+Epoch 50, training loss: 0.18400348722934723
+acc_val: 0.9010
+Epoch 60, training loss: 0.1818573772907257
+acc_val: 0.8979
+Epoch 70, training loss: 0.16399367153644562
+acc_val: 0.8983
+Epoch 80, training loss: 0.1466522216796875
+acc_val: 0.9019
+Epoch 90, training loss: 0.13992317020893097
+acc_val: 0.8934
+Epoch 100, training loss: 0.14417551457881927
+acc_val: 0.8983
+Epoch 110, training loss: 0.13327603042125702
+acc_val: 0.8970
+Epoch 120, training loss: 0.12036358565092087
+acc_val: 0.9024
+Epoch 130, training loss: 0.1277826726436615
+acc_val: 0.9001
+Epoch 140, training loss: 0.13608723878860474
+acc_val: 0.8988
+Epoch 150, training loss: 0.12136945873498917
+acc_val: 0.9069
+Epoch 160, training loss: 0.1137567088007927
+acc_val: 0.8979
+Epoch 170, training loss: 0.10860525071620941
+acc_val: 0.9001
+Epoch 180, training loss: 0.1041032001376152
+acc_val: 0.8952
+Epoch 190, training loss: 0.1066964641213417
+acc_val: 0.9015
+=== picking the best model according to the performance on validation ===
+[amplitude-control] seed20260622: fitting fresh victim 200 epochs
+=== training gcn model ===
+Epoch 0, training loss: 0.9118615984916687
+acc_val: 0.8596
+Epoch 10, training loss: 0.4660520553588867
+acc_val: 0.8835
+Epoch 20, training loss: 0.30316802859306335
+acc_val: 0.8722
+Epoch 30, training loss: 0.24858932197093964
+acc_val: 0.8826
+Epoch 40, training loss: 0.2275795191526413
+acc_val: 0.8961
+Epoch 50, training loss: 0.19187738001346588
+acc_val: 0.8947
+Epoch 60, training loss: 0.17601270973682404
+acc_val: 0.9015
+Epoch 70, training loss: 0.16972757875919342
+acc_val: 0.8983
+Epoch 80, training loss: 0.1556636095046997
+acc_val: 0.8997
+Epoch 90, training loss: 0.15130610764026642
+acc_val: 0.8965
+Epoch 100, training loss: 0.1459161937236786
+acc_val: 0.9006
+Epoch 110, training loss: 0.13831712305545807
+acc_val: 0.8952
+Epoch 120, training loss: 0.1375972181558609
+acc_val: 0.8992
+Epoch 130, training loss: 0.12972936034202576
+acc_val: 0.8956
+Epoch 140, training loss: 0.13736917078495026
+acc_val: 0.8983
+Epoch 150, training loss: 0.1327023208141327
+acc_val: 0.8983
+Epoch 160, training loss: 0.12933549284934998
+acc_val: 0.9028
+Epoch 170, training loss: 0.12560921907424927
+acc_val: 0.8956
+Epoch 180, training loss: 0.12942619621753693
+acc_val: 0.8983
+Epoch 190, training loss: 0.11132336407899857
+acc_val: 0.8925
+=== picking the best model according to the performance on validation ===
+[amplitude-control] seed20260623: fitting fresh victim 200 epochs
+=== training gcn model ===
+Epoch 0, training loss: 0.7768288850784302
+acc_val: 0.8484
+Epoch 10, training loss: 0.47432586550712585
+acc_val: 0.8749
+Epoch 20, training loss: 0.312134712934494
+acc_val: 0.8758
+Epoch 30, training loss: 0.24331866204738617
+acc_val: 0.8880
+Epoch 40, training loss: 0.2214515209197998
+acc_val: 0.8983
+Epoch 50, training loss: 0.18626119196414948
+acc_val: 0.9019
+Epoch 60, training loss: 0.17700250446796417
+acc_val: 0.9001
+Epoch 70, training loss: 0.16280120611190796
+acc_val: 0.9064
+Epoch 80, training loss: 0.15232740342617035
+acc_val: 0.9046
+Epoch 90, training loss: 0.1408117115497589
+acc_val: 0.8983
+Epoch 100, training loss: 0.1272648125886917
+acc_val: 0.9015
+Epoch 110, training loss: 0.1404738575220108
+acc_val: 0.8988
+Epoch 120, training loss: 0.14324158430099487
+acc_val: 0.8956
+Epoch 130, training loss: 0.129891037940979
+acc_val: 0.9028
+Epoch 140, training loss: 0.12483604997396469
+acc_val: 0.8934
+Epoch 150, training loss: 0.1217992901802063
+acc_val: 0.9078
+Epoch 160, training loss: 0.1489028036594391
+acc_val: 0.8947
+Epoch 170, training loss: 0.11259040236473083
+acc_val: 0.8916
+Epoch 180, training loss: 0.11858497560024261
+acc_val: 0.9033
+Epoch 190, training loss: 0.1416807472705841
+acc_val: 0.8970
+=== picking the best model according to the performance on validation ===
+{
+  "status": "AMPLITUDE_CONTROL_COMPLETE_REVIEW_REQUIRED",
+  "at": "2026-10-27T09:57:43.912259+00:00",
+  "plan": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/plan.json",
+    "sha256": "df2c9e548f12c0ca2930f55f7b5f2572ad2a2ec4234b0007beea1af6daf9bda8"
+  },
+  "aggregate": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/aggregate.json",
+    "sha256": "1495f4ddbece71cbb14b646ef4ecd556d644c4e20508c97a3536d1d7fa7e1a20"
+  },
+  "optimization_complete": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/training/optimization_complete.json",
+    "sha256": "73b5a1ac9ab20872a69fcf2a5f55e1275341fa834e0f0cfe69a858e4f5daad47"
+  },
+  "train_dev_ledger": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/training/train_dev_graph_access_ledger.json",
+    "sha256": "613c3bccd1c9aff8ad9b61f389ec23db62a32e4362d364543e3d27700d2f05bb"
+  },
+  "seed_reports": {
+    "20260621": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/seed20260621/summary.json",
+      "sha256": "5fc0c219713938b1924d822307bd0f4fb61c4466bbe4aac9676c1b85ec2f6f7f"
+    },
+    "20260622": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/seed20260622/summary.json",
+      "sha256": "b85db9deeb3b5c6a85a7cddd6c324b866eca526ec19d46a9b11ae2002a3f0348"
+    },
+    "20260623": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/seed20260623/summary.json",
+      "sha256": "7cbb69cb841985b1663001a29ddc16e29f0a22f272d3ea6cd1ea0b46b296e5ea"
+    }
+  },
+  "original_val_arrays_loaded": false,
+  "original_test_arrays_loaded": false,
+  "independent_confirmation": false,
+  "full_pipeline_replication": false,
+  "automatic_followup": false,
+  "automatic_promotion": false
+}

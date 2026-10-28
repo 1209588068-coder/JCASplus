@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-27T12:05:17.824811+00:00",
+  "status": "GROUP_CONFIRMATION_COMPLETE_REVIEW_REQUIRED",
+  "completed_seeds": [
+    20260621,
+    20260622,
+    20260623
+  ],
+  "plan_sha256": "a56a7a48a826c6cbd26eb76ce0af39d27c9424b37e303ebd9dcd1d4c0d031ed4",
+  "aggregate_sha256": "b63a6697aa551f295553d4492cb75143b0a98eb0287f6c02c915f2eb2470d629",
+  "all_seeds_pass": false,
+  "training_started": false,
+  "original_val_arrays_loaded": false,
+  "original_test_arrays_loaded": false,
+  "automatic_followup": false
+}

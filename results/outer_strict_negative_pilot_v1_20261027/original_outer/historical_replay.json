@@ -1,0 +1,24 @@
+{
+  "models": {
+    "generator": {
+      "exactly_equal": true,
+      "max_abs_state_delta": 0.0,
+      "current_state_sha256": "c909d42d91186401ea29fc97053859122409bb98e178180caa356b53e2e81041",
+      "retained_state_sha256": "c909d42d91186401ea29fc97053859122409bb98e178180caa356b53e2e81041"
+    },
+    "surrogate": {
+      "exactly_equal": true,
+      "max_abs_state_delta": 0.0,
+      "current_state_sha256": "33e6420dadd1d62e1c173ec2fab15dd36c3d9349c39ef86fdb7eb89d8dc11d99",
+      "retained_state_sha256": "33e6420dadd1d62e1c173ec2fab15dd36c3d9349c39ef86fdb7eb89d8dc11d99"
+    },
+    "victim": {
+      "exactly_equal": true,
+      "max_abs_state_delta": 0.0,
+      "current_state_sha256": "895cc9674f99364663bc2f32450aabd9a5bbb1692ca98b3d9a49e41e09b672d7",
+      "retained_state_sha256": "895cc9674f99364663bc2f32450aabd9a5bbb1692ca98b3d9a49e41e09b672d7"
+    }
+  },
+  "exact_replay": true,
+  "interpretation": "A mismatch requires investigation; pilot comparison still uses its contemporaneously trained control, not substituted historical metrics."
+}

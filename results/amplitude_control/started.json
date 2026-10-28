@@ -1,0 +1,8 @@
+{
+  "pid": 2389576,
+  "at": "2026-10-27T09:44:00.613769+00:00",
+  "plan": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/plan.json",
+    "sha256": "df2c9e548f12c0ca2930f55f7b5f2572ad2a2ec4234b0007beea1af6daf9bda8"
+  }
+}

@@ -1,15 +1,18 @@
-data/
-graphs/
-record/
-analysis_output/
 __pycache__/
 *.py[cod]
-*.pt
-*.pth
-*.npz
-*.csv
-*.json
-*.log
-*.pdf
-*.docx
+*.egg-info/
+.pytest_cache/
+# Full AV2 inputs and frozen graph assets are not distributed in this repo.
+/data/
+/graphs/
+# Retained checkpoints and experimental results are intentionally versioned.
+# Never publish local environments or credentials.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.ssh/
+*.pem
+*.key
 .DS_Store

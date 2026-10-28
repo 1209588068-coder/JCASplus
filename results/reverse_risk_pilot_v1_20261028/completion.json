@@ -1,0 +1,20 @@
+{
+  "status": "REVERSE_PILOT_COMPLETE_REVIEW_REQUIRED",
+  "seed": 20260621,
+  "completed_arms": [
+    "matched_clean",
+    "label_only",
+    "reverse_trigger"
+  ],
+  "acceptable_performance": false,
+  "elapsed_seconds": 2285.426167851081,
+  "completed_utc": "2026-10-28T04:47:21.622469+00:00",
+  "forward_assets_unchanged": true,
+  "original_inputs_unchanged": true,
+  "graph_reads": 640,
+  "original_val_arrays_loaded": false,
+  "original_test_arrays_loaded": false,
+  "audit_arrays_loaded": false,
+  "confirmation_arrays_loaded": false,
+  "automatic_followup_jobs": false
+}

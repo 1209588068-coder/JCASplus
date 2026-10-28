@@ -1,0 +1,43 @@
+{
+  "status": "DISTRIBUTION_TRAINING_COMPLETE_REVIEW_REQUIRED",
+  "at": "2026-10-26T21:06:50.088827+00:00",
+  "plan": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/plan.json",
+    "sha256": "9c25a1382d47e792c83cab04224f989db6c5473979d493d4b535c55e190ec3f7"
+  },
+  "optimization_complete": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/training/optimization_complete.json",
+    "sha256": "2e05fbf0ecf49b5c24204dd09d3f1dabd5ef99f177c9031a8f37ddb950d1673b"
+  },
+  "train_dev_ledger": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/training/train_dev_graph_access_ledger.json",
+    "sha256": "613c3bccd1c9aff8ad9b61f389ec23db62a32e4362d364543e3d27700d2f05bb"
+  },
+  "audit_ledger": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/audit_graph_access_ledger.json",
+    "sha256": "9f9a45516237250202045ae03d3e068fc39fb09fa2ec8a8be69d1fcdd67b917a"
+  },
+  "reports": {
+    "continuation": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/audit/continuation/summary.json",
+      "sha256": "930cdd6b90e6cb6a8a8b03b6aa5812146fdf53f26ceb93170666486b78a5c6de"
+    },
+    "unconditional": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/audit/unconditional/summary.json",
+      "sha256": "7eb7a4a8c5d3a203db095d89a21fab69b3f155a9ec8f905c09b7ae80da6ba5be"
+    },
+    "conditional": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/audit/conditional/summary.json",
+      "sha256": "cf01fee6dbddd6fb6de71e3e5dc5f8225794a4a8f203c3668c8159b389f6e895"
+    }
+  },
+  "review": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/review.json",
+    "sha256": "3e54b1e845098ba71b5377cffa2f80fbe649acb2b265b2fddfabd55c5c6c4b3b"
+  },
+  "original_val_arrays_loaded": false,
+  "original_test_arrays_loaded": false,
+  "independent_confirmation": false,
+  "automatic_followup": false,
+  "automatic_promotion": false
+}

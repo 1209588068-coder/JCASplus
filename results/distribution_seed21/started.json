@@ -1,0 +1,8 @@
+{
+  "pid": 2359606,
+  "at": "2026-10-26T19:32:01.369593+00:00",
+  "plan": {
+    "path": "/home/mizhou/JCAS/record/reproduction/spear_distribution_training_v1/pilot_20261027_seed20260621_v1/plan.json",
+    "sha256": "9c25a1382d47e792c83cab04224f989db6c5473979d493d4b535c55e190ec3f7"
+  }
+}

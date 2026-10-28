@@ -1,0 +1,264 @@
+{
+  "status": "DEV_EVALUATION_COMPLETE",
+  "scope": "cached original TRAIN DEV; development evidence only",
+  "metrics": {
+    "surrogate": {
+      "targets": {
+        "all": {
+          "targets": 112,
+          "absolute_asr": 0.4642857142857143,
+          "triggered_target_class_count": 52,
+          "incremental_asr": 0.30357142857142855,
+          "incremental_flips": 34,
+          "conditional_flip": 0.3617021276595745,
+          "clean_negative_targets": 94,
+          "clean_activation_rate": 0.16071428571428573,
+          "target_probability_delta_mean": 0.2962563613664491
+        },
+        "slow": {
+          "targets": 79,
+          "absolute_asr": 0.46835443037974683,
+          "triggered_target_class_count": 37,
+          "incremental_asr": 0.3037974683544304,
+          "incremental_flips": 24,
+          "conditional_flip": 0.36363636363636365,
+          "clean_negative_targets": 66,
+          "clean_activation_rate": 0.16455696202531644,
+          "target_probability_delta_mean": 0.2778257229734157
+        },
+        "moving": {
+          "targets": 33,
+          "absolute_asr": 0.45454545454545453,
+          "triggered_target_class_count": 15,
+          "incremental_asr": 0.30303030303030304,
+          "incremental_flips": 10,
+          "conditional_flip": 0.35714285714285715,
+          "clean_negative_targets": 28,
+          "clean_activation_rate": 0.15151515151515152,
+          "target_probability_delta_mean": 0.3403781926709836
+        }
+      },
+      "normal_pairs": 2223,
+      "normal_positive_pairs": 280,
+      "normal_negative_pairs": 1943,
+      "clean_pair_auc": 0.6402259025071686,
+      "clean_pair_accuracy": 0.8281601439496177,
+      "clean_pair_positive_recall": 0.23214285714285715,
+      "clean_prediction_distribution": {
+        "class_0": 1991,
+        "class_1": 232
+      },
+      "clean_confusion_matrix": {
+        "true_negative": 1776,
+        "false_positive": 167,
+        "false_negative": 215,
+        "true_positive": 65
+      },
+      "all_clean_predictions_negative": false,
+      "clean_class_one_probability_min": 1.4175576268371515e-07,
+      "clean_class_one_probability_max": 1.0,
+      "collateral": {
+        "adj_negative": 578,
+        "adj_flip": 48,
+        "nonincident_negative": 1253,
+        "nonincident_flip": 15,
+        "adj_positive": 112,
+        "adj_suppressed": 0,
+        "adjacent_incremental_fp": 0.08304498269896193,
+        "nonincident_incremental_fp": 0.011971268954509178,
+        "adjacent_positive_suppression": 0.0
+      }
+    },
+    "victim": {
+      "targets": {
+        "all": {
+          "targets": 112,
+          "absolute_asr": 0.8928571428571429,
+          "triggered_target_class_count": 100,
+          "incremental_asr": 0.8571428571428571,
+          "incremental_flips": 96,
+          "conditional_flip": 0.8888888888888888,
+          "clean_negative_targets": 108,
+          "clean_activation_rate": 0.03571428571428571,
+          "target_probability_delta_mean": 0.8025937604996315
+        },
+        "slow": {
+          "targets": 79,
+          "absolute_asr": 0.9367088607594937,
+          "triggered_target_class_count": 74,
+          "incremental_asr": 0.9113924050632911,
+          "incremental_flips": 72,
+          "conditional_flip": 0.935064935064935,
+          "clean_negative_targets": 77,
+          "clean_activation_rate": 0.02531645569620253,
+          "target_probability_delta_mean": 0.8461103367438915
+        },
+        "moving": {
+          "targets": 33,
+          "absolute_asr": 0.7878787878787878,
+          "triggered_target_class_count": 26,
+          "incremental_asr": 0.7272727272727273,
+          "incremental_flips": 24,
+          "conditional_flip": 0.7741935483870968,
+          "clean_negative_targets": 31,
+          "clean_activation_rate": 0.06060606060606061,
+          "target_probability_delta_mean": 0.6984177143391306
+        }
+      },
+      "normal_pairs": 2223,
+      "normal_positive_pairs": 280,
+      "normal_negative_pairs": 1943,
+      "clean_pair_auc": 0.9136313506359828,
+      "clean_pair_accuracy": 0.9037336932073774,
+      "clean_pair_positive_recall": 0.41785714285714287,
+      "clean_prediction_distribution": {
+        "class_0": 2055,
+        "class_1": 168
+      },
+      "clean_confusion_matrix": {
+        "true_negative": 1892,
+        "false_positive": 51,
+        "false_negative": 163,
+        "true_positive": 117
+      },
+      "all_clean_predictions_negative": false,
+      "clean_class_one_probability_min": 9.789872696597677e-24,
+      "clean_class_one_probability_max": 0.9999977350234985,
+      "collateral": {
+        "adj_negative": 578,
+        "adj_flip": 1,
+        "nonincident_negative": 1253,
+        "nonincident_flip": 3,
+        "adj_positive": 112,
+        "adj_suppressed": 1,
+        "adjacent_incremental_fp": 0.0017301038062283738,
+        "nonincident_incremental_fp": 0.0023942537909018356,
+        "adjacent_positive_suppression": 0.008928571428571428
+      }
+    },
+    "clean_reference": {
+      "targets": {
+        "all": {
+          "targets": 112,
+          "absolute_asr": 0.0,
+          "triggered_target_class_count": 0,
+          "incremental_asr": 0.0,
+          "incremental_flips": 0,
+          "conditional_flip": 0.0,
+          "clean_negative_targets": 108,
+          "clean_activation_rate": 0.03571428571428571,
+          "target_probability_delta_mean": -0.03265644931887558
+        },
+        "slow": {
+          "targets": 79,
+          "absolute_asr": 0.0,
+          "triggered_target_class_count": 0,
+          "incremental_asr": 0.0,
+          "incremental_flips": 0,
+          "conditional_flip": 0.0,
+          "clean_negative_targets": 77,
+          "clean_activation_rate": 0.02531645569620253,
+          "target_probability_delta_mean": -0.02478880517056764
+        },
+        "moving": {
+          "targets": 33,
+          "absolute_asr": 0.0,
+          "triggered_target_class_count": 0,
+          "incremental_asr": 0.0,
+          "incremental_flips": 0,
+          "conditional_flip": 0.0,
+          "clean_negative_targets": 31,
+          "clean_activation_rate": 0.06060606060606061,
+          "target_probability_delta_mean": -0.05149111258300669
+        }
+      },
+      "normal_pairs": 2223,
+      "normal_positive_pairs": 280,
+      "normal_negative_pairs": 1943,
+      "clean_pair_auc": 0.9112344680538196,
+      "clean_pair_accuracy": 0.905982905982906,
+      "clean_pair_positive_recall": 0.4607142857142857,
+      "clean_prediction_distribution": {
+        "class_0": 2036,
+        "class_1": 187
+      },
+      "clean_confusion_matrix": {
+        "true_negative": 1885,
+        "false_positive": 58,
+        "false_negative": 151,
+        "true_positive": 129
+      },
+      "all_clean_predictions_negative": false,
+      "clean_class_one_probability_min": 7.147621144161256e-19,
+      "clean_class_one_probability_max": 0.9999792575836182,
+      "collateral": {
+        "adj_negative": 578,
+        "adj_flip": 4,
+        "nonincident_negative": 1253,
+        "nonincident_flip": 0,
+        "adj_positive": 112,
+        "adj_suppressed": 0,
+        "adjacent_incremental_fp": 0.006920415224913495,
+        "nonincident_incremental_fp": 0.0,
+        "adjacent_positive_suppression": 0.0
+      }
+    }
+  },
+  "dev_counts": {
+    "registered_scenes": 128,
+    "processed_scenes": 128,
+    "scenes_without_eligible_negative_target": 16,
+    "all_pair_nodes": 5450,
+    "supervised_pairs": 2223,
+    "targets": 112,
+    "triggered_supervised_pair_rows": 2219
+  },
+  "population_identity_sha256": {
+    "scenes": "f1b96425eb7d03dc83e07d63693b336a94fcade4235ce2c2ba99552ca3334395",
+    "eligible_clean_pairs": "bc4eae6b389cf2098a1c163d82b5fd60fafb92756f44485116e6a7965d8d08f2",
+    "targets": "8b30ed9e719562cec0e35f8de6750e6ace023882f10bf6fd6f03cc945efef6db",
+    "triggered_pairs": "ef7e47e8d27d846ab57f880d9b8341769a3b61b7e0852b860d475b91b08e5dce"
+  },
+  "target_identity_sha256": "8b30ed9e719562cec0e35f8de6750e6ace023882f10bf6fd6f03cc945efef6db",
+  "raw_targets": {
+    "path": "/home/mizhou/JCAS/results/outer_strict_negative_pilot_v1_20261027/strict_negative_outer/development/targets.csv",
+    "sha256": "1a13eea805be56c3c7865c9b5716c6d22e12a7b0b6c46f34b6b2a69bdfd22207",
+    "rows": 112
+  },
+  "raw_clean_scores": {
+    "path": "/home/mizhou/JCAS/results/outer_strict_negative_pilot_v1_20261027/strict_negative_outer/development/clean_pair_scores.csv",
+    "sha256": "2d647f39e8dd6f2d0529b70268e9339505075bd6774916c7e204acb5ff210aed",
+    "rows": 2223
+  },
+  "raw_triggered_pair_scores": {
+    "path": "/home/mizhou/JCAS/results/outer_strict_negative_pilot_v1_20261027/strict_negative_outer/development/triggered_pair_scores.csv",
+    "sha256": "efbcb3550dcc47c7a92de31415d55770d5c39b9765b7497492d9d4c8dc1e2a03",
+    "rows": 2219
+  },
+  "weights_unchanged": true,
+  "inputs_unchanged": true,
+  "rng_unchanged": true,
+  "optimizer_steps": 0,
+  "gradients_created": false,
+  "topology_preserved": true,
+  "non_target_input_feature_rows_preserved": true,
+  "feature_changes": {
+    "target_rows_changed": 112,
+    "target_rows_unchanged": 0,
+    "maximum_changed_coordinates_per_target": 24
+  },
+  "target_selection_uses_predictions": false,
+  "target_seed": 20260621,
+  "target_hash": "SHA256(seed:spear-audit-target:scenario_id:canonical_src_track_id:canonical_dst_track_id)",
+  "threshold": "supplied binary model argmax; no threshold calibration",
+  "metric_definitions": {
+    "absolute_asr": "triggered class-one predictions / all frozen eligible true-negative targets",
+    "incremental_asr": "same-model clean-zero to triggered-one transitions / all frozen targets",
+    "conditional_flip": "same transitions / clean-zero targets",
+    "collateral": "per-target-scene pooled transitions among eligible non-target neighbors or nonincident pairs; denominators include all true-label members"
+  },
+  "graph_arrays_loaded": false,
+  "model_checkpoints_loaded": false,
+  "original_val_arrays_loaded": false,
+  "original_test_arrays_loaded": false
+}

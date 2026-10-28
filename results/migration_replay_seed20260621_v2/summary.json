@@ -1,0 +1,184 @@
+{
+  "metrics": {
+    "clean_reference": {
+      "targets": {
+        "all": {
+          "targets": 224,
+          "absolute_asr": 0.03125,
+          "triggered_target_class_count": 7,
+          "incremental_asr": 0.008928571428571428,
+          "incremental_flips": 2,
+          "conditional_flip": 0.009259259259259259,
+          "clean_negative_targets": 216,
+          "clean_activation_rate": 0.03571428571428571,
+          "target_probability_delta_mean": -0.012085597291585523
+        },
+        "slow": {
+          "targets": 164,
+          "absolute_asr": 0.03048780487804878,
+          "triggered_target_class_count": 5,
+          "incremental_asr": 0.012195121951219513,
+          "incremental_flips": 2,
+          "conditional_flip": 0.012578616352201259,
+          "clean_negative_targets": 159,
+          "clean_activation_rate": 0.03048780487804878,
+          "target_probability_delta_mean": -0.007298169267837684
+        },
+        "moving": {
+          "targets": 60,
+          "absolute_asr": 0.03333333333333333,
+          "triggered_target_class_count": 2,
+          "incremental_asr": 0.0,
+          "incremental_flips": 0,
+          "conditional_flip": 0.0,
+          "clean_negative_targets": 57,
+          "clean_activation_rate": 0.05,
+          "target_probability_delta_mean": -0.025171233889829617
+        }
+      },
+      "normal_pairs": 4399,
+      "normal_positive_pairs": 489,
+      "normal_negative_pairs": 3910,
+      "clean_pair_auc": 0.8958012332700485,
+      "clean_pair_accuracy": 0.9086155944532849,
+      "clean_pair_positive_recall": 0.4212678936605317,
+      "clean_prediction_distribution": {
+        "class_0": 4074,
+        "class_1": 325
+      },
+      "clean_confusion_matrix": {
+        "true_negative": 3791,
+        "false_positive": 119,
+        "false_negative": 283,
+        "true_positive": 206
+      },
+      "all_clean_predictions_negative": false,
+      "clean_class_one_probability_min": 1.584588617362239e-27,
+      "clean_class_one_probability_max": 0.9999872446060181,
+      "collateral": {
+        "adj_negative": 1202,
+        "adj_flip": 11,
+        "nonincident_negative": 2484,
+        "nonincident_flip": 1,
+        "adj_positive": 199,
+        "adj_suppressed": 0,
+        "adjacent_incremental_fp": 0.009151414309484194,
+        "nonincident_incremental_fp": 0.00040257648953301127,
+        "adjacent_positive_suppression": 0.0
+      }
+    },
+    "victim": {
+      "targets": {
+        "all": {
+          "targets": 224,
+          "absolute_asr": 0.8839285714285714,
+          "triggered_target_class_count": 198,
+          "incremental_asr": 0.8348214285714286,
+          "incremental_flips": 187,
+          "conditional_flip": 0.8779342723004695,
+          "clean_negative_targets": 213,
+          "clean_activation_rate": 0.049107142857142856,
+          "target_probability_delta_mean": 0.7968724161054291
+        },
+        "slow": {
+          "targets": 164,
+          "absolute_asr": 0.8780487804878049,
+          "triggered_target_class_count": 144,
+          "incremental_asr": 0.8292682926829268,
+          "incremental_flips": 136,
+          "conditional_flip": 0.8717948717948718,
+          "clean_negative_targets": 156,
+          "clean_activation_rate": 0.04878048780487805,
+          "target_probability_delta_mean": 0.7962954402922802
+        },
+        "moving": {
+          "targets": 60,
+          "absolute_asr": 0.9,
+          "triggered_target_class_count": 54,
+          "incremental_asr": 0.85,
+          "incremental_flips": 51,
+          "conditional_flip": 0.8947368421052632,
+          "clean_negative_targets": 57,
+          "clean_activation_rate": 0.05,
+          "target_probability_delta_mean": 0.7984494833280368
+        }
+      },
+      "normal_pairs": 4399,
+      "normal_positive_pairs": 489,
+      "normal_negative_pairs": 3910,
+      "clean_pair_auc": 0.8955653533752791,
+      "clean_pair_accuracy": 0.9147533530347807,
+      "clean_pair_positive_recall": 0.5194274028629857,
+      "clean_prediction_distribution": {
+        "class_0": 4005,
+        "class_1": 394
+      },
+      "clean_confusion_matrix": {
+        "true_negative": 3770,
+        "false_positive": 140,
+        "false_negative": 235,
+        "true_positive": 254
+      },
+      "all_clean_predictions_negative": false,
+      "clean_class_one_probability_min": 2.1014112823816722e-26,
+      "clean_class_one_probability_max": 0.9999972581863403,
+      "collateral": {
+        "adj_negative": 1202,
+        "adj_flip": 11,
+        "nonincident_negative": 2484,
+        "nonincident_flip": 4,
+        "adj_positive": 199,
+        "adj_suppressed": 2,
+        "adjacent_incremental_fp": 0.009151414309484194,
+        "nonincident_incremental_fp": 0.001610305958132045,
+        "adjacent_positive_suppression": 0.010050251256281407
+      }
+    }
+  },
+  "audit_counts": {
+    "registered_scenes": 256,
+    "processed_scenes": 256,
+    "scenes_without_eligible_negative_target": 32,
+    "all_pair_nodes": 10511,
+    "supervised_pairs": 4399,
+    "targets": 224,
+    "triggered_supervised_pair_rows": 4394
+  },
+  "raw_targets": {
+    "path": "/home/mizhou/JCAS/results/migration_replay_seed20260621_v2/targets.csv",
+    "sha256": "4c2adbfb5f9ea2e9972af217ff5a0088b1a21fed21a3979d5d100a03c1e9383e",
+    "rows": 224
+  },
+  "raw_clean_scores": {
+    "path": "/home/mizhou/JCAS/results/migration_replay_seed20260621_v2/clean_pair_scores.csv",
+    "sha256": "13251fc6efdbeeda69d15a3782a60e95990d5b9539e27584b2f5222e792159b8",
+    "rows": 4399
+  },
+  "raw_triggered_pair_scores": {
+    "path": "/home/mizhou/JCAS/results/migration_replay_seed20260621_v2/triggered_pair_scores.csv",
+    "sha256": "fe07d8af93db9978745d2a52108b3f225ad6ca288b3628fb4ccc8a723f660822",
+    "rows": 4394
+  },
+  "topology_preserved": true,
+  "non_target_input_feature_rows_preserved": true,
+  "feature_changes": {
+    "target_rows_changed": 224,
+    "target_rows_unchanged": 0,
+    "maximum_changed_coordinates_per_target": 24
+  },
+  "target_selection_uses_predictions": false,
+  "threshold": "supplied binary model argmax; no threshold calibration",
+  "target_hash": "SHA256(seed:spear-audit-target:scenario_id:canonical_src_track_id:canonical_dst_track_id)",
+  "metric_definitions": {
+    "absolute_asr": "triggered class-one predictions / all frozen eligible true-negative targets",
+    "incremental_asr": "same-model clean-zero to triggered-one transitions / all frozen targets",
+    "conditional_flip": "same transitions / clean-zero targets; this is the only clean-prediction-conditioned denominator",
+    "collateral": "per-scene pooled transitions among eligible non-target line-graph neighbors or nonincident pairs; rates use all true-label members of the relevant group"
+  },
+  "original_val_arrays_loaded": false,
+  "original_test_arrays_loaded": false,
+  "seed": 20260621,
+  "method": "unconditional",
+  "weights_unchanged": true,
+  "scope": "reused original TRAIN audit; not independent validation/test"
+}

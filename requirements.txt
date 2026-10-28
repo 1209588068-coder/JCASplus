@@ -1,12 +1,6 @@
-# Verified on Python 3.12.3. The local GPU environment used
-# torch 2.13.0+cu130; install the CUDA-specific torch wheel separately when
-# reproducing on another machine.
+# Existing environment; cleanup does not install or update dependencies.
 numpy>=2.0,<3
-pandas>=2.2,<4
-pyarrow>=15,<25
 torch>=2.4,<3
 torch-geometric>=2.5,<3
 scipy>=1.12,<2
 scikit-learn>=1.4,<2
-joblib>=1.3,<2
-pytest>=8,<10

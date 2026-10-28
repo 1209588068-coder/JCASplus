@@ -1,0 +1,21 @@
+{
+  "status": "ALL3_TRAIN_CALIBRATIONS_COMPLETE",
+  "calibrations": {
+    "20260621": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/training/seed20260621/calibration.json",
+      "sha256": "c16fa35796c1bd0ff34ce75605323df3180b0ea0d95ad6b67152fbb531ce964a"
+    },
+    "20260622": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/training/seed20260622/calibration.json",
+      "sha256": "4acb8d2d3d93603cc66020016578afd681593481e8b3c6e60bd6d5cc306fd9d6"
+    },
+    "20260623": {
+      "path": "/home/mizhou/JCAS/record/reproduction/spear_amplitude_control_v1/run_20261027_seeds21_22_23_v1/training/seed20260623/calibration.json",
+      "sha256": "eb003f36195455a3f17fc2ec8fe9125632b2bed8e535de65f140c6014185adde"
+    }
+  },
+  "train_input_sha256": "4ac4f609c1155b08b072c9ef52045aae9c13082961af56e1c442c5504f6f22cc",
+  "internal_dev_arrays_loaded": false,
+  "internal_audit_arrays_loaded": false,
+  "generator_updates": 0
+}

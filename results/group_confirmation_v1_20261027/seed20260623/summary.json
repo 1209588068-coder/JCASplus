@@ -1,0 +1,208 @@
+{
+  "audit_counts": {
+    "all_pair_nodes": 47969,
+    "processed_scenes": 1024,
+    "registered_scenes": 1024,
+    "scenes_without_eligible_negative_target": 135,
+    "supervised_pairs": 19665,
+    "targets": 889,
+    "triggered_supervised_pair_rows": 19634
+  },
+  "common_prediction_hashes": {
+    "clean_pair_scores.csv": "06977360cb27a83a97fc1626f90bcf0d3553783c929f31a867583488457e5386",
+    "targets.csv": "53af2891483e6a758ff455d2f66b10d70899ca2ac7c62944eca30857bb27cff2"
+  },
+  "feature_changes": {
+    "maximum_changed_coordinates_per_target": 24,
+    "target_rows_changed": 889,
+    "target_rows_unchanged": 0
+  },
+  "gate": {
+    "checks": {
+      "adjacent_incremental_fp_below_5pct": true,
+      "moving_incremental_asr_at_least_80pct": false,
+      "overall_incremental_asr_at_least_80pct": true,
+      "same_pool_clean_reference_auc_drop_at_most_0p005": true,
+      "same_pool_clean_reference_recall_drop_at_most_0p05": true,
+      "victim_predicts_both_clean_classes": true
+    },
+    "failed_checks": [
+      "moving_incremental_asr_at_least_80pct"
+    ],
+    "passed": false
+  },
+  "method": "unconditional",
+  "metric_definitions": {
+    "absolute_asr": "triggered class-one predictions / all frozen eligible true-negative targets",
+    "collateral": "per-scene pooled transitions among eligible non-target line-graph neighbors or nonincident pairs; rates use all true-label members of the relevant group",
+    "conditional_flip": "same transitions / clean-zero targets; this is the only clean-prediction-conditioned denominator",
+    "incremental_asr": "same-model clean-zero to triggered-one transitions / all frozen targets"
+  },
+  "metrics": {
+    "clean_reference": {
+      "all_clean_predictions_negative": false,
+      "clean_class_one_probability_max": 0.9999502897262573,
+      "clean_class_one_probability_min": 2.8157021831231524e-26,
+      "clean_confusion_matrix": {
+        "false_negative": 1298,
+        "false_positive": 511,
+        "true_negative": 16912,
+        "true_positive": 944
+      },
+      "clean_pair_accuracy": 0.9080091533180779,
+      "clean_pair_auc": 0.8960347921577511,
+      "clean_pair_positive_recall": 0.42105263157894735,
+      "clean_prediction_distribution": {
+        "class_0": 18210,
+        "class_1": 1455
+      },
+      "collateral": {
+        "adj_flip": 38,
+        "adj_negative": 5114,
+        "adj_positive": 808,
+        "adj_suppressed": 0,
+        "adjacent_incremental_fp": 0.007430582714118107,
+        "adjacent_positive_suppression": 0.0,
+        "nonincident_flip": 6,
+        "nonincident_incremental_fp": 0.0005253940455341507,
+        "nonincident_negative": 11420
+      },
+      "normal_negative_pairs": 17423,
+      "normal_pairs": 19665,
+      "normal_positive_pairs": 2242,
+      "targets": {
+        "all": {
+          "absolute_asr": 0.05511811023622047,
+          "clean_activation_rate": 0.05961754780652419,
+          "clean_negative_targets": 836,
+          "conditional_flip": 0.013157894736842105,
+          "incremental_asr": 0.012373453318335208,
+          "incremental_flips": 11,
+          "target_probability_delta_mean": -0.01267791701700049,
+          "targets": 889,
+          "triggered_target_class_count": 49
+        },
+        "moving": {
+          "absolute_asr": 0.06751054852320675,
+          "clean_activation_rate": 0.07172995780590717,
+          "clean_negative_targets": 220,
+          "conditional_flip": 0.01818181818181818,
+          "incremental_asr": 0.016877637130801686,
+          "incremental_flips": 4,
+          "target_probability_delta_mean": -0.0228109605704722,
+          "targets": 237,
+          "triggered_target_class_count": 16
+        },
+        "slow": {
+          "absolute_asr": 0.05061349693251534,
+          "clean_activation_rate": 0.05521472392638037,
+          "clean_negative_targets": 616,
+          "conditional_flip": 0.011363636363636364,
+          "incremental_asr": 0.010736196319018405,
+          "incremental_flips": 7,
+          "target_probability_delta_mean": -0.008994586768269213,
+          "targets": 652,
+          "triggered_target_class_count": 33
+        }
+      }
+    },
+    "victim": {
+      "all_clean_predictions_negative": false,
+      "clean_class_one_probability_max": 0.9999998807907104,
+      "clean_class_one_probability_min": 1.2159901045761153e-26,
+      "clean_confusion_matrix": {
+        "false_negative": 1233,
+        "false_positive": 635,
+        "true_negative": 16788,
+        "true_positive": 1009
+      },
+      "clean_pair_accuracy": 0.9050088990592423,
+      "clean_pair_auc": 0.9001036573155862,
+      "clean_pair_positive_recall": 0.45004460303300625,
+      "clean_prediction_distribution": {
+        "class_0": 18021,
+        "class_1": 1644
+      },
+      "collateral": {
+        "adj_flip": 30,
+        "adj_negative": 5114,
+        "adj_positive": 808,
+        "adj_suppressed": 4,
+        "adjacent_incremental_fp": 0.005866249511145874,
+        "adjacent_positive_suppression": 0.0049504950495049506,
+        "nonincident_flip": 8,
+        "nonincident_incremental_fp": 0.0007005253940455342,
+        "nonincident_negative": 11420
+      },
+      "normal_negative_pairs": 17423,
+      "normal_pairs": 19665,
+      "normal_positive_pairs": 2242,
+      "targets": {
+        "all": {
+          "absolute_asr": 0.875140607424072,
+          "clean_activation_rate": 0.07086614173228346,
+          "clean_negative_targets": 826,
+          "conditional_flip": 0.8656174334140436,
+          "incremental_asr": 0.8042744656917885,
+          "incremental_flips": 715,
+          "target_probability_delta_mean": 0.7681638984512711,
+          "targets": 889,
+          "triggered_target_class_count": 778
+        },
+        "moving": {
+          "absolute_asr": 0.8776371308016878,
+          "clean_activation_rate": 0.08860759493670886,
+          "clean_negative_targets": 216,
+          "conditional_flip": 0.8657407407407407,
+          "incremental_asr": 0.7890295358649789,
+          "incremental_flips": 187,
+          "target_probability_delta_mean": 0.760846004627665,
+          "targets": 237,
+          "triggered_target_class_count": 208
+        },
+        "slow": {
+          "absolute_asr": 0.8742331288343558,
+          "clean_activation_rate": 0.06441717791411043,
+          "clean_negative_targets": 610,
+          "conditional_flip": 0.8655737704918033,
+          "incremental_asr": 0.8098159509202454,
+          "incremental_flips": 528,
+          "target_probability_delta_mean": 0.7708239304086248,
+          "targets": 652,
+          "triggered_target_class_count": 570
+        }
+      }
+    }
+  },
+  "model_state_hashes": {
+    "clean_reference": "9846fc05d3a02f5156a2d3321fc2c7269c71cb04466953e7424a365d75437f0f",
+    "generator": "b079a7448f2f105daf5075a6984d1cd0100c7f9f4eef57e9c2d9ab2e14cad0a6",
+    "victim": "d68d668a58cf67cfb790f6f6f981c26c8971c3af85d9f04c54ddfc528ad1aeb0"
+  },
+  "non_target_input_feature_rows_preserved": true,
+  "optimizer_steps": 0,
+  "original_test_arrays_loaded": false,
+  "original_val_arrays_loaded": false,
+  "raw_clean_scores": {
+    "path": "/home/mizhou/JCAS/results/group_confirmation_v1_20261027/seed20260623/clean_pair_scores.csv",
+    "rows": 19665,
+    "sha256": "32fcf6b5ceb787e343fcc62513d4402803fe1fe6ce371323882b8412038be361"
+  },
+  "raw_targets": {
+    "path": "/home/mizhou/JCAS/results/group_confirmation_v1_20261027/seed20260623/targets.csv",
+    "rows": 889,
+    "sha256": "0cfe0296b08a8e3fefdf7d1618db1a0179fa75a5e331e3a2f73836d09c5e1524"
+  },
+  "raw_triggered_pair_scores": {
+    "path": "/home/mizhou/JCAS/results/group_confirmation_v1_20261027/seed20260623/triggered_pair_scores.csv",
+    "rows": 19634,
+    "sha256": "4f184be74a00931b9e60e75620c9c0a2ed9868e4877f6c2e70658a0e7c646f9e"
+  },
+  "role": "confirmation",
+  "seed": 20260623,
+  "target_hash": "SHA256(seed:spear-audit-target:scenario_id:canonical_src_track_id:canonical_dst_track_id)",
+  "target_selection_uses_predictions": false,
+  "threshold": "supplied binary model argmax; no threshold calibration",
+  "topology_preserved": true,
+  "weights_unchanged": true
+}

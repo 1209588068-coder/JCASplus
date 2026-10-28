@@ -1,0 +1,12 @@
+[
+  {
+    "auc": 0.9125799573560768,
+    "positive_recall": 0.41785714285714287,
+    "gate": "PASS_PROXY_QUALITY"
+  },
+  {
+    "auc": 0.8981931475626792,
+    "positive_recall": 0.4035714285714286,
+    "gate": "PASS_PROXY_QUALITY"
+  }
+]

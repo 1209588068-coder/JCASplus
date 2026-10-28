@@ -1,0 +1,377 @@
+{
+  "all": {
+    "continuation": {
+      "versus_clean_audit": {
+        "deltas": {
+          "selected_mmd2": 0.7031494118994356,
+          "joint_mmd2": 0.7512617827638937,
+          "marginal_w1": 7.012212766293572,
+          "outlier_coordinate_fraction": 0.8558407738095238,
+          "outlier_target_fraction": 0.9017857142857143,
+          "boundary_coordinate_fraction": 0.4334077380952381
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      },
+      "versus_continuation": {
+        "deltas": {
+          "selected_mmd2": 0.0,
+          "joint_mmd2": 0.0,
+          "marginal_w1": 0.0,
+          "outlier_coordinate_fraction": 0.0,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": 0.0
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      },
+      "versus_unconditional": {
+        "deltas": {
+          "selected_mmd2": 0.027960281610351023,
+          "joint_mmd2": 0.104892354654887,
+          "marginal_w1": 3.1561309560394992,
+          "outlier_coordinate_fraction": 0.22135416666666663,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": 0.3117559523809524
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      }
+    },
+    "unconditional": {
+      "versus_clean_audit": {
+        "deltas": {
+          "selected_mmd2": 0.6751891302890846,
+          "joint_mmd2": 0.6463694281090067,
+          "marginal_w1": 3.8560818102540724,
+          "outlier_coordinate_fraction": 0.6344866071428572,
+          "outlier_target_fraction": 0.9017857142857143,
+          "boundary_coordinate_fraction": 0.12165178571428571
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      },
+      "versus_continuation": {
+        "deltas": {
+          "selected_mmd2": -0.027960281610351023,
+          "joint_mmd2": -0.104892354654887,
+          "marginal_w1": -3.1561309560394992,
+          "outlier_coordinate_fraction": -0.22135416666666663,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": -0.3117559523809524
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": true,
+        "statistical_significance_claim": false
+      },
+      "versus_unconditional": {
+        "deltas": {
+          "selected_mmd2": 0.0,
+          "joint_mmd2": 0.0,
+          "marginal_w1": 0.0,
+          "outlier_coordinate_fraction": 0.0,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": 0.0
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      }
+    },
+    "conditional": {
+      "versus_clean_audit": {
+        "deltas": {
+          "selected_mmd2": 0.6747139899550917,
+          "joint_mmd2": 0.6459602015359608,
+          "marginal_w1": 3.8456359149821604,
+          "outlier_coordinate_fraction": 0.6324404761904763,
+          "outlier_target_fraction": 0.9017857142857143,
+          "boundary_coordinate_fraction": 0.12406994047619048
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      },
+      "versus_continuation": {
+        "deltas": {
+          "selected_mmd2": -0.028435421944343897,
+          "joint_mmd2": -0.10530158122793287,
+          "marginal_w1": -3.166576851311411,
+          "outlier_coordinate_fraction": -0.22340029761904756,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": -0.3093377976190476
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": true,
+        "statistical_significance_claim": false
+      },
+      "versus_unconditional": {
+        "deltas": {
+          "selected_mmd2": -0.0004751403339928739,
+          "joint_mmd2": -0.0004092265730458733,
+          "marginal_w1": -0.010445895271911976,
+          "outlier_coordinate_fraction": -0.0020461309523809312,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": 0.002418154761904767
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": true,
+        "statistical_significance_claim": false
+      }
+    }
+  },
+  "slow": {
+    "continuation": {
+      "versus_clean_audit": {
+        "deltas": {
+          "selected_mmd2": 0.9019602032417864,
+          "joint_mmd2": 0.9988436128488372,
+          "marginal_w1": 6.869143384340631,
+          "outlier_coordinate_fraction": 0.8770325203252033,
+          "outlier_target_fraction": 0.9146341463414634,
+          "boundary_coordinate_fraction": 0.37627032520325204
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      },
+      "versus_continuation": {
+        "deltas": {
+          "selected_mmd2": 0.0,
+          "joint_mmd2": 0.0,
+          "marginal_w1": 0.0,
+          "outlier_coordinate_fraction": 0.0,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": 0.0
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      },
+      "versus_unconditional": {
+        "deltas": {
+          "selected_mmd2": 0.01969364172310062,
+          "joint_mmd2": 0.12592520700294596,
+          "marginal_w1": 3.221671872467852,
+          "outlier_coordinate_fraction": 0.21875,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": 0.3145325203252033
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      }
+    },
+    "unconditional": {
+      "versus_clean_audit": {
+        "deltas": {
+          "selected_mmd2": 0.8822665615186858,
+          "joint_mmd2": 0.8729184058458912,
+          "marginal_w1": 3.6474715118727787,
+          "outlier_coordinate_fraction": 0.6582825203252033,
+          "outlier_target_fraction": 0.9146341463414634,
+          "boundary_coordinate_fraction": 0.06173780487804878
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      },
+      "versus_continuation": {
+        "deltas": {
+          "selected_mmd2": -0.01969364172310062,
+          "joint_mmd2": -0.12592520700294596,
+          "marginal_w1": -3.221671872467852,
+          "outlier_coordinate_fraction": -0.21875,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": -0.3145325203252033
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": true,
+        "statistical_significance_claim": false
+      },
+      "versus_unconditional": {
+        "deltas": {
+          "selected_mmd2": 0.0,
+          "joint_mmd2": 0.0,
+          "marginal_w1": 0.0,
+          "outlier_coordinate_fraction": 0.0,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": 0.0
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      }
+    },
+    "conditional": {
+      "versus_clean_audit": {
+        "deltas": {
+          "selected_mmd2": 0.8815846825437925,
+          "joint_mmd2": 0.8725013454363835,
+          "marginal_w1": 3.648054308778065,
+          "outlier_coordinate_fraction": 0.6587906504065041,
+          "outlier_target_fraction": 0.9146341463414634,
+          "boundary_coordinate_fraction": 0.06402439024390244
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      },
+      "versus_continuation": {
+        "deltas": {
+          "selected_mmd2": -0.020375520697993865,
+          "joint_mmd2": -0.1263422674124537,
+          "marginal_w1": -3.2210890755625656,
+          "outlier_coordinate_fraction": -0.2182418699186992,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": -0.3122459349593496
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": true,
+        "statistical_significance_claim": false
+      },
+      "versus_unconditional": {
+        "deltas": {
+          "selected_mmd2": -0.0006818789748932463,
+          "joint_mmd2": -0.00041706040950773016,
+          "marginal_w1": 0.0005827969052862869,
+          "outlier_coordinate_fraction": 0.000508130081300795,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": 0.0022865853658536606
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      }
+    }
+  },
+  "moving": {
+    "continuation": {
+      "versus_clean_audit": {
+        "deltas": {
+          "selected_mmd2": 0.5862072530869472,
+          "joint_mmd2": 0.4359867887023768,
+          "marginal_w1": 7.449677235793908,
+          "outlier_coordinate_fraction": 0.8402777777777778,
+          "outlier_target_fraction": 0.7166666666666667,
+          "boundary_coordinate_fraction": 0.5895833333333333
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      },
+      "versus_continuation": {
+        "deltas": {
+          "selected_mmd2": 0.0,
+          "joint_mmd2": 0.0,
+          "marginal_w1": 0.0,
+          "outlier_coordinate_fraction": 0.0,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": 0.0
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      },
+      "versus_unconditional": {
+        "deltas": {
+          "selected_mmd2": 0.0367869736222467,
+          "joint_mmd2": 0.04440359563534624,
+          "marginal_w1": 2.5596067366302364,
+          "outlier_coordinate_fraction": 0.15416666666666667,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": 0.3041666666666667
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      }
+    },
+    "unconditional": {
+      "versus_clean_audit": {
+        "deltas": {
+          "selected_mmd2": 0.5494202794647005,
+          "joint_mmd2": 0.39158319306703054,
+          "marginal_w1": 4.890070499163672,
+          "outlier_coordinate_fraction": 0.6861111111111111,
+          "outlier_target_fraction": 0.7166666666666667,
+          "boundary_coordinate_fraction": 0.28541666666666665
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      },
+      "versus_continuation": {
+        "deltas": {
+          "selected_mmd2": -0.0367869736222467,
+          "joint_mmd2": -0.04440359563534624,
+          "marginal_w1": -2.5596067366302364,
+          "outlier_coordinate_fraction": -0.15416666666666667,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": -0.3041666666666667
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": true,
+        "statistical_significance_claim": false
+      },
+      "versus_unconditional": {
+        "deltas": {
+          "selected_mmd2": 0.0,
+          "joint_mmd2": 0.0,
+          "marginal_w1": 0.0,
+          "outlier_coordinate_fraction": 0.0,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": 0.0
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      }
+    },
+    "conditional": {
+      "versus_clean_audit": {
+        "deltas": {
+          "selected_mmd2": 0.5503061543489726,
+          "joint_mmd2": 0.3917679068328893,
+          "marginal_w1": 4.85819373088071,
+          "outlier_coordinate_fraction": 0.6847222222222222,
+          "outlier_target_fraction": 0.7166666666666667,
+          "boundary_coordinate_fraction": 0.2881944444444444
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      },
+      "versus_continuation": {
+        "deltas": {
+          "selected_mmd2": -0.035901098737974646,
+          "joint_mmd2": -0.04421888186948747,
+          "marginal_w1": -2.5914835049131986,
+          "outlier_coordinate_fraction": -0.15555555555555556,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": -0.30138888888888893
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": true,
+        "statistical_significance_claim": false
+      },
+      "versus_unconditional": {
+        "deltas": {
+          "selected_mmd2": 0.0008858748842720532,
+          "joint_mmd2": 0.0001847137658587683,
+          "marginal_w1": -0.031876768282962153,
+          "outlier_coordinate_fraction": -0.001388888888888884,
+          "outlier_target_fraction": 0.0,
+          "boundary_coordinate_fraction": 0.002777777777777768
+        },
+        "negative_delta_means_lower_discrepancy_or_rate": true,
+        "all_three_distance_point_estimates_lower": false,
+        "statistical_significance_claim": false
+      }
+    }
+  }
+}

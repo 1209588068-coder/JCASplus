@@ -1,0 +1,20 @@
+{
+  "trace": {
+    "training_forwards": 200,
+    "eval_forwards": 200,
+    "selected_auc_epoch": 167,
+    "selected_auc_row": {
+      "epoch": 167,
+      "auc": 0.9168608925814277,
+      "accuracy": 0.9041835357624831,
+      "loss": 0.25635966658592224,
+      "parameters_sha256": "2ce977726ac990481550ff1b46e56f39e8989378069e2a5137ea65e4bbdde08d"
+    },
+    "best_accuracy_epoch": 169,
+    "selection_policy": "maximum_dev_roc_auc_strict_improvement_earliest_tie",
+    "epoch_numbering": "zero based; observed after optimizer step"
+  },
+  "victim_seed": 20260621,
+  "initialization_digest": "cf5aa0801c088184fb869d8d4129a249bae8a926bd922c12b0446a1ce7b3c3d0",
+  "fit_rng_digest": "2f92b33e83652d5a0a0fdfc51659899df73cf2686b46afdb0e05cf9783ce5db4"
+}

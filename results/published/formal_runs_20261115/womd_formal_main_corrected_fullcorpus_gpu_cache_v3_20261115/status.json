@@ -1,0 +1,24 @@
+{
+  "status": "RUNNING",
+  "active_seed": 20261127,
+  "worker_pid": 1944634,
+  "completed": 1,
+  "failed": 0,
+  "total": 5,
+  "worker_status": {
+    "status": "RUNNING",
+    "seed": 20261127,
+    "pid": 1944634,
+    "at": "2026-11-15T08:07:06.470098+00:00",
+    "elapsed_seconds": 17001.860705379397,
+    "active_stage": "fresh_anchor_and_support",
+    "progress": {
+      "stage": "residual_outer",
+      "epoch": 1,
+      "batch": 170
+    }
+  },
+  "at": "2026-11-15T08:07:07.143823+00:00",
+  "active_execution": "/home/mizhou/JCAS_vehicle_lane/artifacts/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115",
+  "execution_plan_sha256": "2d9a09c4712dd70f33f9856930bafadd55de6b938a25da14801dd0b868a00080"
+}

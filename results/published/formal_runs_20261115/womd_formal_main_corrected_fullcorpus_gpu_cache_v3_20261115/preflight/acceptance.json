@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "at": "2026-11-14T20:06:18.169940+00:00",
+  "plan_sha256": "2d9a09c4712dd70f33f9856930bafadd55de6b938a25da14801dd0b868a00080",
+  "validation_sha256": "ff4a5bd4e71e7dd3c2262750d017c8fb7c7eb8a060faa7a20304fa7658470dd2",
+  "validation_dir": "/home/mizhou/JCAS_vehicle_lane/artifacts/womd_gpu_cache_acceptance_20261115_v1"
+}

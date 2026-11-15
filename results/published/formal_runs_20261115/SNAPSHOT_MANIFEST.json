@@ -1,0 +1,472 @@
+{
+  "schema": "jcas_public_result_snapshot_v1",
+  "created_at_utc": "2026-11-15T08:07:15.805050+00:00",
+  "source_repo": "JCASplus",
+  "source_worktree": "/home/mizhou/JCAS_vehicle_lane",
+  "included": [
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/aggregate.json",
+      "bytes": 264035,
+      "sha256": "f47da88860d249ca0e99d9d57597e7159fb07d5863c6626867729c984a6689f9"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/data_summary.json",
+      "bytes": 89639,
+      "sha256": "2da7ac95ca4a7d6cb96293e9e28ecb5beaa5d62441aeb5580dac88efe45ee871"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/plan.json",
+      "bytes": 116176,
+      "sha256": "7d8d224cacb46940c78ad814ecf0daf12fb68e3a359c2a02645cf84615880ddd"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/preflight/acceptance.json",
+      "bytes": 16781,
+      "sha256": "e2a4421d9f2a5131530690ccb09610c2490729be1fc9df31a92b903810f7b2c7"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/registration.json",
+      "bytes": 816,
+      "sha256": "d0ece6f41d4e9f93ecdb9550924baf275a9fb9f0d4ef4a354a4183d4fb66b596"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261111/anchor/summary.json",
+      "bytes": 2750,
+      "sha256": "723498deba5570fcf166761431d60eab2210d3eae89fc644d945f7899d74685f"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261111/clean_proxy_1/summary.json",
+      "bytes": 1570,
+      "sha256": "92fc328be80a1e4231c894fa6d2d4241aa02c30ce169de8402c0b4dc98ba8ee8"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261111/clean_proxy_2/summary.json",
+      "bytes": 1570,
+      "sha256": "370e2faa75882cda660659a6ea6fbd3b8920caac26e716860b42f5700bc43386"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261111/clean_reference/summary.json",
+      "bytes": 1572,
+      "sha256": "604f01330ae1d8dccac8283d8d8d37e291d766635159fb42c75aded70dde13ea"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261111/evaluation_audit/summary.json",
+      "bytes": 11237,
+      "sha256": "fa744c7bc8ca909c50aaefd8e9e3e8417508c987d8588081b55116aaf1a409f9"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261111/evaluation_dev/summary.json",
+      "bytes": 11052,
+      "sha256": "1d3b9807654a85f58800ecedf618e1fe7169565fba320855fce984ca1bbcf185"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261111/plan.json",
+      "bytes": 17720,
+      "sha256": "a45d68ff6c6366e24463a156edee1c53aa1ab1479b9c6b1837bde5dee4ef0461"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261111/selection/attribution_fit/summary.json",
+      "bytes": 1577,
+      "sha256": "998970c3261deb35c400980d64cba2774b7316b3482edd2dc267fb870bc061bd"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261111/selection/ranking_fit/summary.json",
+      "bytes": 1584,
+      "sha256": "bb87ca105991bf28ecb6ffe9e58d7591ecdae0b8660493224d21046aa82a5bcc"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261111/status.json",
+      "bytes": 188,
+      "sha256": "fd880eeea35de4de529b25acdce76060c56796881a12842e9f825ebf51be8917"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261111/victim/summary.json",
+      "bytes": 1563,
+      "sha256": "03d5cca7f34ecba0d04805a16416c8e5e417a727fe77bbb70351a43c7561c92e"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261112/anchor/summary.json",
+      "bytes": 2750,
+      "sha256": "17291aa639d52375f175227ecb7aac0bf2dd8f33f4c6b5f0a402bef07d07985f"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261112/clean_proxy_1/summary.json",
+      "bytes": 1570,
+      "sha256": "2661ebec7873e628edd6a65056b7c7266e57844a5ed06b7939cc6556f070b199"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261112/clean_proxy_2/summary.json",
+      "bytes": 1570,
+      "sha256": "5a390a9bf6ae5d7bb8d5bd618a6c2c188290c49e95dc4197d40c31ebf639cb42"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261112/clean_reference/summary.json",
+      "bytes": 1572,
+      "sha256": "b046026ee5ec51f76b00c8f6dbb338cfc0e049670a0053619f24ba398efb0c5a"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261112/evaluation_audit/summary.json",
+      "bytes": 11174,
+      "sha256": "d1f478a1bb02d32be26a2c4bf1b8b1a2928ec5cfdea1b12914078ce59c986d33"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261112/evaluation_dev/summary.json",
+      "bytes": 11007,
+      "sha256": "0e79cb2105a92a33feb840db76748ed26903aca8d77d0cc72e31d6315f23df4b"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261112/plan.json",
+      "bytes": 17720,
+      "sha256": "9d55c610824c5cc26e9246350a78938f153e490f6ce36274a5a01dceabe4b6c1"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261112/selection/attribution_fit/summary.json",
+      "bytes": 1578,
+      "sha256": "dd908b1e169c99929d103a40748d0e500569e995fc696f453701b58b5ec0bd85"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261112/selection/ranking_fit/summary.json",
+      "bytes": 1585,
+      "sha256": "a78e8c00cd081e65e2be38397ef13507128c38e025acea68d21414bed8053ac8"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261112/status.json",
+      "bytes": 188,
+      "sha256": "f3541c1816cbf34a441e45dee502070884f6fa61d99bb0ef8639169a930ad7d9"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261112/victim/summary.json",
+      "bytes": 1563,
+      "sha256": "ced83200ce73ccef930fa5e486c3ce5be4b83ca28c290196a5485fa3e5b8a7a1"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261113/anchor/summary.json",
+      "bytes": 2749,
+      "sha256": "a1915ea4273e27251f7de829d17459143d3cdc1ff9bd5663e7e62a4bfc4299e6"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261113/clean_proxy_1/summary.json",
+      "bytes": 1570,
+      "sha256": "1840856fb6276e967db2d73f19bd543a79a0439a0213d7f613c5ca6d3b7ab76f"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261113/clean_proxy_2/summary.json",
+      "bytes": 1570,
+      "sha256": "ee2e3d354cebb0e51388a2e6255082f4776d3cbb789bc7615f08c7f21a90c34f"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261113/clean_reference/summary.json",
+      "bytes": 1572,
+      "sha256": "5b7751fa871dc9e243c40b4b1b8240b9ffdcc9e767f3116f40e8ae8e4cd69b20"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261113/evaluation_audit/summary.json",
+      "bytes": 11272,
+      "sha256": "8ca44787a44e3f137cd95bf5edb174c6eebca66ae0cf4f53f414ef318a8dac94"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261113/evaluation_dev/summary.json",
+      "bytes": 11120,
+      "sha256": "189437768f783864e65e95710fc3f7d6e2b6da76e5cdeaec9883a4cdcbe811df"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261113/plan.json",
+      "bytes": 17720,
+      "sha256": "964bd17710da3ffff5af043620b42cd1aefff74d688086db077d2674ffa5414e"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261113/selection/attribution_fit/summary.json",
+      "bytes": 1578,
+      "sha256": "893c630f7be9a2f7e21819bb6ac7b9e1433870505d859768731013545407a583"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261113/selection/ranking_fit/summary.json",
+      "bytes": 1584,
+      "sha256": "be4f627b1f1b086cd9f6311d0e5ed87589891054709f9e553e9c951ed475ee3b"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261113/status.json",
+      "bytes": 187,
+      "sha256": "848d93f09a9b7d5fcf00cd174e5c7ec9029ad23d8f26acd8464aa3ba5c95c2d7"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261113/victim/summary.json",
+      "bytes": 1563,
+      "sha256": "603894d85d0a03f6f270ab79801519d5203d486211eac6eff10d9fbb7ec6dab5"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261114/anchor/summary.json",
+      "bytes": 2750,
+      "sha256": "b9d23cb57fbf69e66ad2b2ca466048019b1d8f792e09d29b6b3660f1641c4021"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261114/clean_proxy_1/summary.json",
+      "bytes": 1570,
+      "sha256": "dd8ca3d8d4757ca127c17ef0fe3a5b40f4fa71e73e698ec705911017b4de3826"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261114/clean_proxy_2/summary.json",
+      "bytes": 1570,
+      "sha256": "d1903d30b7723aa908cdb41b400478492b6e80c5bc2184a32b73cd6c9ae4759a"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261114/clean_reference/summary.json",
+      "bytes": 1572,
+      "sha256": "6a2b955b93899526a532b67f982e3056c2b757e89a9a32c80198ea1908564f32"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261114/evaluation_audit/summary.json",
+      "bytes": 11152,
+      "sha256": "f8ca2e714663d1fc626ad1aae0bf9360746385e558c59ba01473b218a588e378"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261114/evaluation_dev/summary.json",
+      "bytes": 11037,
+      "sha256": "e374dbcdf01df383cc68ebccf85bc74a3fb2b6b3b04441bb416dae95fe01808c"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261114/plan.json",
+      "bytes": 17720,
+      "sha256": "eeb346df8d772c32f18429e2c02ea73e292569aa432feb8ac3626617457523ab"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261114/selection/attribution_fit/summary.json",
+      "bytes": 1578,
+      "sha256": "8520e142586b5f3c99e2d9b0e6e4387385c1b6b820b49b95369218390ba33e8a"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261114/selection/ranking_fit/summary.json",
+      "bytes": 1585,
+      "sha256": "248ad0954a4636648c30721c8bf86be1c51c79ede6fc678077408f115ec37672"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261114/status.json",
+      "bytes": 188,
+      "sha256": "1d90a5effb0ae79e5f7cc361d02f8ea2587797f20aa79b560c2825f31ee4245f"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261114/victim/summary.json",
+      "bytes": 1563,
+      "sha256": "cf0960645e1a1eefc79523e498894026548efc53f9a35fa323b5da7c1aa4dde4"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261115/anchor/summary.json",
+      "bytes": 2750,
+      "sha256": "836abce29c55a6395be03c288c675ccc7e4f82ea61746665f6e9ab2503a279b0"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261115/clean_proxy_1/summary.json",
+      "bytes": 1570,
+      "sha256": "e07c066d831a2fe1bc5b0b486cdb2a34f9e4a044916ded12b392156fbba4f8f8"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261115/clean_proxy_2/summary.json",
+      "bytes": 1570,
+      "sha256": "46b24f89a54d19755c34f7793e5815b9856842ee811f1f835208989c900f2727"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261115/clean_reference/summary.json",
+      "bytes": 1572,
+      "sha256": "61d6941230ff03608168efa9ba741535281938ff102dad1bf542c07fbaa09e94"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261115/evaluation_audit/summary.json",
+      "bytes": 11220,
+      "sha256": "8992b9778b4ec4bddc00f44437d70c027b271aa51614714ec3da2be4b1531e19"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261115/evaluation_dev/summary.json",
+      "bytes": 11041,
+      "sha256": "394025b5cb5566aecf0a070cd8795c3dbd188609d2b61ac1e75d1191bd56d2e9"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261115/plan.json",
+      "bytes": 17720,
+      "sha256": "35c92364b63e32020c4a1b897d022083d5a03ebc22e7946928fd1f12808844ae"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261115/selection/attribution_fit/summary.json",
+      "bytes": 1578,
+      "sha256": "8a8ac0612a1ec8dfd723913ed5b887261307ab9be60716b53a27568a80c3236c"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261115/selection/ranking_fit/summary.json",
+      "bytes": 1585,
+      "sha256": "b1bb68d460ca3b02f640ce4fb650ffa6e835409619492054cedf567da6ea4543"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261115/status.json",
+      "bytes": 188,
+      "sha256": "fbae9658d161bc267f1d8fc6a864c5e978241432b6243f048fd11f0ead0eb927"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/seed20261115/victim/summary.json",
+      "bytes": 1563,
+      "sha256": "cf19931e9af382d05e8fc5da8c121c75837f794575c44c0502011fba352b970d"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/av2_formal_main_full_corrected_gpu_cache_v2_20261111/status.json",
+      "bytes": 118,
+      "sha256": "46ff11e59cc26aec5d9d5a95b3a9db7e2bdf99982a061284042c2f5055d0308c"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/aggregate.json",
+      "bytes": 123739,
+      "sha256": "ed08f97985aa8a086417689cba2f19084a8c5580d4a323330b624ecc0a56627e"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/candidate_ready.json",
+      "bytes": 353,
+      "sha256": "40d8d3d1212569b5ec82da595485cb7f3fd22f82121a5cd418e8db9f8bc76c43"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/data_summary.json",
+      "bytes": 213752,
+      "sha256": "0ac3a2bff1b43f7ef0dc77c52469aebee113d4ffb12ce5e8cb0cd5d7c4df5d44"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/execution_manifest.json",
+      "bytes": 462,
+      "sha256": "e6160b70e3f5c4cd4e85e5500dc33fb8fb477850739cb11ee4c93bf5b7ce5cff"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/optimization_report.json",
+      "bytes": 1776,
+      "sha256": "f0cc630f31164b4e1b09f640a288d68ed857fb002e30224602856caa3ba48c16"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/plan.json",
+      "bytes": 266234,
+      "sha256": "2d9a09c4712dd70f33f9856930bafadd55de6b938a25da14801dd0b868a00080"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/preflight/acceptance.json",
+      "bytes": 345,
+      "sha256": "356b6d4698f2f01bf4889a883cbc1c741db604c729b903377ac3d8bdd62c13e2"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/registration.json",
+      "bytes": 1816,
+      "sha256": "48c848bdb0915116684e4f61b78b784f4fba2ec6cc8bf87f62ec3b03973b01f5"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261126/anchor/summary.json",
+      "bytes": 2749,
+      "sha256": "ef9a48168a168b006211928b4775add8c53f746054197f2fd4e348aaeba12c76"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261126/clean_proxy_1/summary.json",
+      "bytes": 1578,
+      "sha256": "f9d3ebe01c4fccb8c72fe91e5268049de8cf9b15f9beb9a0e17043701055f8db"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261126/clean_proxy_2/summary.json",
+      "bytes": 1578,
+      "sha256": "f0d365f3e2d06b99583b28468880aee1630c99959879361d13a832d4ecb77ee3"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261126/clean_reference/summary.json",
+      "bytes": 1580,
+      "sha256": "53d2f6559c020deb109c0ad72fdfdc2cfe5e8234873ac640c81c07727110e6e2"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261126/evaluation_audit/summary.json",
+      "bytes": 11499,
+      "sha256": "06d9480c8612116730433ad5beefa93ee90dff16a84b04abdd46642b2c4bbf5b"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261126/evaluation_dev/summary.json",
+      "bytes": 11510,
+      "sha256": "d7a422f8b1bbc92ee07b3cb64a0ef5e2dd9af4675c3e8596bbd66dc2d5ab291c"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261126/plan.json",
+      "bytes": 17351,
+      "sha256": "f8506acf53432f70bff5b4f16982e898adab978e2bb174e9b57fa951a9442602"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261126/selection/attribution_fit/summary.json",
+      "bytes": 1586,
+      "sha256": "10136ee74c236f3de3cfb37786d601963198b89a7722123fcc3aacd1a20a6ef2"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261126/selection/ranking_fit/summary.json",
+      "bytes": 1594,
+      "sha256": "1600823d022e6b9e587a2ec3cb8d6cb57c8dcc1ee69683956b3c12c33ea1a5d1"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261126/status.json",
+      "bytes": 188,
+      "sha256": "c180d395410da18ea5fcf6eda35c064549ad2f3c2ab846252b3895fc16d271b5"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261126/victim/summary.json",
+      "bytes": 1571,
+      "sha256": "974a0a06bc0c49edc762bbeb809e0b1dbb3ecd6e90f4e57171d2f4f64d837824"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261127/clean_proxy_1/summary.json",
+      "bytes": 1578,
+      "sha256": "0ff209968d23f412c59e0c648926c0ed5283e9097bc84b425361cee533b157e1"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261127/clean_proxy_2/summary.json",
+      "bytes": 1578,
+      "sha256": "fb305f8aef160a9e54d5d9eda685c008d44fa53062df7790ccd2be4826cd1e83"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261127/plan.json",
+      "bytes": 17351,
+      "sha256": "bba06eabf9bf19ae9210db13b433c9666d2e8269da31e2c900bad064af4cecb8"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261127/selection/attribution_fit/summary.json",
+      "bytes": 1585,
+      "sha256": "bd6287ffdc1cb713d1d10f95cfa2f0071bf41d4583dfb38badbf19bc9f0f456b"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261127/selection/ranking_fit/summary.json",
+      "bytes": 1593,
+      "sha256": "56ed5e01358e506c071d0b1ff447b16598fa2741dfff355fd53cd29506be7a66"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261127/status.json",
+      "bytes": 279,
+      "sha256": "a24440081744d352661c8e673e16fa89166bffacfb2fac0709dc51d5626b3825"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261128/plan.json",
+      "bytes": 17351,
+      "sha256": "f79bfaf79c552d37026fbf483abf90f279a83f8e8f59b3cdabdb0559b4877268"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261129/plan.json",
+      "bytes": 17351,
+      "sha256": "2381d6b56c9abec24cff5a222795241939a9ea5cfa094313b1d2c8dc9d740f41"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/seed20261130/plan.json",
+      "bytes": 17351,
+      "sha256": "7c6162927f82a5a1498ad3aad8285381b2809f923f622291789a90bd0b4277cb"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/status.json",
+      "bytes": 714,
+      "sha256": "dfa24bbed55029ace64fe6f0094dc346e2b001b13e38f369bf0d2a39f7137206"
+    },
+    {
+      "path": "results/published/formal_runs_20261115/README.md",
+      "bytes": 783,
+      "sha256": "32557e784b99c405edaf5734e936dbc26778033316dcbe75747ece6a4dcbbc25"
+    }
+  ],
+  "excluded": [
+    "datasets",
+    "graph tensors",
+    "model checkpoints",
+    "raw pair-score CSV files",
+    "logs",
+    "locks",
+    "cache files"
+  ]
+}

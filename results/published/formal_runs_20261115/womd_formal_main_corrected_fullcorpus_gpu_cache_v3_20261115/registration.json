@@ -1,0 +1,34 @@
+{
+  "plan_sha256": "2d9a09c4712dd70f33f9856930bafadd55de6b938a25da14801dd0b868a00080",
+  "child_plan_sha256": {
+    "20261126": "f8506acf53432f70bff5b4f16982e898adab978e2bb174e9b57fa951a9442602",
+    "20261127": "bba06eabf9bf19ae9210db13b433c9666d2e8269da31e2c900bad064af4cecb8",
+    "20261128": "f79bfaf79c552d37026fbf483abf90f279a83f8e8f59b3cdabdb0559b4877268",
+    "20261129": "2381d6b56c9abec24cff5a222795241939a9ea5cfa094313b1d2c8dc9d740f41",
+    "20261130": "7c6162927f82a5a1498ad3aad8285381b2809f923f622291789a90bd0b4277cb"
+  },
+  "seeds": [
+    20261126,
+    20261127,
+    20261128,
+    20261129,
+    20261130
+  ],
+  "at": "2026-11-14T20:06:18.169781+00:00",
+  "experiment_identity": "womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115",
+  "source_plan_sha256": "7bbf1bdb6fcbc6b2d4f359c907a8c44be5fe4d1772005cfd9e7f285ac2b3c211",
+  "registration_type": "execution_revision_same_scientific_experiment",
+  "cpu_validation": {
+    "path": "/home/mizhou/JCAS_vehicle_lane/artifacts/womd_gpu_cache_cpu_checks_20261115_v1.json",
+    "sha256": "260876929d0a5bf348b136f018d173bc40b8aef215b937982e6941b457bdadd8",
+    "tests": 30,
+    "source_files_sha256": {
+      "src/womd_accelerated.py": "c3b5c8939537780d7fd58bf0605c6cbba3b55ec239a66618f158ea991f1cfddd",
+      "src/womd_execution_cache.py": "11858030a81cb47c2123ed77a1ce56b0461540e99656095766acbbcc8d409d04",
+      "src/womd_stage_resume.py": "2e6dc22b97ea32b5f65b1a8725d88ea96c3d1f7570af248044e631ce415af18d",
+      "tests/test_womd_accelerated.py": "3649b77edc94fa6d2237c4de04a17694e943eb97ebdf520878304453dd0aad17",
+      "tests/test_womd_execution_cache.py": "2cd4203d46df3453aa60c59a3e201c7a9cd5b374f5e7e0a8019d8926fd58dd53",
+      "tests/test_womd_stage_resume.py": "11fb46f6c64e69a5c4718ab55fcdc482c13eb8f01da70e02e9feb54ba3d4156d"
+    }
+  }
+}

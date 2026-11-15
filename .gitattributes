@@ -1,0 +1,9 @@
+# Frozen source/asset hashes require byte-for-byte preservation on every OS.
+* -text
+*.pt binary
+*.pth binary
+*.npy binary
+*.npz binary
+*.tar binary
+artifacts/** linguist-generated=true
+results/** linguist-generated=true

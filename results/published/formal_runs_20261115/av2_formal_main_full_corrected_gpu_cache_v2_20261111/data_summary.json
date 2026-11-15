@@ -1,0 +1,3015 @@
+{
+  "schema": "av2_formal_main_full_corrected_data_summary_v1",
+  "target_seed": 20260621,
+  "status": "PREPARED",
+  "original_validation_arrays_loaded": false,
+  "original_test_arrays_loaded": false,
+  "blind_evaluation": false,
+  "attachment_budget": {
+    "count": 5865,
+    "formula": "ceil(26 * registered_TRAIN_scenes / 512)",
+    "interpretation": "new explicit scene-count scaling of historical absolute 26; not a historical proven poison rate",
+    "multiple_attachments_per_scene_allowed": true
+  },
+  "max_nodes_per_shard": 16384,
+  "normalizer_fitted_rows": 5193841,
+  "train": {
+    "scenes": 115490,
+    "groups": 10176,
+    "pair_nodes": 5193841,
+    "pair_edges": 91750982,
+    "eligible": 2188291,
+    "positive": 249557,
+    "targets": 101582,
+    "moving_targets": 23456,
+    "zero_pair_scenes": 0,
+    "shards": [
+      {
+        "path": "00000.pt",
+        "sha256": "4c27d7a884f5dc1d2da007fb5313b1d9c033a792bb374dc4a25b36848f5d3b60",
+        "scenes": 546,
+        "nodes": 16364,
+        "edges": 221572,
+        "global_start": 0,
+        "global_stop": 16364
+      },
+      {
+        "path": "00001.pt",
+        "sha256": "aae37f6d7909642a633929694a6655de269a62caab1f6cc59e1a58bf81140fd4",
+        "scenes": 583,
+        "nodes": 16352,
+        "edges": 217610,
+        "global_start": 16364,
+        "global_stop": 32716
+      },
+      {
+        "path": "00002.pt",
+        "sha256": "1096e16042f64be6b6e8a470c3dba2bef10b56f0e27b3ce40ad2a70cd34e3484",
+        "scenes": 557,
+        "nodes": 16279,
+        "edges": 242456,
+        "global_start": 32716,
+        "global_stop": 48995
+      },
+      {
+        "path": "00003.pt",
+        "sha256": "050b59591bc79ac86ee48e1124e5ae614b273e771f93428f20ea31bcba686672",
+        "scenes": 598,
+        "nodes": 15898,
+        "edges": 197882,
+        "global_start": 48995,
+        "global_stop": 64893
+      },
+      {
+        "path": "00004.pt",
+        "sha256": "58736495446486c3aa4c68fb8abfd0268847c691b196aa01d40878ffaab05bfd",
+        "scenes": 605,
+        "nodes": 16367,
+        "edges": 257880,
+        "global_start": 64893,
+        "global_stop": 81260
+      },
+      {
+        "path": "00005.pt",
+        "sha256": "7f8ed9c7f5e54dfd28b6c562aca582659d0365c0a244c2f36f585f1afcf5882e",
+        "scenes": 597,
+        "nodes": 16345,
+        "edges": 195442,
+        "global_start": 81260,
+        "global_stop": 97605
+      },
+      {
+        "path": "00006.pt",
+        "sha256": "9d308c8180665d92ed9ddf3c5052ed97fe9e996c4d914fe184c8d81e80ad657d",
+        "scenes": 551,
+        "nodes": 16333,
+        "edges": 224122,
+        "global_start": 97605,
+        "global_stop": 113938
+      },
+      {
+        "path": "00007.pt",
+        "sha256": "cccd2c286c0c7e35ce542c45c9adda4fef4e30ce384b6953d971334388daced0",
+        "scenes": 593,
+        "nodes": 16312,
+        "edges": 225238,
+        "global_start": 113938,
+        "global_stop": 130250
+      },
+      {
+        "path": "00008.pt",
+        "sha256": "1587dc43094e38348f157d258c50e64a54ab60654a7738cdba8b7f4ebbccea37",
+        "scenes": 623,
+        "nodes": 16339,
+        "edges": 205556,
+        "global_start": 130250,
+        "global_stop": 146589
+      },
+      {
+        "path": "00009.pt",
+        "sha256": "9ea0bafcbaa615c844712133e3b4633d88ff8c5a6b9176180555b2ab6a4c98be",
+        "scenes": 535,
+        "nodes": 16382,
+        "edges": 246056,
+        "global_start": 146589,
+        "global_stop": 162971
+      },
+      {
+        "path": "00010.pt",
+        "sha256": "e1f3ebb3e298bbd7994491e4edc6573f55fbb9ffc928ebbf80aa332109dd6f36",
+        "scenes": 584,
+        "nodes": 16360,
+        "edges": 218436,
+        "global_start": 162971,
+        "global_stop": 179331
+      },
+      {
+        "path": "00011.pt",
+        "sha256": "db82d57d7dd7c8656b439a8f2bb038a814c5e11f7302fd68056b431373882491",
+        "scenes": 610,
+        "nodes": 16367,
+        "edges": 212084,
+        "global_start": 179331,
+        "global_stop": 195698
+      },
+      {
+        "path": "00012.pt",
+        "sha256": "c8982f1f7600e0310a4d723d6f026a5061f4351f729aa1f454567623ab998bba",
+        "scenes": 569,
+        "nodes": 16281,
+        "edges": 211514,
+        "global_start": 195698,
+        "global_stop": 211979
+      },
+      {
+        "path": "00013.pt",
+        "sha256": "5cc85154ab9b5fb1b40015b8c7f85db7b17f4d4810cb10a22a61e8cf4aef930d",
+        "scenes": 547,
+        "nodes": 16351,
+        "edges": 220122,
+        "global_start": 211979,
+        "global_stop": 228330
+      },
+      {
+        "path": "00014.pt",
+        "sha256": "cae9419334d5d0521fe05185da83e595802dddf42d66db65345e3702bed1ce9c",
+        "scenes": 570,
+        "nodes": 16348,
+        "edges": 208852,
+        "global_start": 228330,
+        "global_stop": 244678
+      },
+      {
+        "path": "00015.pt",
+        "sha256": "98c97511036ba3e9180a831642c3bc27f71166a328ae3d724a7fae0b82ff6c27",
+        "scenes": 537,
+        "nodes": 16314,
+        "edges": 249060,
+        "global_start": 244678,
+        "global_stop": 260992
+      },
+      {
+        "path": "00016.pt",
+        "sha256": "14cabf8f5b1779c424b72e6a9dbc3f99c937491b3b10b521d16db26b39350695",
+        "scenes": 465,
+        "nodes": 16326,
+        "edges": 251758,
+        "global_start": 260992,
+        "global_stop": 277318
+      },
+      {
+        "path": "00017.pt",
+        "sha256": "61225b2547fbe6069bf8b63fddaea5161235c129f85cc0c06cb0f2acf32cea69",
+        "scenes": 526,
+        "nodes": 16296,
+        "edges": 211510,
+        "global_start": 277318,
+        "global_stop": 293614
+      },
+      {
+        "path": "00018.pt",
+        "sha256": "d18272987d495f8826dda2d3c8a272bde03a7ed42e57a1a36de0631c72a62e50",
+        "scenes": 538,
+        "nodes": 16355,
+        "edges": 213836,
+        "global_start": 293614,
+        "global_stop": 309969
+      },
+      {
+        "path": "00019.pt",
+        "sha256": "a872d38f5cb75b3aa1e1fb384d6ffa80ca133f018b79c61e661fd5eeab9a3431",
+        "scenes": 489,
+        "nodes": 16305,
+        "edges": 235046,
+        "global_start": 309969,
+        "global_stop": 326274
+      },
+      {
+        "path": "00020.pt",
+        "sha256": "85a0eb2085fab74f6d9945f42b8f1754e1f7291cbead3db41a8cfbc82146c1eb",
+        "scenes": 510,
+        "nodes": 16378,
+        "edges": 242742,
+        "global_start": 326274,
+        "global_stop": 342652
+      },
+      {
+        "path": "00021.pt",
+        "sha256": "90542bd88f32cefa9bcf3617f9917f4d221398726e7a5a8c3cdd9f4424a69612",
+        "scenes": 472,
+        "nodes": 16358,
+        "edges": 249410,
+        "global_start": 342652,
+        "global_stop": 359010
+      },
+      {
+        "path": "00022.pt",
+        "sha256": "a676ce1fb2aec2759423d8e0fc22d5d5f883bb4acbcaf1b1b2ae072e780bef32",
+        "scenes": 513,
+        "nodes": 16369,
+        "edges": 217000,
+        "global_start": 359010,
+        "global_stop": 375379
+      },
+      {
+        "path": "00023.pt",
+        "sha256": "fa3f8140f37104f90221196d0e915b5f4483b7fc56c09653cd4b88b98acecaf7",
+        "scenes": 530,
+        "nodes": 16318,
+        "edges": 239504,
+        "global_start": 375379,
+        "global_stop": 391697
+      },
+      {
+        "path": "00024.pt",
+        "sha256": "8faba335917ac2d7abbdb4e6fe563019d59a8dbef74ecd06717a34778ec31616",
+        "scenes": 524,
+        "nodes": 16378,
+        "edges": 218090,
+        "global_start": 391697,
+        "global_stop": 408075
+      },
+      {
+        "path": "00025.pt",
+        "sha256": "4100ae46417c072ee16493c8d7b8b5c3705c95ec49c17201055872c931ba017c",
+        "scenes": 544,
+        "nodes": 16276,
+        "edges": 209662,
+        "global_start": 408075,
+        "global_stop": 424351
+      },
+      {
+        "path": "00026.pt",
+        "sha256": "72b0ff3a31ef13e9b9e6cde79d6d7a001f208c24037853d2f5f1c00ff336600a",
+        "scenes": 557,
+        "nodes": 16364,
+        "edges": 219422,
+        "global_start": 424351,
+        "global_stop": 440715
+      },
+      {
+        "path": "00027.pt",
+        "sha256": "20c2d6f00b48a39dcde824937064df4868d5e80522541309ebc85852c92ccc1a",
+        "scenes": 519,
+        "nodes": 16360,
+        "edges": 218324,
+        "global_start": 440715,
+        "global_stop": 457075
+      },
+      {
+        "path": "00028.pt",
+        "sha256": "5ab0c691ae00ba3a23abf4b82fc32200937566076fdaedacd91f4e5eeaa47205",
+        "scenes": 509,
+        "nodes": 16362,
+        "edges": 249928,
+        "global_start": 457075,
+        "global_stop": 473437
+      },
+      {
+        "path": "00029.pt",
+        "sha256": "a2f754ff880f2ade384e3ffe16d339e30b423232e0def7a927365f5cb68578fd",
+        "scenes": 445,
+        "nodes": 16250,
+        "edges": 217322,
+        "global_start": 473437,
+        "global_stop": 489687
+      },
+      {
+        "path": "00030.pt",
+        "sha256": "89c2874fc25fa5e37067417d4db9bae34d92286673266d14c8fb184bb75dc028",
+        "scenes": 480,
+        "nodes": 16349,
+        "edges": 264240,
+        "global_start": 489687,
+        "global_stop": 506036
+      },
+      {
+        "path": "00031.pt",
+        "sha256": "35164b4fb9cc0a439ad0e7e2ba6bfa0089d65229b6863e23aaef8b5c4cb7b746",
+        "scenes": 520,
+        "nodes": 16383,
+        "edges": 227338,
+        "global_start": 506036,
+        "global_stop": 522419
+      },
+      {
+        "path": "00032.pt",
+        "sha256": "e5fd87774946f4589a637bde836d2320260af733a1a032b7a6306598d5e87730",
+        "scenes": 533,
+        "nodes": 16361,
+        "edges": 255130,
+        "global_start": 522419,
+        "global_stop": 538780
+      },
+      {
+        "path": "00033.pt",
+        "sha256": "aa0da603393610fd50b8821e05a52825e6a640e4d414e4fb087b9dc81c49c0b2",
+        "scenes": 461,
+        "nodes": 16319,
+        "edges": 270906,
+        "global_start": 538780,
+        "global_stop": 555099
+      },
+      {
+        "path": "00034.pt",
+        "sha256": "fccaa54796e8e7d2e68afe7afa0ba40d2d8649fec00f1a42bb7d38f6b161592a",
+        "scenes": 487,
+        "nodes": 16351,
+        "edges": 234972,
+        "global_start": 555099,
+        "global_stop": 571450
+      },
+      {
+        "path": "00035.pt",
+        "sha256": "f0633514b0b91bd2a9aeb1e9f0b6861d1d37f958d2adac0da31ca8450dddb03c",
+        "scenes": 408,
+        "nodes": 16379,
+        "edges": 282604,
+        "global_start": 571450,
+        "global_stop": 587829
+      },
+      {
+        "path": "00036.pt",
+        "sha256": "dbe554b7df5d61d545bc1c8c75de4ad6dbb07f2e5cb36c6055420f19fc3483dc",
+        "scenes": 425,
+        "nodes": 16295,
+        "edges": 269426,
+        "global_start": 587829,
+        "global_stop": 604124
+      },
+      {
+        "path": "00037.pt",
+        "sha256": "64250a43737481486b59419dc1b5c5ebffb2d58c5938040a7d6ffcae1f83d875",
+        "scenes": 401,
+        "nodes": 16310,
+        "edges": 243816,
+        "global_start": 604124,
+        "global_stop": 620434
+      },
+      {
+        "path": "00038.pt",
+        "sha256": "685e80fcbcf1874f502f4aefa6aa5768c4ce7b8ea7f58cbe2b4b5004f2eae972",
+        "scenes": 384,
+        "nodes": 16181,
+        "edges": 239810,
+        "global_start": 620434,
+        "global_stop": 636615
+      },
+      {
+        "path": "00039.pt",
+        "sha256": "d8600e6183b93caaa8dc5146ca1fb4f6ab3ccfa223ca4ff0e9c063a320918ff0",
+        "scenes": 354,
+        "nodes": 16383,
+        "edges": 287290,
+        "global_start": 636615,
+        "global_stop": 652998
+      },
+      {
+        "path": "00040.pt",
+        "sha256": "e7316f8c0be21f98a098b4909de94f5f3559701dd7c04853e22635f93defc404",
+        "scenes": 425,
+        "nodes": 16341,
+        "edges": 277364,
+        "global_start": 652998,
+        "global_stop": 669339
+      },
+      {
+        "path": "00041.pt",
+        "sha256": "5964c035c2a11d79eda6d3f90f897b10eafbe13008e51366fdab2a0e7419ba38",
+        "scenes": 458,
+        "nodes": 16356,
+        "edges": 223492,
+        "global_start": 669339,
+        "global_stop": 685695
+      },
+      {
+        "path": "00042.pt",
+        "sha256": "03474fa7c850899d452a02bb30a7c856cb465cb40cd47f110784d76e7e8741c5",
+        "scenes": 455,
+        "nodes": 16383,
+        "edges": 233524,
+        "global_start": 685695,
+        "global_stop": 702078
+      },
+      {
+        "path": "00043.pt",
+        "sha256": "95f3eed68025f39a29129e0d1ee9ca2e6eaf021256558d95fc7328c82cbf50df",
+        "scenes": 442,
+        "nodes": 16170,
+        "edges": 225572,
+        "global_start": 702078,
+        "global_stop": 718248
+      },
+      {
+        "path": "00044.pt",
+        "sha256": "61d59b3779c4a32f7f1bf2c9dba4a74b9fe3c48ab130aab90902a108b0e9f50c",
+        "scenes": 448,
+        "nodes": 16370,
+        "edges": 233972,
+        "global_start": 718248,
+        "global_stop": 734618
+      },
+      {
+        "path": "00045.pt",
+        "sha256": "46f8190e83aede1b67b88876609c2036293a3446445f0f36b456bf349e17b614",
+        "scenes": 442,
+        "nodes": 16380,
+        "edges": 225424,
+        "global_start": 734618,
+        "global_stop": 750998
+      },
+      {
+        "path": "00046.pt",
+        "sha256": "32ae6b12d5cfc1bd237c2361cb545b0d1ebf8a05a73e8d2ee3978993bbc5d984",
+        "scenes": 423,
+        "nodes": 16365,
+        "edges": 262348,
+        "global_start": 750998,
+        "global_stop": 767363
+      },
+      {
+        "path": "00047.pt",
+        "sha256": "b7e9c2afb295ace3a94081e850289e4480e519d6da7ec363865ed6d36612802c",
+        "scenes": 500,
+        "nodes": 16380,
+        "edges": 235006,
+        "global_start": 767363,
+        "global_stop": 783743
+      },
+      {
+        "path": "00048.pt",
+        "sha256": "a2e5764c8354342557508c13544b805dab4e406d96a55f35ebdd480330f92972",
+        "scenes": 679,
+        "nodes": 16349,
+        "edges": 217146,
+        "global_start": 783743,
+        "global_stop": 800092
+      },
+      {
+        "path": "00049.pt",
+        "sha256": "9f0a0b5215d4566c9942ede2f43e596ace964a614049c8a4cfae0558e5525865",
+        "scenes": 888,
+        "nodes": 16344,
+        "edges": 207106,
+        "global_start": 800092,
+        "global_stop": 816436
+      },
+      {
+        "path": "00050.pt",
+        "sha256": "45d7497e512188ea1bebf396554c8db3c8c2bbf5426e753c8b7e0cc1000346e6",
+        "scenes": 789,
+        "nodes": 16383,
+        "edges": 230452,
+        "global_start": 816436,
+        "global_stop": 832819
+      },
+      {
+        "path": "00051.pt",
+        "sha256": "c558981ed5dfbaafb59948e115c8ff3be3cf738538da6dd05250e8d6e6f21f48",
+        "scenes": 788,
+        "nodes": 16317,
+        "edges": 218998,
+        "global_start": 832819,
+        "global_stop": 849136
+      },
+      {
+        "path": "00052.pt",
+        "sha256": "700200f1687262a4123bf2c6191ece9a6df116dcd877646a2fcc3646aad54028",
+        "scenes": 728,
+        "nodes": 16349,
+        "edges": 221986,
+        "global_start": 849136,
+        "global_stop": 865485
+      },
+      {
+        "path": "00053.pt",
+        "sha256": "a52afdaedb4cf67dfba72114da3b49f6cc8cbd86d2f8d88c1000c4d8653ec010",
+        "scenes": 633,
+        "nodes": 16360,
+        "edges": 268064,
+        "global_start": 865485,
+        "global_stop": 881845
+      },
+      {
+        "path": "00054.pt",
+        "sha256": "3333cce9e490e25c94226186f31ea1d39b0afc11187b1b0f4f69e8d3eaa999ef",
+        "scenes": 663,
+        "nodes": 16382,
+        "edges": 239550,
+        "global_start": 881845,
+        "global_stop": 898227
+      },
+      {
+        "path": "00055.pt",
+        "sha256": "bfb8b22c6685b5c09b21db3ce1d7d5fab4d15c4359bd280468dc81c83984c7f5",
+        "scenes": 594,
+        "nodes": 16365,
+        "edges": 273862,
+        "global_start": 898227,
+        "global_stop": 914592
+      },
+      {
+        "path": "00056.pt",
+        "sha256": "9b10a48afc431601dabefb394b9222b74adb3866df730650700652dc81a3745b",
+        "scenes": 719,
+        "nodes": 16343,
+        "edges": 224768,
+        "global_start": 914592,
+        "global_stop": 930935
+      },
+      {
+        "path": "00057.pt",
+        "sha256": "8032c112947d70ba26da6afd6d5aab4a1ea9e16a840f55337c378047567135ca",
+        "scenes": 718,
+        "nodes": 16370,
+        "edges": 237262,
+        "global_start": 930935,
+        "global_stop": 947305
+      },
+      {
+        "path": "00058.pt",
+        "sha256": "35130498b0517d86ba6b2f6edf33e8ed177b6f701519d21ebc46df661db3a0fb",
+        "scenes": 726,
+        "nodes": 16373,
+        "edges": 230350,
+        "global_start": 947305,
+        "global_stop": 963678
+      },
+      {
+        "path": "00059.pt",
+        "sha256": "0f8531e7d4b24472ee9b69fa2878f73a1ebcdad6ae5a6048cddb754bbbc6dc28",
+        "scenes": 762,
+        "nodes": 16378,
+        "edges": 222824,
+        "global_start": 963678,
+        "global_stop": 980056
+      },
+      {
+        "path": "00060.pt",
+        "sha256": "d9378ee2d5e4d6faed3de770ed44f384c2ae357ee19a2b8eb9ca4afbbba923a9",
+        "scenes": 738,
+        "nodes": 16364,
+        "edges": 224282,
+        "global_start": 980056,
+        "global_stop": 996420
+      },
+      {
+        "path": "00061.pt",
+        "sha256": "a4cd25c7e45036e94d6c0506ac1b17a6a292ddffd223df704c912e61de5068fd",
+        "scenes": 734,
+        "nodes": 16377,
+        "edges": 231548,
+        "global_start": 996420,
+        "global_stop": 1012797
+      },
+      {
+        "path": "00062.pt",
+        "sha256": "fef3242e7389568c071bffd150b012db4f69b69c1fce00f7a3928c440588964c",
+        "scenes": 695,
+        "nodes": 16376,
+        "edges": 217778,
+        "global_start": 1012797,
+        "global_stop": 1029173
+      },
+      {
+        "path": "00063.pt",
+        "sha256": "8e408b8a679f3bf7f5bc0d5a040fd518c15f55c0042ece2773081e2499e160ce",
+        "scenes": 661,
+        "nodes": 16378,
+        "edges": 228244,
+        "global_start": 1029173,
+        "global_stop": 1045551
+      },
+      {
+        "path": "00064.pt",
+        "sha256": "a87c561ab357c7d082896f10121239faa70b77f705c3a7f2f85e3b3c167ca77b",
+        "scenes": 656,
+        "nodes": 16376,
+        "edges": 239478,
+        "global_start": 1045551,
+        "global_stop": 1061927
+      },
+      {
+        "path": "00065.pt",
+        "sha256": "0bdf6a3210dd890b5b4ba97e95def1dbf8c58c36b993a4b87118256a34b608b0",
+        "scenes": 704,
+        "nodes": 16371,
+        "edges": 213592,
+        "global_start": 1061927,
+        "global_stop": 1078298
+      },
+      {
+        "path": "00066.pt",
+        "sha256": "7b7aa1cb9b2304a39a2005b5b13f17ef961fad3f828b5747db1024d2bbf737d9",
+        "scenes": 469,
+        "nodes": 16345,
+        "edges": 252434,
+        "global_start": 1078298,
+        "global_stop": 1094643
+      },
+      {
+        "path": "00067.pt",
+        "sha256": "d807c16e498dc0c30ab2b18c74c11e2b1d48f80e09ccca3027bf13e5072bc320",
+        "scenes": 293,
+        "nodes": 16374,
+        "edges": 306646,
+        "global_start": 1094643,
+        "global_stop": 1111017
+      },
+      {
+        "path": "00068.pt",
+        "sha256": "3278afc7d967f078c1c646c264d05eb46f031f5a83c92a05291cc75ad548708c",
+        "scenes": 314,
+        "nodes": 16307,
+        "edges": 292728,
+        "global_start": 1111017,
+        "global_stop": 1127324
+      },
+      {
+        "path": "00069.pt",
+        "sha256": "1e0866dd8748506d2744491e02bb2ef4f4dad7d7486fbb7d4a338c6e36f838eb",
+        "scenes": 356,
+        "nodes": 16292,
+        "edges": 265844,
+        "global_start": 1127324,
+        "global_stop": 1143616
+      },
+      {
+        "path": "00070.pt",
+        "sha256": "66da61ffe948c6d79f906179a39ffe126bffb9f29d1d5c67cecb3e3e7e3a727e",
+        "scenes": 304,
+        "nodes": 16380,
+        "edges": 291510,
+        "global_start": 1143616,
+        "global_stop": 1159996
+      },
+      {
+        "path": "00071.pt",
+        "sha256": "01a96c42d34d77caef6e7e3c61a724f4468c42b8e2498e823e25e2230841e895",
+        "scenes": 273,
+        "nodes": 16344,
+        "edges": 309464,
+        "global_start": 1159996,
+        "global_stop": 1176340
+      },
+      {
+        "path": "00072.pt",
+        "sha256": "c9d77e52a3a8c1e32633d2acef7f40e3c1ea246d221b22bf343f496d3e194c46",
+        "scenes": 328,
+        "nodes": 16274,
+        "edges": 303118,
+        "global_start": 1176340,
+        "global_stop": 1192614
+      },
+      {
+        "path": "00073.pt",
+        "sha256": "e4b436949ac87e562568c750c7e59396f33c99f4c8dcdc2d2a5a6852f3dda6a3",
+        "scenes": 323,
+        "nodes": 16296,
+        "edges": 284952,
+        "global_start": 1192614,
+        "global_stop": 1208910
+      },
+      {
+        "path": "00074.pt",
+        "sha256": "a0d7b972e2ff367ff371da1557a744b148c700f047ec43b0d4690316dd367014",
+        "scenes": 296,
+        "nodes": 16350,
+        "edges": 283996,
+        "global_start": 1208910,
+        "global_stop": 1225260
+      },
+      {
+        "path": "00075.pt",
+        "sha256": "6aaaf0147e00c86f1230260df3e53e9410e2c376da9199a68e6131247af6ffdd",
+        "scenes": 373,
+        "nodes": 16353,
+        "edges": 297648,
+        "global_start": 1225260,
+        "global_stop": 1241613
+      },
+      {
+        "path": "00076.pt",
+        "sha256": "e7972248b54846bc2934089e70ea3ed3c2d222c93420d4ead7e877ebf900094a",
+        "scenes": 371,
+        "nodes": 16332,
+        "edges": 256976,
+        "global_start": 1241613,
+        "global_stop": 1257945
+      },
+      {
+        "path": "00077.pt",
+        "sha256": "4a8ced13aee304acba752917923b3e131e5413508e3967a1778feb7882560ebb",
+        "scenes": 350,
+        "nodes": 16381,
+        "edges": 269002,
+        "global_start": 1257945,
+        "global_stop": 1274326
+      },
+      {
+        "path": "00078.pt",
+        "sha256": "02317c9568ae080ba514685dd9d38956948f49beecb4d82acb86f647d81525d6",
+        "scenes": 363,
+        "nodes": 16361,
+        "edges": 274258,
+        "global_start": 1274326,
+        "global_stop": 1290687
+      },
+      {
+        "path": "00079.pt",
+        "sha256": "31d4fb1c4305b2ffc8f0ebb95486317d1860f19ee6c4ad2fcd79b3186c097a16",
+        "scenes": 395,
+        "nodes": 16362,
+        "edges": 271406,
+        "global_start": 1290687,
+        "global_stop": 1307049
+      },
+      {
+        "path": "00080.pt",
+        "sha256": "8ee374f3a83a97c8c846d63c78ce83439946851cfd6533f48fa186ef733cf0c5",
+        "scenes": 351,
+        "nodes": 16348,
+        "edges": 305038,
+        "global_start": 1307049,
+        "global_stop": 1323397
+      },
+      {
+        "path": "00081.pt",
+        "sha256": "574aec0d15546009affae454636e401e2492315c29bf884c33e0df14625ebe1b",
+        "scenes": 399,
+        "nodes": 16186,
+        "edges": 268398,
+        "global_start": 1323397,
+        "global_stop": 1339583
+      },
+      {
+        "path": "00082.pt",
+        "sha256": "20198ea5d306f9df2852c23915caef9566cd892b3810d5f1fcbb2e96fab7b58c",
+        "scenes": 358,
+        "nodes": 16346,
+        "edges": 270044,
+        "global_start": 1339583,
+        "global_stop": 1355929
+      },
+      {
+        "path": "00083.pt",
+        "sha256": "7ed8f60da3b92b90b292f2c8a5d25ee2ff1d88250d6e1bea3c7a3df65aad2166",
+        "scenes": 326,
+        "nodes": 16339,
+        "edges": 312408,
+        "global_start": 1355929,
+        "global_stop": 1372268
+      },
+      {
+        "path": "00084.pt",
+        "sha256": "fb70bdc1dc38999445403632ba123910e1caaa1eb3a93870087784e9b0215972",
+        "scenes": 292,
+        "nodes": 16384,
+        "edges": 298242,
+        "global_start": 1372268,
+        "global_stop": 1388652
+      },
+      {
+        "path": "00085.pt",
+        "sha256": "608beca6089bec1d143f97692d0f339ab1499aa97cb326300c140d2a5777eb70",
+        "scenes": 370,
+        "nodes": 16360,
+        "edges": 280088,
+        "global_start": 1388652,
+        "global_stop": 1405012
+      },
+      {
+        "path": "00086.pt",
+        "sha256": "e8a956e6550316dbfabb024ff1269fdf2f8b0fab60b0b8c50871eea126c9a465",
+        "scenes": 316,
+        "nodes": 16249,
+        "edges": 271936,
+        "global_start": 1405012,
+        "global_stop": 1421261
+      },
+      {
+        "path": "00087.pt",
+        "sha256": "2e5232cd5908eeb3f8f850ffe400623220b568377eda5240c4c0d490df780e75",
+        "scenes": 339,
+        "nodes": 16292,
+        "edges": 285890,
+        "global_start": 1421261,
+        "global_stop": 1437553
+      },
+      {
+        "path": "00088.pt",
+        "sha256": "84f391a2ba17382bb681b9eca643c45c00a39660ada490e250a7643ba3225c4e",
+        "scenes": 352,
+        "nodes": 16258,
+        "edges": 271502,
+        "global_start": 1437553,
+        "global_stop": 1453811
+      },
+      {
+        "path": "00089.pt",
+        "sha256": "a720c73128d98194eb9dea32c7966f4e2cb5221a93758624b905c9d92dd6b875",
+        "scenes": 359,
+        "nodes": 16262,
+        "edges": 262288,
+        "global_start": 1453811,
+        "global_stop": 1470073
+      },
+      {
+        "path": "00090.pt",
+        "sha256": "536bc896b91ae035ba34f345060a5bf76dfe89684e5e1901e81a1c832bac6375",
+        "scenes": 321,
+        "nodes": 16201,
+        "edges": 302632,
+        "global_start": 1470073,
+        "global_stop": 1486274
+      },
+      {
+        "path": "00091.pt",
+        "sha256": "28a7a3379448656b2637c4214284465434f5ef743e089699a0cdd1d22f7dd29c",
+        "scenes": 333,
+        "nodes": 16314,
+        "edges": 265800,
+        "global_start": 1486274,
+        "global_stop": 1502588
+      },
+      {
+        "path": "00092.pt",
+        "sha256": "439c743cc4b3edc7075f058469943c9ec009580ebf4664e783d152427a03183e",
+        "scenes": 346,
+        "nodes": 16270,
+        "edges": 284684,
+        "global_start": 1502588,
+        "global_stop": 1518858
+      },
+      {
+        "path": "00093.pt",
+        "sha256": "eb23ac647fdf577cbfd6f29756ddfbad1bda0110aeb50260b7cd7621dd3fd859",
+        "scenes": 326,
+        "nodes": 16375,
+        "edges": 263212,
+        "global_start": 1518858,
+        "global_stop": 1535233
+      },
+      {
+        "path": "00094.pt",
+        "sha256": "d58854abf4a04a7f5cf76343f453f1c06609d546952fe042b4b61c754ffba4c6",
+        "scenes": 349,
+        "nodes": 16269,
+        "edges": 265788,
+        "global_start": 1535233,
+        "global_stop": 1551502
+      },
+      {
+        "path": "00095.pt",
+        "sha256": "75a1afb87b86c011c1ba28d501a46b3bc12a9e3c74e9c7b7e53e7dd5e8a48eea",
+        "scenes": 356,
+        "nodes": 16371,
+        "edges": 286728,
+        "global_start": 1551502,
+        "global_stop": 1567873
+      },
+      {
+        "path": "00096.pt",
+        "sha256": "a1ec3df1e080e73e83de6bc4b31fe64388ac94ff2291ae22ddd2c43e80078633",
+        "scenes": 303,
+        "nodes": 16249,
+        "edges": 271768,
+        "global_start": 1567873,
+        "global_stop": 1584122
+      },
+      {
+        "path": "00097.pt",
+        "sha256": "a012fa00ebf324daaeee5fadd9bf7803f6c2dcccbf2f170f87a1d160d1f16ec7",
+        "scenes": 344,
+        "nodes": 16373,
+        "edges": 287278,
+        "global_start": 1584122,
+        "global_stop": 1600495
+      },
+      {
+        "path": "00098.pt",
+        "sha256": "4d77d9a5316c5663f2ed17b1bacd012c0e8374ebf7a9144a8cd290f15fc60f7b",
+        "scenes": 378,
+        "nodes": 16369,
+        "edges": 261234,
+        "global_start": 1600495,
+        "global_stop": 1616864
+      },
+      {
+        "path": "00099.pt",
+        "sha256": "fb91d69bb679f363cab2f5827b053d83af6d91ed95109ca995e4170846ebc73e",
+        "scenes": 310,
+        "nodes": 16357,
+        "edges": 290342,
+        "global_start": 1616864,
+        "global_stop": 1633221
+      },
+      {
+        "path": "00100.pt",
+        "sha256": "9cd95b5666d41514a08d46bb736f3441fe4be7b82e81dc1388497065491a5b1b",
+        "scenes": 343,
+        "nodes": 16370,
+        "edges": 272606,
+        "global_start": 1633221,
+        "global_stop": 1649591
+      },
+      {
+        "path": "00101.pt",
+        "sha256": "daa2260e993f7f56f8fabd9c087fb993d9116ca345a049b86c617f0e97577e33",
+        "scenes": 329,
+        "nodes": 16383,
+        "edges": 315784,
+        "global_start": 1649591,
+        "global_stop": 1665974
+      },
+      {
+        "path": "00102.pt",
+        "sha256": "4346cc9fa3070a415b3a1785d94118935b8047d94dd6fd9861f23650e43a981c",
+        "scenes": 351,
+        "nodes": 16375,
+        "edges": 280966,
+        "global_start": 1665974,
+        "global_stop": 1682349
+      },
+      {
+        "path": "00103.pt",
+        "sha256": "fbb87fef5377eeb4069afaf0c20735f68c593f5ed000caea92200e437c8a022a",
+        "scenes": 343,
+        "nodes": 16373,
+        "edges": 286758,
+        "global_start": 1682349,
+        "global_stop": 1698722
+      },
+      {
+        "path": "00104.pt",
+        "sha256": "7b189d48550393b43e5ee5d0ea23917298d183bbbdd6519e2ba5820b9ec5351d",
+        "scenes": 324,
+        "nodes": 16288,
+        "edges": 289406,
+        "global_start": 1698722,
+        "global_stop": 1715010
+      },
+      {
+        "path": "00105.pt",
+        "sha256": "c3bd882cc959488a26933fef813a309353e4e4568890331f6477079b1d2140b8",
+        "scenes": 300,
+        "nodes": 16359,
+        "edges": 285474,
+        "global_start": 1715010,
+        "global_stop": 1731369
+      },
+      {
+        "path": "00106.pt",
+        "sha256": "03c2950ed861e5916c80c76e4d0ba150c33c1d50602e07cfe42910a1a11cdfae",
+        "scenes": 317,
+        "nodes": 16367,
+        "edges": 274890,
+        "global_start": 1731369,
+        "global_stop": 1747736
+      },
+      {
+        "path": "00107.pt",
+        "sha256": "96842744ec9efd869247fc607bae90dfd68638880ef58c9abd55d3f8ac430a8b",
+        "scenes": 295,
+        "nodes": 16333,
+        "edges": 331670,
+        "global_start": 1747736,
+        "global_stop": 1764069
+      },
+      {
+        "path": "00108.pt",
+        "sha256": "700f0015a417f0bf412af25058a9601beb56c2055e9eb2c7a0c43dc4cacaa38e",
+        "scenes": 309,
+        "nodes": 16302,
+        "edges": 288910,
+        "global_start": 1764069,
+        "global_stop": 1780371
+      },
+      {
+        "path": "00109.pt",
+        "sha256": "034910c5c725716a6286f3e68c51c41edf8e018a0a29f12093ffd8a89d51a23f",
+        "scenes": 295,
+        "nodes": 16326,
+        "edges": 279158,
+        "global_start": 1780371,
+        "global_stop": 1796697
+      },
+      {
+        "path": "00110.pt",
+        "sha256": "69439547160ec1646f8cc3e7f67f6d8dd1536430a5065878b0dd2f74241d13da",
+        "scenes": 331,
+        "nodes": 16381,
+        "edges": 262734,
+        "global_start": 1796697,
+        "global_stop": 1813078
+      },
+      {
+        "path": "00111.pt",
+        "sha256": "ea182a31132376cc685848fdc31b21c878f28d15bd57911d23fd62362991b5ba",
+        "scenes": 303,
+        "nodes": 16327,
+        "edges": 287156,
+        "global_start": 1813078,
+        "global_stop": 1829405
+      },
+      {
+        "path": "00112.pt",
+        "sha256": "6a21e154a10756bdfe92c84ca2e8affa7dc364cd877e52941262bdead1749641",
+        "scenes": 284,
+        "nodes": 16321,
+        "edges": 302744,
+        "global_start": 1829405,
+        "global_stop": 1845726
+      },
+      {
+        "path": "00113.pt",
+        "sha256": "140ee8ad6639315c0f78f2cd344c1fcb0eb5fdfbdb6fea3bac676fd965c8bed4",
+        "scenes": 323,
+        "nodes": 16377,
+        "edges": 274256,
+        "global_start": 1845726,
+        "global_stop": 1862103
+      },
+      {
+        "path": "00114.pt",
+        "sha256": "81d2f31ce009b421fddcf512fced693f585bc3d2cff4f500958936334cb089d4",
+        "scenes": 327,
+        "nodes": 16375,
+        "edges": 276312,
+        "global_start": 1862103,
+        "global_stop": 1878478
+      },
+      {
+        "path": "00115.pt",
+        "sha256": "eaa5b5351986715db7fda1e3a2b5e673c4da9852a694003dc4f3cdacabdd952e",
+        "scenes": 310,
+        "nodes": 16283,
+        "edges": 309038,
+        "global_start": 1878478,
+        "global_stop": 1894761
+      },
+      {
+        "path": "00116.pt",
+        "sha256": "dceae89c467cbdd9dc157b0a808b776a22d0279abbff9d4de1688971109c0314",
+        "scenes": 282,
+        "nodes": 16217,
+        "edges": 322002,
+        "global_start": 1894761,
+        "global_stop": 1910978
+      },
+      {
+        "path": "00117.pt",
+        "sha256": "48da54ecfe58804c49d5f5fde2feaa59a85452ffba9e87e3843f8141f98bfc68",
+        "scenes": 300,
+        "nodes": 16354,
+        "edges": 291454,
+        "global_start": 1910978,
+        "global_stop": 1927332
+      },
+      {
+        "path": "00118.pt",
+        "sha256": "93d2d4b20af49beeb67d434fdf056794861dd189b0222ef351c4db20dab4f367",
+        "scenes": 270,
+        "nodes": 16296,
+        "edges": 298596,
+        "global_start": 1927332,
+        "global_stop": 1943628
+      },
+      {
+        "path": "00119.pt",
+        "sha256": "f7b728cef814d143587ac4ecbc7f6d35028870c6ecd645eabe9438d74745284e",
+        "scenes": 301,
+        "nodes": 16379,
+        "edges": 297964,
+        "global_start": 1943628,
+        "global_stop": 1960007
+      },
+      {
+        "path": "00120.pt",
+        "sha256": "20bf0b8c856003b7fe21a600a1717bc4abe6f0a052f8aa53c6648607ecc7e787",
+        "scenes": 313,
+        "nodes": 16332,
+        "edges": 298368,
+        "global_start": 1960007,
+        "global_stop": 1976339
+      },
+      {
+        "path": "00121.pt",
+        "sha256": "832418677dc3c0025ca8ab4e9555fcf62f9c2f8ad16085f8ca89ae76d96ef1b6",
+        "scenes": 284,
+        "nodes": 16303,
+        "edges": 300416,
+        "global_start": 1976339,
+        "global_stop": 1992642
+      },
+      {
+        "path": "00122.pt",
+        "sha256": "90fa56cd9526143ef5527cc80388881ad26c5ed0bb76d80b2ddeea31968161d6",
+        "scenes": 289,
+        "nodes": 16266,
+        "edges": 292938,
+        "global_start": 1992642,
+        "global_stop": 2008908
+      },
+      {
+        "path": "00123.pt",
+        "sha256": "00007874f3b2ba91c8b1272307d94b94ef4b1e248631cb50624c44b531c1c637",
+        "scenes": 313,
+        "nodes": 16266,
+        "edges": 315622,
+        "global_start": 2008908,
+        "global_stop": 2025174
+      },
+      {
+        "path": "00124.pt",
+        "sha256": "9e1ac297c201b672297513308d1a259d4a965555cce403336c1f11940cc61411",
+        "scenes": 308,
+        "nodes": 16299,
+        "edges": 282588,
+        "global_start": 2025174,
+        "global_stop": 2041473
+      },
+      {
+        "path": "00125.pt",
+        "sha256": "2e1d708903d63542cf27959bcc35b11f51ddb3c6daa3750be2f0cb354074edfb",
+        "scenes": 304,
+        "nodes": 16362,
+        "edges": 292250,
+        "global_start": 2041473,
+        "global_stop": 2057835
+      },
+      {
+        "path": "00126.pt",
+        "sha256": "fe14ada54d3eab0636fa2a9baf6f514819f4403c6c4abd556893679344ec3cc7",
+        "scenes": 325,
+        "nodes": 16281,
+        "edges": 286080,
+        "global_start": 2057835,
+        "global_stop": 2074116
+      },
+      {
+        "path": "00127.pt",
+        "sha256": "acfef8dd3ed915ab44c3047a71be3f76b6148639ec53be367e717bcf9217476d",
+        "scenes": 307,
+        "nodes": 16365,
+        "edges": 307052,
+        "global_start": 2074116,
+        "global_stop": 2090481
+      },
+      {
+        "path": "00128.pt",
+        "sha256": "c72c9f8b1065289f4685b5624f4170d32f798e6640fea7f98aadfe46dd317d24",
+        "scenes": 312,
+        "nodes": 16372,
+        "edges": 267756,
+        "global_start": 2090481,
+        "global_stop": 2106853
+      },
+      {
+        "path": "00129.pt",
+        "sha256": "4080f5aed4634d457246d98da13d92c391615735c824f654bc51e0bdb4bb0367",
+        "scenes": 256,
+        "nodes": 16283,
+        "edges": 288192,
+        "global_start": 2106853,
+        "global_stop": 2123136
+      },
+      {
+        "path": "00130.pt",
+        "sha256": "2edaf07e8cdc6e01b78b72157b2b66b4cf5dea6f4defd7045d0320e4b3257e18",
+        "scenes": 271,
+        "nodes": 16383,
+        "edges": 286158,
+        "global_start": 2123136,
+        "global_stop": 2139519
+      },
+      {
+        "path": "00131.pt",
+        "sha256": "fbcc76b19d2660629a4ebbb217308a29555062f8fdcb05a2c6d371a136066627",
+        "scenes": 320,
+        "nodes": 16311,
+        "edges": 285258,
+        "global_start": 2139519,
+        "global_stop": 2155830
+      },
+      {
+        "path": "00132.pt",
+        "sha256": "92ac68a3ddbf5ccdcf66dcbcd5926beaa36525e975bba03f629eb6c7a15a4d52",
+        "scenes": 286,
+        "nodes": 16384,
+        "edges": 296826,
+        "global_start": 2155830,
+        "global_stop": 2172214
+      },
+      {
+        "path": "00133.pt",
+        "sha256": "9fef5d779ff365475362a42eee7ea3aa4dfc9ee18dd4e4a92a53ab3238dea4ef",
+        "scenes": 297,
+        "nodes": 16314,
+        "edges": 304268,
+        "global_start": 2172214,
+        "global_stop": 2188528
+      },
+      {
+        "path": "00134.pt",
+        "sha256": "cf77e60ba0344d0f10a60e1996297ce43fa632622472fce59696efcfa1ef5829",
+        "scenes": 256,
+        "nodes": 16331,
+        "edges": 342408,
+        "global_start": 2188528,
+        "global_stop": 2204859
+      },
+      {
+        "path": "00135.pt",
+        "sha256": "8f9a348e6920fc335fa83f4f3db06bdf8172076acb1c533d52a46137e74c48f6",
+        "scenes": 285,
+        "nodes": 16384,
+        "edges": 297980,
+        "global_start": 2204859,
+        "global_stop": 2221243
+      },
+      {
+        "path": "00136.pt",
+        "sha256": "efe5f0938aefb48b739108fd6a38d1695657d57f4e926f04bc740b2db56d3340",
+        "scenes": 265,
+        "nodes": 16252,
+        "edges": 330992,
+        "global_start": 2221243,
+        "global_stop": 2237495
+      },
+      {
+        "path": "00137.pt",
+        "sha256": "cb87fe47ea4d935a7f5dc7fd384b4395ca3c229bdf206d4570c4acea3e4841a6",
+        "scenes": 266,
+        "nodes": 16361,
+        "edges": 327550,
+        "global_start": 2237495,
+        "global_stop": 2253856
+      },
+      {
+        "path": "00138.pt",
+        "sha256": "b89bcce757cdc151782f1b1fc9dbf3ea7bae8846c5a57d3d6a797fa26f5ca75e",
+        "scenes": 309,
+        "nodes": 16259,
+        "edges": 274474,
+        "global_start": 2253856,
+        "global_stop": 2270115
+      },
+      {
+        "path": "00139.pt",
+        "sha256": "a4195ad926fc7193f432a44a3a471bc1c503d103cce0d59352f094a4b5f90299",
+        "scenes": 273,
+        "nodes": 16353,
+        "edges": 298922,
+        "global_start": 2270115,
+        "global_stop": 2286468
+      },
+      {
+        "path": "00140.pt",
+        "sha256": "491331531d6d3210d5a9fd7ffffa5c8fae0ad0df42137681d96a58bc8a91c122",
+        "scenes": 298,
+        "nodes": 16381,
+        "edges": 274794,
+        "global_start": 2286468,
+        "global_stop": 2302849
+      },
+      {
+        "path": "00141.pt",
+        "sha256": "d4e730e79dfaf8c38d9341615d06b9f1ba2a9ee80f015dc069e1ba583dc3aa53",
+        "scenes": 268,
+        "nodes": 16281,
+        "edges": 304476,
+        "global_start": 2302849,
+        "global_stop": 2319130
+      },
+      {
+        "path": "00142.pt",
+        "sha256": "6404ca8b43e4589605d762ece3a69453ad3ef1d3a6f0c8a7ed71ce5b5bb11aee",
+        "scenes": 287,
+        "nodes": 16248,
+        "edges": 300078,
+        "global_start": 2319130,
+        "global_stop": 2335378
+      },
+      {
+        "path": "00143.pt",
+        "sha256": "66839f1799146c5d17f82f76c792136d2de12942c2ad77e24d957f427167a0c9",
+        "scenes": 243,
+        "nodes": 16299,
+        "edges": 318128,
+        "global_start": 2335378,
+        "global_stop": 2351677
+      },
+      {
+        "path": "00144.pt",
+        "sha256": "1da590bcf61ca3aac8c4c6c64e96a9f965d0cdf8f71bb20af3bcbb1ac4d0226a",
+        "scenes": 294,
+        "nodes": 16368,
+        "edges": 294242,
+        "global_start": 2351677,
+        "global_stop": 2368045
+      },
+      {
+        "path": "00145.pt",
+        "sha256": "69ec41df5669870f570c518ace02daed1f5058e9edc4882f4aef15740000b41c",
+        "scenes": 276,
+        "nodes": 16379,
+        "edges": 303734,
+        "global_start": 2368045,
+        "global_stop": 2384424
+      },
+      {
+        "path": "00146.pt",
+        "sha256": "005e3cb6271b1a3291ef523dc468678f233bbabb9ccdcb3b3023bda55b859230",
+        "scenes": 243,
+        "nodes": 16335,
+        "edges": 300694,
+        "global_start": 2384424,
+        "global_stop": 2400759
+      },
+      {
+        "path": "00147.pt",
+        "sha256": "72f80fe342eb6559f62497f9dde5c65432d58c98e5cd1a552132ec8b69317abe",
+        "scenes": 305,
+        "nodes": 16336,
+        "edges": 300708,
+        "global_start": 2400759,
+        "global_stop": 2417095
+      },
+      {
+        "path": "00148.pt",
+        "sha256": "2e5ea054196a2b798b161443043b81424e0d04000154a8a192d2bfb50fb41a0c",
+        "scenes": 259,
+        "nodes": 16308,
+        "edges": 306718,
+        "global_start": 2417095,
+        "global_stop": 2433403
+      },
+      {
+        "path": "00149.pt",
+        "sha256": "fc25d43a67d51c68d34240e2979e7fa79a98ddbd8268e9f530dd2da5f91cab7c",
+        "scenes": 241,
+        "nodes": 16277,
+        "edges": 328152,
+        "global_start": 2433403,
+        "global_stop": 2449680
+      },
+      {
+        "path": "00150.pt",
+        "sha256": "3d6c68ffd980dc55e433f993189882b5d783d875fca514bf5bf64f75e7badbd6",
+        "scenes": 299,
+        "nodes": 16381,
+        "edges": 285736,
+        "global_start": 2449680,
+        "global_stop": 2466061
+      },
+      {
+        "path": "00151.pt",
+        "sha256": "ebcf99343a89307e480c3ba7a1f7a4a6de24c49fdb11ffdf64ca4e6e417c5531",
+        "scenes": 277,
+        "nodes": 16346,
+        "edges": 303304,
+        "global_start": 2466061,
+        "global_stop": 2482407
+      },
+      {
+        "path": "00152.pt",
+        "sha256": "f1a45abf30bec100ac98e57922a50fac8dbfb5de935af784014cf3eb9f6531c4",
+        "scenes": 273,
+        "nodes": 16248,
+        "edges": 304872,
+        "global_start": 2482407,
+        "global_stop": 2498655
+      },
+      {
+        "path": "00153.pt",
+        "sha256": "3450ddd9e418c820ed0066eb3e3dcd8b137540acfcc4a9303007631d693b2212",
+        "scenes": 266,
+        "nodes": 16137,
+        "edges": 335898,
+        "global_start": 2498655,
+        "global_stop": 2514792
+      },
+      {
+        "path": "00154.pt",
+        "sha256": "67ff369080dd54e7b0c28e8568eece6267f5b83fa34654ee2650e1fc2135eef6",
+        "scenes": 252,
+        "nodes": 16278,
+        "edges": 287226,
+        "global_start": 2514792,
+        "global_stop": 2531070
+      },
+      {
+        "path": "00155.pt",
+        "sha256": "20433fb7317fd3052eacbca42dc51ce5eb7be4140d262726dbc00b0d97fa32a2",
+        "scenes": 261,
+        "nodes": 16361,
+        "edges": 295156,
+        "global_start": 2531070,
+        "global_stop": 2547431
+      },
+      {
+        "path": "00156.pt",
+        "sha256": "f12c5603d959d61f701a8bd6642a14f4779d5737b864942de391a2929ea5685f",
+        "scenes": 272,
+        "nodes": 16311,
+        "edges": 278802,
+        "global_start": 2547431,
+        "global_stop": 2563742
+      },
+      {
+        "path": "00157.pt",
+        "sha256": "5a11f48e5b2ea252a1df0d1691b62962d9080d098a8ad3381a5f0b50795ab81b",
+        "scenes": 298,
+        "nodes": 16250,
+        "edges": 284712,
+        "global_start": 2563742,
+        "global_stop": 2579992
+      },
+      {
+        "path": "00158.pt",
+        "sha256": "ee0d3d0c7072d8519226b54ba47cd8ba0313f73d8366271aee06b0831a9e7967",
+        "scenes": 282,
+        "nodes": 16271,
+        "edges": 287498,
+        "global_start": 2579992,
+        "global_stop": 2596263
+      },
+      {
+        "path": "00159.pt",
+        "sha256": "6b14c3a703c78e8635ef23b43f04c9d88f9147ae40378ddaee22135c25472f32",
+        "scenes": 312,
+        "nodes": 16370,
+        "edges": 301828,
+        "global_start": 2596263,
+        "global_stop": 2612633
+      },
+      {
+        "path": "00160.pt",
+        "sha256": "3366fec63cc566772abf2e4b56617da5741536d42324873fe881298b70056af7",
+        "scenes": 269,
+        "nodes": 16362,
+        "edges": 299282,
+        "global_start": 2612633,
+        "global_stop": 2628995
+      },
+      {
+        "path": "00161.pt",
+        "sha256": "9699d99cdc092e9c23996751dc5b1ca0a406b8c7a549d83ee6f8a89f68d2d745",
+        "scenes": 274,
+        "nodes": 16034,
+        "edges": 278944,
+        "global_start": 2628995,
+        "global_stop": 2645029
+      },
+      {
+        "path": "00162.pt",
+        "sha256": "7fdfbb238d831aee9f4a004a58280dbf8c655b993d386be3b9189fd612d891a7",
+        "scenes": 259,
+        "nodes": 16353,
+        "edges": 331120,
+        "global_start": 2645029,
+        "global_stop": 2661382
+      },
+      {
+        "path": "00163.pt",
+        "sha256": "aad887cd7ca0895d086ac76dfd11648d05cdc5d5ae77958b06fb7408c26078a8",
+        "scenes": 260,
+        "nodes": 16250,
+        "edges": 315242,
+        "global_start": 2661382,
+        "global_stop": 2677632
+      },
+      {
+        "path": "00164.pt",
+        "sha256": "e396de730b4cfcfb9e9a22415e231a52bbaeb7506356dab1b5db206aea658702",
+        "scenes": 300,
+        "nodes": 16358,
+        "edges": 284614,
+        "global_start": 2677632,
+        "global_stop": 2693990
+      },
+      {
+        "path": "00165.pt",
+        "sha256": "8909c908c39b72a4a344488e23debafbd4ac6b0672f2a96fc72122ba668fd73e",
+        "scenes": 281,
+        "nodes": 16367,
+        "edges": 313028,
+        "global_start": 2693990,
+        "global_stop": 2710357
+      },
+      {
+        "path": "00166.pt",
+        "sha256": "3c693aa42606c36709b98ccfdac980eac2d4086ccb455589212b359121b2477c",
+        "scenes": 338,
+        "nodes": 16320,
+        "edges": 290334,
+        "global_start": 2710357,
+        "global_stop": 2726677
+      },
+      {
+        "path": "00167.pt",
+        "sha256": "b77e70083eac5d6ffb0314a731919ddded85056a24a1a77deca83ae431631557",
+        "scenes": 351,
+        "nodes": 16383,
+        "edges": 288100,
+        "global_start": 2726677,
+        "global_stop": 2743060
+      },
+      {
+        "path": "00168.pt",
+        "sha256": "dbaef76fe7527a6e4fb8cb23adcdc352cf278e280f71a5e27c889ac9d48bfeff",
+        "scenes": 465,
+        "nodes": 16381,
+        "edges": 257292,
+        "global_start": 2743060,
+        "global_stop": 2759441
+      },
+      {
+        "path": "00169.pt",
+        "sha256": "34ccf41d9c9c3928ede20c689dca9c8a0ad2bfb9e283d1811abb215b4382b013",
+        "scenes": 479,
+        "nodes": 16240,
+        "edges": 255500,
+        "global_start": 2759441,
+        "global_stop": 2775681
+      },
+      {
+        "path": "00170.pt",
+        "sha256": "4d8a3fce649a4c9569014fc368ee33a3ce41e4c70505082106909078096b35ae",
+        "scenes": 545,
+        "nodes": 16324,
+        "edges": 247538,
+        "global_start": 2775681,
+        "global_stop": 2792005
+      },
+      {
+        "path": "00171.pt",
+        "sha256": "be63318868ab4123679edf523ff49c828a8ea77510785c987b1d79911d751128",
+        "scenes": 503,
+        "nodes": 16292,
+        "edges": 278800,
+        "global_start": 2792005,
+        "global_stop": 2808297
+      },
+      {
+        "path": "00172.pt",
+        "sha256": "821bc9486566ddc834d8d2fe7d10a85680b79f2c441ae2ee92f1023ff348edf9",
+        "scenes": 445,
+        "nodes": 16382,
+        "edges": 268220,
+        "global_start": 2808297,
+        "global_stop": 2824679
+      },
+      {
+        "path": "00173.pt",
+        "sha256": "f37603aacd4ca1493f28123ca97de30e1f62cc43700adf45dacdfa63f3786c5d",
+        "scenes": 520,
+        "nodes": 16291,
+        "edges": 256290,
+        "global_start": 2824679,
+        "global_stop": 2840970
+      },
+      {
+        "path": "00174.pt",
+        "sha256": "134d1fdc50d011f99f7b884cbfb6ce181204e44e06e5945f732af925b579a981",
+        "scenes": 495,
+        "nodes": 16369,
+        "edges": 281774,
+        "global_start": 2840970,
+        "global_stop": 2857339
+      },
+      {
+        "path": "00175.pt",
+        "sha256": "518b838918ec8507b4614e4d6485641d0dcfe4cc22ee8992d3d0131eb10b6e66",
+        "scenes": 482,
+        "nodes": 16375,
+        "edges": 280064,
+        "global_start": 2857339,
+        "global_stop": 2873714
+      },
+      {
+        "path": "00176.pt",
+        "sha256": "31fc73c03e14ec332a30e69cb9fccdcf79bde6de30032911310bcfb055ca402f",
+        "scenes": 442,
+        "nodes": 16382,
+        "edges": 269808,
+        "global_start": 2873714,
+        "global_stop": 2890096
+      },
+      {
+        "path": "00177.pt",
+        "sha256": "81131fad4bc7c1b553f22f44bb4e9aafa7fa44743e366ae16dd4da018e29ff59",
+        "scenes": 391,
+        "nodes": 16237,
+        "edges": 287544,
+        "global_start": 2890096,
+        "global_stop": 2906333
+      },
+      {
+        "path": "00178.pt",
+        "sha256": "6385af5fddbfcb89a531bafd0b5068a4a2cf8bf418b41fd08677f7a09143c259",
+        "scenes": 483,
+        "nodes": 16194,
+        "edges": 270738,
+        "global_start": 2906333,
+        "global_stop": 2922527
+      },
+      {
+        "path": "00179.pt",
+        "sha256": "cc366a0fa1d48fcc25e60301ef31e7d7d6d47d80a600e632d1abeccd01dfbf9e",
+        "scenes": 372,
+        "nodes": 16318,
+        "edges": 314608,
+        "global_start": 2922527,
+        "global_stop": 2938845
+      },
+      {
+        "path": "00180.pt",
+        "sha256": "a44ebaf74566c35e6de3af876859ae2bcef57c3477e15dd5556efe1a63201fe6",
+        "scenes": 426,
+        "nodes": 16336,
+        "edges": 298036,
+        "global_start": 2938845,
+        "global_stop": 2955181
+      },
+      {
+        "path": "00181.pt",
+        "sha256": "046eac70bc9f0c0620a752fc2df38da9aa08af17c814e8eeaf3f9e345058bc85",
+        "scenes": 442,
+        "nodes": 16354,
+        "edges": 248404,
+        "global_start": 2955181,
+        "global_stop": 2971535
+      },
+      {
+        "path": "00182.pt",
+        "sha256": "72f0e50d885ac7095f5f6e890da02e3788fa8bcb0123716ebe80acab13bf1b4c",
+        "scenes": 380,
+        "nodes": 16375,
+        "edges": 299018,
+        "global_start": 2971535,
+        "global_stop": 2987910
+      },
+      {
+        "path": "00183.pt",
+        "sha256": "5214cc5ef54a7ab41ccf2be1d48e000073a549528a9473c4f1e6d756daf27570",
+        "scenes": 430,
+        "nodes": 16364,
+        "edges": 288816,
+        "global_start": 2987910,
+        "global_stop": 3004274
+      },
+      {
+        "path": "00184.pt",
+        "sha256": "9fa70e47dae91129537d670c8ceaaee7ccd0b0ee41b8d55f3f6d78f23f4d9696",
+        "scenes": 382,
+        "nodes": 16361,
+        "edges": 309836,
+        "global_start": 3004274,
+        "global_stop": 3020635
+      },
+      {
+        "path": "00185.pt",
+        "sha256": "5ae7d2a8d8fc9f72c52cce67eace34b00cacfe7b95da5e9513dcc7f493f441de",
+        "scenes": 349,
+        "nodes": 16286,
+        "edges": 317184,
+        "global_start": 3020635,
+        "global_stop": 3036921
+      },
+      {
+        "path": "00186.pt",
+        "sha256": "ec9968868c03e832b30f953bb43d145a847c5a7ed797aa5b387cf3e0f41e9adb",
+        "scenes": 381,
+        "nodes": 16328,
+        "edges": 275692,
+        "global_start": 3036921,
+        "global_stop": 3053249
+      },
+      {
+        "path": "00187.pt",
+        "sha256": "b74e82f7c0042b2231b2115acc39266f085629d6a53e2d95cc12f556a03ae4bf",
+        "scenes": 472,
+        "nodes": 16384,
+        "edges": 267612,
+        "global_start": 3053249,
+        "global_stop": 3069633
+      },
+      {
+        "path": "00188.pt",
+        "sha256": "6e8f46ded5d594f65ed5e8781f16fa7b5658152149ee09f395467b8b0e246c28",
+        "scenes": 348,
+        "nodes": 16310,
+        "edges": 296470,
+        "global_start": 3069633,
+        "global_stop": 3085943
+      },
+      {
+        "path": "00189.pt",
+        "sha256": "4da1064a589f92051f8dec789b046e36879ce4d69ac2f124540caa8b3f6dc8d6",
+        "scenes": 390,
+        "nodes": 16159,
+        "edges": 288904,
+        "global_start": 3085943,
+        "global_stop": 3102102
+      },
+      {
+        "path": "00190.pt",
+        "sha256": "dbc02433343e476ba1fb92b5f7990b76e4ea7e8a27a163c4b6b913d537664ff5",
+        "scenes": 385,
+        "nodes": 16384,
+        "edges": 291430,
+        "global_start": 3102102,
+        "global_stop": 3118486
+      },
+      {
+        "path": "00191.pt",
+        "sha256": "054253020d06c98456c3915614a59179c1b55874076c37bb3abec73650932b17",
+        "scenes": 404,
+        "nodes": 16327,
+        "edges": 289552,
+        "global_start": 3118486,
+        "global_stop": 3134813
+      },
+      {
+        "path": "00192.pt",
+        "sha256": "70a018e7d21fffc94837515604d8bbf0799fab7d43bc3cf0b1dd2244ab403da4",
+        "scenes": 439,
+        "nodes": 16312,
+        "edges": 273204,
+        "global_start": 3134813,
+        "global_stop": 3151125
+      },
+      {
+        "path": "00193.pt",
+        "sha256": "25c9a77a324138821548495a3196f9e364f7c00b5ecd902470c24948a2ad315b",
+        "scenes": 390,
+        "nodes": 16280,
+        "edges": 315432,
+        "global_start": 3151125,
+        "global_stop": 3167405
+      },
+      {
+        "path": "00194.pt",
+        "sha256": "fbd0b421c62341aabdbb756b2e9a84d6dca3026e5899599df80e9d1ac69a4134",
+        "scenes": 349,
+        "nodes": 16357,
+        "edges": 347948,
+        "global_start": 3167405,
+        "global_stop": 3183762
+      },
+      {
+        "path": "00195.pt",
+        "sha256": "77af216abbc4daf1ee1c54b6819018e422a976f78fdce4019e9a6f9aef22d83d",
+        "scenes": 446,
+        "nodes": 16307,
+        "edges": 245994,
+        "global_start": 3183762,
+        "global_stop": 3200069
+      },
+      {
+        "path": "00196.pt",
+        "sha256": "fd1e8f03958497db7cfb4da8cbe4fae2ce8b94fc66e0706546069eeb93f32fd3",
+        "scenes": 390,
+        "nodes": 16265,
+        "edges": 300598,
+        "global_start": 3200069,
+        "global_stop": 3216334
+      },
+      {
+        "path": "00197.pt",
+        "sha256": "8f63b933ec5c56e646c350945cf2093f8f304b7c3a142b04638d57e10cba4f2a",
+        "scenes": 446,
+        "nodes": 16371,
+        "edges": 294468,
+        "global_start": 3216334,
+        "global_stop": 3232705
+      },
+      {
+        "path": "00198.pt",
+        "sha256": "bc036dce4baef9ed184f505e0f6f24e91b35e3aed0d70b4674ccc4d3c0c77223",
+        "scenes": 504,
+        "nodes": 16331,
+        "edges": 252100,
+        "global_start": 3232705,
+        "global_stop": 3249036
+      },
+      {
+        "path": "00199.pt",
+        "sha256": "9dc56ae640c20b9f196332c1740274054794e6c0d40fd5848c38484f719190e7",
+        "scenes": 482,
+        "nodes": 16378,
+        "edges": 268678,
+        "global_start": 3249036,
+        "global_stop": 3265414
+      },
+      {
+        "path": "00200.pt",
+        "sha256": "0f49611d7752f53b5dbed79d0f88242ae94057c0291dd461ebceadb0f121f815",
+        "scenes": 451,
+        "nodes": 16336,
+        "edges": 267208,
+        "global_start": 3265414,
+        "global_stop": 3281750
+      },
+      {
+        "path": "00201.pt",
+        "sha256": "6ccd2389a844f8575fe20a71be10f80283340eb4cd3a5514124dc5c2112df92a",
+        "scenes": 391,
+        "nodes": 16384,
+        "edges": 283516,
+        "global_start": 3281750,
+        "global_stop": 3298134
+      },
+      {
+        "path": "00202.pt",
+        "sha256": "ea9ad6cd03315b5af645610d8f210c9e7b126a5495c015f7ec1f87cf4737a14e",
+        "scenes": 378,
+        "nodes": 16352,
+        "edges": 301972,
+        "global_start": 3298134,
+        "global_stop": 3314486
+      },
+      {
+        "path": "00203.pt",
+        "sha256": "79c13d29c07628d36c3893e400a971656fda19d74b23386aef192f02824e51ef",
+        "scenes": 542,
+        "nodes": 16375,
+        "edges": 233818,
+        "global_start": 3314486,
+        "global_stop": 3330861
+      },
+      {
+        "path": "00204.pt",
+        "sha256": "4b6eb4a213325235505539c076c228a4bc189eac52d8cba17268a3475aed498d",
+        "scenes": 381,
+        "nodes": 16343,
+        "edges": 291068,
+        "global_start": 3330861,
+        "global_stop": 3347204
+      },
+      {
+        "path": "00205.pt",
+        "sha256": "f7a08398fbd5ad98258eaab00ab60754e06f82159bea824aa00796055c4da326",
+        "scenes": 419,
+        "nodes": 16373,
+        "edges": 264226,
+        "global_start": 3347204,
+        "global_stop": 3363577
+      },
+      {
+        "path": "00206.pt",
+        "sha256": "a3015be044ab559b748bb0ddcd92f35c4679ab34628e60bb23612bdd4b8a3a78",
+        "scenes": 390,
+        "nodes": 16375,
+        "edges": 276384,
+        "global_start": 3363577,
+        "global_stop": 3379952
+      },
+      {
+        "path": "00207.pt",
+        "sha256": "79783afb938377942523abfb9f662cf30d9f65db7fd42878911a950d75297980",
+        "scenes": 429,
+        "nodes": 16342,
+        "edges": 288358,
+        "global_start": 3379952,
+        "global_stop": 3396294
+      },
+      {
+        "path": "00208.pt",
+        "sha256": "06e29d48b9280603697454de187f9010a35642c16a5b391909ae14e7261b214b",
+        "scenes": 445,
+        "nodes": 16366,
+        "edges": 270372,
+        "global_start": 3396294,
+        "global_stop": 3412660
+      },
+      {
+        "path": "00209.pt",
+        "sha256": "fa252a97eaf9c7e983239c719e20e59785afb8918d920598dbbc841099dcfc3c",
+        "scenes": 463,
+        "nodes": 16363,
+        "edges": 273084,
+        "global_start": 3412660,
+        "global_stop": 3429023
+      },
+      {
+        "path": "00210.pt",
+        "sha256": "6db1ff76902740893af2a17d1a1146dfaccaaec486987b54612bd4eb63391ca9",
+        "scenes": 483,
+        "nodes": 16256,
+        "edges": 243030,
+        "global_start": 3429023,
+        "global_stop": 3445279
+      },
+      {
+        "path": "00211.pt",
+        "sha256": "1e6fba0c8839a9c2fc5ca7e32af8ca2b71bcf41b4c4f814b486f731f49bc5dd1",
+        "scenes": 419,
+        "nodes": 16307,
+        "edges": 264036,
+        "global_start": 3445279,
+        "global_stop": 3461586
+      },
+      {
+        "path": "00212.pt",
+        "sha256": "5cf559c409fb2d443dda7e7d8ca9d89d38b78052bec89388c8b17543fe7b79fb",
+        "scenes": 413,
+        "nodes": 16374,
+        "edges": 283998,
+        "global_start": 3461586,
+        "global_stop": 3477960
+      },
+      {
+        "path": "00213.pt",
+        "sha256": "00b32d1c55ff40f3830990c305aed42bc908c520edb3bd51579d8d2f59716d9e",
+        "scenes": 394,
+        "nodes": 16343,
+        "edges": 283452,
+        "global_start": 3477960,
+        "global_stop": 3494303
+      },
+      {
+        "path": "00214.pt",
+        "sha256": "5fae95b039065970a2a2453c1bf079da31daa45033322425e7fe90530695bd27",
+        "scenes": 422,
+        "nodes": 16362,
+        "edges": 281726,
+        "global_start": 3494303,
+        "global_stop": 3510665
+      },
+      {
+        "path": "00215.pt",
+        "sha256": "3c82eb9d8f1588afcd715aba3129d4f62a6042c6149fb4f0ea88e519059bd5f9",
+        "scenes": 406,
+        "nodes": 16325,
+        "edges": 274736,
+        "global_start": 3510665,
+        "global_stop": 3526990
+      },
+      {
+        "path": "00216.pt",
+        "sha256": "5ea05fbf321aecaf2955708f502b98639f8feadc32328dcd93f6eb0f54621c07",
+        "scenes": 467,
+        "nodes": 16375,
+        "edges": 272780,
+        "global_start": 3526990,
+        "global_stop": 3543365
+      },
+      {
+        "path": "00217.pt",
+        "sha256": "3fe5907bd4dea408b61d7bd6ba640467b4818dd9e17035bc8ccf4530ad2927ea",
+        "scenes": 403,
+        "nodes": 16344,
+        "edges": 273980,
+        "global_start": 3543365,
+        "global_stop": 3559709
+      },
+      {
+        "path": "00218.pt",
+        "sha256": "e1ef6a7b0d1088357cf3701d1a83d908b2df679da8e069db9c9cfb72c74c1efa",
+        "scenes": 384,
+        "nodes": 16339,
+        "edges": 284660,
+        "global_start": 3559709,
+        "global_stop": 3576048
+      },
+      {
+        "path": "00219.pt",
+        "sha256": "7c5a0dd74b48e9bb91d672e0745b9567ad758e780eb90a69a0a8aa7b3f9933c1",
+        "scenes": 401,
+        "nodes": 16345,
+        "edges": 322212,
+        "global_start": 3576048,
+        "global_stop": 3592393
+      },
+      {
+        "path": "00220.pt",
+        "sha256": "54bcdcda5ddad3ea2ee5287158dc65db24356ec04a5a0a4a06792969d8d311c6",
+        "scenes": 401,
+        "nodes": 16210,
+        "edges": 287980,
+        "global_start": 3592393,
+        "global_stop": 3608603
+      },
+      {
+        "path": "00221.pt",
+        "sha256": "4717659409963ad54ba2d5ccd88728e1362253bfc575194d50ace7ab0cab8b51",
+        "scenes": 470,
+        "nodes": 16332,
+        "edges": 272808,
+        "global_start": 3608603,
+        "global_stop": 3624935
+      },
+      {
+        "path": "00222.pt",
+        "sha256": "290d959baa2cf016e445fa95b7d62057c607b2404a29db7bbe019489f51abe8f",
+        "scenes": 414,
+        "nodes": 16360,
+        "edges": 301652,
+        "global_start": 3624935,
+        "global_stop": 3641295
+      },
+      {
+        "path": "00223.pt",
+        "sha256": "d5884ead2fd5d9a9e653b6afefb1ad5fba31ba65ad646ecdd7ee0b7ceecf21e3",
+        "scenes": 423,
+        "nodes": 16376,
+        "edges": 290718,
+        "global_start": 3641295,
+        "global_stop": 3657671
+      },
+      {
+        "path": "00224.pt",
+        "sha256": "bff74a68a201c5f0dc8e409af22c226da4a3ef8112a8c7cade36e9e45f7fe56b",
+        "scenes": 467,
+        "nodes": 16280,
+        "edges": 252748,
+        "global_start": 3657671,
+        "global_stop": 3673951
+      },
+      {
+        "path": "00225.pt",
+        "sha256": "c3a37b20a4b42d3d03d1cef1f74ee704b051bd461a70f632913a573eb669c83b",
+        "scenes": 400,
+        "nodes": 16310,
+        "edges": 285666,
+        "global_start": 3673951,
+        "global_stop": 3690261
+      },
+      {
+        "path": "00226.pt",
+        "sha256": "f7dd74771ec60891db3ae1a79916c0273ce14828339be948074ce4ade3e1235a",
+        "scenes": 417,
+        "nodes": 16354,
+        "edges": 277760,
+        "global_start": 3690261,
+        "global_stop": 3706615
+      },
+      {
+        "path": "00227.pt",
+        "sha256": "99d91e3c9966667023a15c3aecee8781f05052e0b3d2d2d5f772ac08c53ab914",
+        "scenes": 406,
+        "nodes": 16370,
+        "edges": 270558,
+        "global_start": 3706615,
+        "global_stop": 3722985
+      },
+      {
+        "path": "00228.pt",
+        "sha256": "df9b0a67ccac4e4b03456f347a1e631c867f58b3e6757374f18c3efe134f4d61",
+        "scenes": 457,
+        "nodes": 16367,
+        "edges": 253144,
+        "global_start": 3722985,
+        "global_stop": 3739352
+      },
+      {
+        "path": "00229.pt",
+        "sha256": "1dfc046bd91457f9a505252b539899cc4d3e4733102da7cd716e36ce15f5ebd6",
+        "scenes": 392,
+        "nodes": 16367,
+        "edges": 294010,
+        "global_start": 3739352,
+        "global_stop": 3755719
+      },
+      {
+        "path": "00230.pt",
+        "sha256": "549a816bd389ec48b36099a3591a7a30b866118b2f29ac9829c49f3fac49abb3",
+        "scenes": 381,
+        "nodes": 16275,
+        "edges": 290162,
+        "global_start": 3755719,
+        "global_stop": 3771994
+      },
+      {
+        "path": "00231.pt",
+        "sha256": "591aec7adfc44ea34cf275a9748d7bc70bbd4fde5ccea1c274343e7835c16372",
+        "scenes": 368,
+        "nodes": 16220,
+        "edges": 309886,
+        "global_start": 3771994,
+        "global_stop": 3788214
+      },
+      {
+        "path": "00232.pt",
+        "sha256": "ffeca79a415b506bd37b80c289bc6f10d867c6f7acd7108589aff7f888d04691",
+        "scenes": 356,
+        "nodes": 16353,
+        "edges": 313978,
+        "global_start": 3788214,
+        "global_stop": 3804567
+      },
+      {
+        "path": "00233.pt",
+        "sha256": "6c0daaac5e96835f89adeca1a5e305c40cc29e9e0cd882b6c7b1b029c7abc13f",
+        "scenes": 371,
+        "nodes": 16308,
+        "edges": 285806,
+        "global_start": 3804567,
+        "global_stop": 3820875
+      },
+      {
+        "path": "00234.pt",
+        "sha256": "1c3e115a7f56487181e83052ae9644b9aa25c9e9ca869481ea19564d81521334",
+        "scenes": 427,
+        "nodes": 16327,
+        "edges": 255786,
+        "global_start": 3820875,
+        "global_stop": 3837202
+      },
+      {
+        "path": "00235.pt",
+        "sha256": "c36a36b0d7fdb579a9b89f13fd444725cf362c9109c0bb0f7e460d989704b548",
+        "scenes": 448,
+        "nodes": 16377,
+        "edges": 265296,
+        "global_start": 3837202,
+        "global_stop": 3853579
+      },
+      {
+        "path": "00236.pt",
+        "sha256": "4bea953a43fd35b06ff91d2723235b375d28d984bb9d7a50e53729569bc9339a",
+        "scenes": 439,
+        "nodes": 16384,
+        "edges": 273296,
+        "global_start": 3853579,
+        "global_stop": 3869963
+      },
+      {
+        "path": "00237.pt",
+        "sha256": "499dc0b5b7d5381ac0f26036376fd0ba76e1aa400dc13d455d2bda07a985bff1",
+        "scenes": 420,
+        "nodes": 16368,
+        "edges": 284292,
+        "global_start": 3869963,
+        "global_stop": 3886331
+      },
+      {
+        "path": "00238.pt",
+        "sha256": "c9a2d85a49e06d4fdeece4f5cf3b13246c290d7e60050abe5a3cf9cb23b21323",
+        "scenes": 408,
+        "nodes": 16257,
+        "edges": 271064,
+        "global_start": 3886331,
+        "global_stop": 3902588
+      },
+      {
+        "path": "00239.pt",
+        "sha256": "f3bd96c0c6897d70a3d8a4fd8c8a34237f9329fdb0d98c02dd1339c8eb4becc0",
+        "scenes": 365,
+        "nodes": 16283,
+        "edges": 275938,
+        "global_start": 3902588,
+        "global_stop": 3918871
+      },
+      {
+        "path": "00240.pt",
+        "sha256": "de3ac6dfd3a182cd1a8c7af6c1097477441269704bb106fdfa215befa3c2a041",
+        "scenes": 442,
+        "nodes": 16359,
+        "edges": 268132,
+        "global_start": 3918871,
+        "global_stop": 3935230
+      },
+      {
+        "path": "00241.pt",
+        "sha256": "e45e43073c8d74dfffd7dbcdb61d64137b930db1be4a59c278143a4c89609611",
+        "scenes": 431,
+        "nodes": 16381,
+        "edges": 290614,
+        "global_start": 3935230,
+        "global_stop": 3951611
+      },
+      {
+        "path": "00242.pt",
+        "sha256": "446d1d50f3e02cdd975c6e6f4b5f4df135e9d5671ba5c4fdcc6f4960c04b5385",
+        "scenes": 290,
+        "nodes": 16340,
+        "edges": 336674,
+        "global_start": 3951611,
+        "global_stop": 3967951
+      },
+      {
+        "path": "00243.pt",
+        "sha256": "9f2f24379379b8b52606406117b7d0a89c2053a84775621677388a65d7161b95",
+        "scenes": 235,
+        "nodes": 16342,
+        "edges": 329682,
+        "global_start": 3967951,
+        "global_stop": 3984293
+      },
+      {
+        "path": "00244.pt",
+        "sha256": "1ad19f7ebd3d07df8fbf7f4b018a25da82cb83adca93e315055d5d79b6745ce1",
+        "scenes": 199,
+        "nodes": 16320,
+        "edges": 335386,
+        "global_start": 3984293,
+        "global_stop": 4000613
+      },
+      {
+        "path": "00245.pt",
+        "sha256": "f7018529720902550f60249c4caf33523577a3bd75151996ee03b73babda1266",
+        "scenes": 209,
+        "nodes": 16196,
+        "edges": 361454,
+        "global_start": 4000613,
+        "global_stop": 4016809
+      },
+      {
+        "path": "00246.pt",
+        "sha256": "f390738f0b79934730c72af3d16b5b72f032e8fb6ee1b34b5e8fae0498cee899",
+        "scenes": 249,
+        "nodes": 16281,
+        "edges": 302888,
+        "global_start": 4016809,
+        "global_stop": 4033090
+      },
+      {
+        "path": "00247.pt",
+        "sha256": "b202343fd555f1cb2b3c3c61e510a3b49594b2f580edee6a35b9895ca7d52ede",
+        "scenes": 227,
+        "nodes": 16383,
+        "edges": 313552,
+        "global_start": 4033090,
+        "global_stop": 4049473
+      },
+      {
+        "path": "00248.pt",
+        "sha256": "034ded7694eeee0088740fa7be86d850dd37195b67807b5bcd2363236097ff36",
+        "scenes": 217,
+        "nodes": 16260,
+        "edges": 328514,
+        "global_start": 4049473,
+        "global_stop": 4065733
+      },
+      {
+        "path": "00249.pt",
+        "sha256": "2843f20a8948c7039952d82e6049bb922c0c6cb04bfd29694ce162426f6c9f04",
+        "scenes": 228,
+        "nodes": 16382,
+        "edges": 329592,
+        "global_start": 4065733,
+        "global_stop": 4082115
+      },
+      {
+        "path": "00250.pt",
+        "sha256": "7ea6d3ab85bc18de40a8723dd7ee2637eb4e02a63b49795e45c44b2c3a312c10",
+        "scenes": 237,
+        "nodes": 16198,
+        "edges": 304436,
+        "global_start": 4082115,
+        "global_stop": 4098313
+      },
+      {
+        "path": "00251.pt",
+        "sha256": "de21b1c33c2b5b7e34390df76e928e6fe7a082003933da111b910dfc301ef134",
+        "scenes": 221,
+        "nodes": 16383,
+        "edges": 394696,
+        "global_start": 4098313,
+        "global_stop": 4114696
+      },
+      {
+        "path": "00252.pt",
+        "sha256": "173e3f04a095f6ddc5844b7a320d33255c7a2f6172467dc9dc7ed2948e3554c1",
+        "scenes": 201,
+        "nodes": 16356,
+        "edges": 331830,
+        "global_start": 4114696,
+        "global_stop": 4131052
+      },
+      {
+        "path": "00253.pt",
+        "sha256": "9748105b2e37ccb4f997e73591980cf2d62cbc0da862716e19c40be1b279719b",
+        "scenes": 183,
+        "nodes": 16139,
+        "edges": 351764,
+        "global_start": 4131052,
+        "global_stop": 4147191
+      },
+      {
+        "path": "00254.pt",
+        "sha256": "ce28703d18906d24864343ecaf8cfc1465cc67f41932b37a795509550d35fa81",
+        "scenes": 175,
+        "nodes": 16375,
+        "edges": 352214,
+        "global_start": 4147191,
+        "global_stop": 4163566
+      },
+      {
+        "path": "00255.pt",
+        "sha256": "7ebd34ba3d1c7cd9751623a0ca829b44c37e7f3bcb78611bff8b8f2c430153b9",
+        "scenes": 196,
+        "nodes": 16383,
+        "edges": 340116,
+        "global_start": 4163566,
+        "global_stop": 4179949
+      },
+      {
+        "path": "00256.pt",
+        "sha256": "c8931784320073acc95cc9bf604eb819080f80419237c814913f87e8fe2deff0",
+        "scenes": 183,
+        "nodes": 16384,
+        "edges": 331954,
+        "global_start": 4179949,
+        "global_stop": 4196333
+      },
+      {
+        "path": "00257.pt",
+        "sha256": "629c5c9d45fef65f1190235ea3482c6304a4c388f56c2a6378c961adde2bfb51",
+        "scenes": 178,
+        "nodes": 16198,
+        "edges": 373990,
+        "global_start": 4196333,
+        "global_stop": 4212531
+      },
+      {
+        "path": "00258.pt",
+        "sha256": "470dd7754f21a3c8e5863fe04b3011c53a72cf597d916d6a13992fd6d0476087",
+        "scenes": 199,
+        "nodes": 16356,
+        "edges": 319498,
+        "global_start": 4212531,
+        "global_stop": 4228887
+      },
+      {
+        "path": "00259.pt",
+        "sha256": "1436331624cb7a37cb0e4aa645bb9b63215430d55b851762d0fdc37848cc0d26",
+        "scenes": 196,
+        "nodes": 16335,
+        "edges": 353198,
+        "global_start": 4228887,
+        "global_stop": 4245222
+      },
+      {
+        "path": "00260.pt",
+        "sha256": "30385a97e9d13f02a2428c42ce24d6c39ae270c75f8127264a324570d4827416",
+        "scenes": 167,
+        "nodes": 16283,
+        "edges": 353476,
+        "global_start": 4245222,
+        "global_stop": 4261505
+      },
+      {
+        "path": "00261.pt",
+        "sha256": "07f230157a2235a92762a9981d02df1994dfb934a92d808c06fa40e1e5c91402",
+        "scenes": 211,
+        "nodes": 16378,
+        "edges": 333264,
+        "global_start": 4261505,
+        "global_stop": 4277883
+      },
+      {
+        "path": "00262.pt",
+        "sha256": "68d0939c79563f08bd3d3f294d52aa8175635a840a561198e023f36f15bb3b21",
+        "scenes": 194,
+        "nodes": 16263,
+        "edges": 342326,
+        "global_start": 4277883,
+        "global_stop": 4294146
+      },
+      {
+        "path": "00263.pt",
+        "sha256": "9c0949110b51d89af4b901f699cae14af412047bc50873f22e4288f4c4160e66",
+        "scenes": 202,
+        "nodes": 16339,
+        "edges": 339770,
+        "global_start": 4294146,
+        "global_stop": 4310485
+      },
+      {
+        "path": "00264.pt",
+        "sha256": "9372fadef7fba825cdcf26e47e68f9d45ce3c25275ea4383ebd61c782ee3d290",
+        "scenes": 205,
+        "nodes": 16363,
+        "edges": 327846,
+        "global_start": 4310485,
+        "global_stop": 4326848
+      },
+      {
+        "path": "00265.pt",
+        "sha256": "dfd2136d9b697c7b4331e3552bf2b38e6a1eeb2da36d4f65268c5071bfb0a846",
+        "scenes": 204,
+        "nodes": 16271,
+        "edges": 321178,
+        "global_start": 4326848,
+        "global_stop": 4343119
+      },
+      {
+        "path": "00266.pt",
+        "sha256": "764be11612a4d6904594086df1eef7dd9c13f6eb1f93bb871a108958cfed962a",
+        "scenes": 223,
+        "nodes": 16309,
+        "edges": 313498,
+        "global_start": 4343119,
+        "global_stop": 4359428
+      },
+      {
+        "path": "00267.pt",
+        "sha256": "142622d5c61a4c875ab9f16edc9db1d0b670bb14fffddfc2e2bb2bb1efa53a65",
+        "scenes": 202,
+        "nodes": 16362,
+        "edges": 329722,
+        "global_start": 4359428,
+        "global_stop": 4375790
+      },
+      {
+        "path": "00268.pt",
+        "sha256": "222d09f2bb0b8fe85ada6e555500e20a32a11c57915929038264d8f5ffa097df",
+        "scenes": 193,
+        "nodes": 16346,
+        "edges": 345154,
+        "global_start": 4375790,
+        "global_stop": 4392136
+      },
+      {
+        "path": "00269.pt",
+        "sha256": "264f07a02bcd6ca89578518b3cc0cce3feb677b68c21ef2e737ddfda258e29db",
+        "scenes": 192,
+        "nodes": 16353,
+        "edges": 339324,
+        "global_start": 4392136,
+        "global_stop": 4408489
+      },
+      {
+        "path": "00270.pt",
+        "sha256": "0b520d8e21697f8bf3d0604971d6a3e3b3c0c73614b6526ca9565c390186eb92",
+        "scenes": 197,
+        "nodes": 16362,
+        "edges": 335094,
+        "global_start": 4408489,
+        "global_stop": 4424851
+      },
+      {
+        "path": "00271.pt",
+        "sha256": "cd949c0fa7400c1161fa6b97481d9c3eed6a27dc1884f0c679f9c38be8245329",
+        "scenes": 178,
+        "nodes": 16327,
+        "edges": 348328,
+        "global_start": 4424851,
+        "global_stop": 4441178
+      },
+      {
+        "path": "00272.pt",
+        "sha256": "e806935f5f2aa79fb4575351ce69e5bdba9d690e70a266a81d258818a23b2132",
+        "scenes": 230,
+        "nodes": 16355,
+        "edges": 331662,
+        "global_start": 4441178,
+        "global_stop": 4457533
+      },
+      {
+        "path": "00273.pt",
+        "sha256": "0cd35f9f24cbdefc72594fd96dcb26e767f7fb8da40f65d34c0b450a0a0d6b3f",
+        "scenes": 187,
+        "nodes": 16268,
+        "edges": 341684,
+        "global_start": 4457533,
+        "global_stop": 4473801
+      },
+      {
+        "path": "00274.pt",
+        "sha256": "b1786251ba7fb18aba3d024aef88f4cda00c52e4b0de844a47aa5fc5b8f21d94",
+        "scenes": 212,
+        "nodes": 16307,
+        "edges": 298164,
+        "global_start": 4473801,
+        "global_stop": 4490108
+      },
+      {
+        "path": "00275.pt",
+        "sha256": "c766583bd0807cac98842af1044c74a887f50b8e7ce064726198a6ac876e3668",
+        "scenes": 204,
+        "nodes": 16361,
+        "edges": 341638,
+        "global_start": 4490108,
+        "global_stop": 4506469
+      },
+      {
+        "path": "00276.pt",
+        "sha256": "ef317d5d8c6bd672c0032e3d69764a579aa4f4d9639851be886552792c7209ca",
+        "scenes": 178,
+        "nodes": 16303,
+        "edges": 330304,
+        "global_start": 4506469,
+        "global_stop": 4522772
+      },
+      {
+        "path": "00277.pt",
+        "sha256": "0d226ce2f731038713681c99a6a3020c33c44f875889cbecb6d6dbe772cf1285",
+        "scenes": 214,
+        "nodes": 16344,
+        "edges": 330986,
+        "global_start": 4522772,
+        "global_stop": 4539116
+      },
+      {
+        "path": "00278.pt",
+        "sha256": "4dcbc7e1717ba65b5d75d38af21623dbb184b8f074cb16c2035a1b53721ac99b",
+        "scenes": 189,
+        "nodes": 16372,
+        "edges": 339046,
+        "global_start": 4539116,
+        "global_stop": 4555488
+      },
+      {
+        "path": "00279.pt",
+        "sha256": "ac30a5d8087491a481012c3a4d814684e0a3d469ea7e403bef9638342a776b8d",
+        "scenes": 239,
+        "nodes": 16362,
+        "edges": 316886,
+        "global_start": 4555488,
+        "global_stop": 4571850
+      },
+      {
+        "path": "00280.pt",
+        "sha256": "4b9bbb402183766ecb64d4414745f7c3348c381f622f123415957e0fcd03c95e",
+        "scenes": 177,
+        "nodes": 16297,
+        "edges": 345318,
+        "global_start": 4571850,
+        "global_stop": 4588147
+      },
+      {
+        "path": "00281.pt",
+        "sha256": "53a15dd89c1a8a7ff691f5950a7499e4feec79a823a5a6f7fd115a447d8439f2",
+        "scenes": 195,
+        "nodes": 16368,
+        "edges": 354320,
+        "global_start": 4588147,
+        "global_stop": 4604515
+      },
+      {
+        "path": "00282.pt",
+        "sha256": "2a03cd86ee703a80d451c9a1a65f4149a45b56ffa21bf98852ba008b81166f36",
+        "scenes": 235,
+        "nodes": 16308,
+        "edges": 343842,
+        "global_start": 4604515,
+        "global_stop": 4620823
+      },
+      {
+        "path": "00283.pt",
+        "sha256": "56dd15ed050e35834195ddc1aaf149ef7c47b584f71309c5586c365bcb2dd520",
+        "scenes": 209,
+        "nodes": 16324,
+        "edges": 315004,
+        "global_start": 4620823,
+        "global_stop": 4637147
+      },
+      {
+        "path": "00284.pt",
+        "sha256": "a32621b8b53b2b01acbbb5b56ecee1df7204e6197b516981dbc4fa26b61e40ca",
+        "scenes": 211,
+        "nodes": 16312,
+        "edges": 326928,
+        "global_start": 4637147,
+        "global_stop": 4653459
+      },
+      {
+        "path": "00285.pt",
+        "sha256": "e36d4787ea2ec49f95aa3169dab3233be550d73a549c6376dd0d0d35733cfb07",
+        "scenes": 156,
+        "nodes": 16219,
+        "edges": 341220,
+        "global_start": 4653459,
+        "global_stop": 4669678
+      },
+      {
+        "path": "00286.pt",
+        "sha256": "b6cbf22b26319e9226db021ab54a7ec88b5e5fdd754ee01997627ba93059afbf",
+        "scenes": 217,
+        "nodes": 16359,
+        "edges": 346408,
+        "global_start": 4669678,
+        "global_stop": 4686037
+      },
+      {
+        "path": "00287.pt",
+        "sha256": "d84ba74244f1773d29a0a796ef36644de615715d61d78b8e170fdef7fd548b0e",
+        "scenes": 223,
+        "nodes": 16241,
+        "edges": 320514,
+        "global_start": 4686037,
+        "global_stop": 4702278
+      },
+      {
+        "path": "00288.pt",
+        "sha256": "6b477a0271ab181b5a05431318f0d25c2e015e98146d1832a9d34338f4778fc0",
+        "scenes": 213,
+        "nodes": 16366,
+        "edges": 312586,
+        "global_start": 4702278,
+        "global_stop": 4718644
+      },
+      {
+        "path": "00289.pt",
+        "sha256": "7dc94cb46191bf3017c8f66d956a9d54687e9cc447d0370067f7682dc3b200e8",
+        "scenes": 209,
+        "nodes": 16249,
+        "edges": 323382,
+        "global_start": 4718644,
+        "global_stop": 4734893
+      },
+      {
+        "path": "00290.pt",
+        "sha256": "40cec04626ec8ba77f461a465e1b4af31413d8b0de2668ccfc09c4fdca476163",
+        "scenes": 185,
+        "nodes": 16319,
+        "edges": 364280,
+        "global_start": 4734893,
+        "global_stop": 4751212
+      },
+      {
+        "path": "00291.pt",
+        "sha256": "cc9f3391827aaa3fdc89b1cefd4b2d4b4a9bcb0c90fd85e59c7288c3a0d50574",
+        "scenes": 201,
+        "nodes": 16355,
+        "edges": 328532,
+        "global_start": 4751212,
+        "global_stop": 4767567
+      },
+      {
+        "path": "00292.pt",
+        "sha256": "ac05be7a3948c1e5c2e296759166f44b15d592c598acc2b3d8861a41e8fe8fc9",
+        "scenes": 234,
+        "nodes": 16371,
+        "edges": 318442,
+        "global_start": 4767567,
+        "global_stop": 4783938
+      },
+      {
+        "path": "00293.pt",
+        "sha256": "2145065288da6157b3513e855503223a3af4816ae4e81e4acf989e64ab04fce9",
+        "scenes": 216,
+        "nodes": 16252,
+        "edges": 320388,
+        "global_start": 4783938,
+        "global_stop": 4800190
+      },
+      {
+        "path": "00294.pt",
+        "sha256": "ec4b2ef66cfca5469c8366d2d190b1a0a1bcd36839ea3c930bf320d8a334c5e8",
+        "scenes": 183,
+        "nodes": 16141,
+        "edges": 338356,
+        "global_start": 4800190,
+        "global_stop": 4816331
+      },
+      {
+        "path": "00295.pt",
+        "sha256": "7ed910d0da54d0e26074f316a0eb56c05a9f39dba3458556486fd1373cd833a5",
+        "scenes": 173,
+        "nodes": 16369,
+        "edges": 345708,
+        "global_start": 4816331,
+        "global_stop": 4832700
+      },
+      {
+        "path": "00296.pt",
+        "sha256": "47ba0c50119225d2405dbd283a91857ff904bbf773bb08b2ffbf040de0f090d5",
+        "scenes": 234,
+        "nodes": 16311,
+        "edges": 296834,
+        "global_start": 4832700,
+        "global_stop": 4849011
+      },
+      {
+        "path": "00297.pt",
+        "sha256": "5c09140f79a9184ceedb18aa3800d38641f09f3d8d1e3a1a6cd74c0ea2c28cde",
+        "scenes": 199,
+        "nodes": 16232,
+        "edges": 345126,
+        "global_start": 4849011,
+        "global_stop": 4865243
+      },
+      {
+        "path": "00298.pt",
+        "sha256": "89a023e16f1953e2eb0aa23b7851f03ccd0d459655929f6a14708a523c4b2b24",
+        "scenes": 215,
+        "nodes": 16379,
+        "edges": 316350,
+        "global_start": 4865243,
+        "global_stop": 4881622
+      },
+      {
+        "path": "00299.pt",
+        "sha256": "9e6ad61b0adf43166abad7ba19b322251e3cb54cbf56212cf20adf0dcfc4d301",
+        "scenes": 201,
+        "nodes": 16338,
+        "edges": 340858,
+        "global_start": 4881622,
+        "global_stop": 4897960
+      },
+      {
+        "path": "00300.pt",
+        "sha256": "8cbcbeafed052f2831f6666e07443d86a2c34d00b36041f69277901afb981591",
+        "scenes": 181,
+        "nodes": 16317,
+        "edges": 343702,
+        "global_start": 4897960,
+        "global_stop": 4914277
+      },
+      {
+        "path": "00301.pt",
+        "sha256": "ec8e09489b55102d0c01e62e074814fa66c94e56d4f11d3c725c87092918630d",
+        "scenes": 191,
+        "nodes": 16237,
+        "edges": 322990,
+        "global_start": 4914277,
+        "global_stop": 4930514
+      },
+      {
+        "path": "00302.pt",
+        "sha256": "edcb04a3220467a2ab2a54a98b3daa4d3b360cca48b71918dac1d04e46b7cdef",
+        "scenes": 192,
+        "nodes": 16375,
+        "edges": 326518,
+        "global_start": 4930514,
+        "global_stop": 4946889
+      },
+      {
+        "path": "00303.pt",
+        "sha256": "3d0683c29e04f4fa0cc4b13e0c9b3539380bf0e6d542942b6af2986e863d7b11",
+        "scenes": 188,
+        "nodes": 16320,
+        "edges": 333554,
+        "global_start": 4946889,
+        "global_stop": 4963209
+      },
+      {
+        "path": "00304.pt",
+        "sha256": "0c32b7a1adc2aae14a3771d311578cad5f294fd5ab2d5c1e31609aeb3f9a9367",
+        "scenes": 192,
+        "nodes": 16092,
+        "edges": 335684,
+        "global_start": 4963209,
+        "global_stop": 4979301
+      },
+      {
+        "path": "00305.pt",
+        "sha256": "eb41b0a6c3b3bbcfe0f78388b821aeeffc2ae7f338dc55b78011fcd40aac7c85",
+        "scenes": 171,
+        "nodes": 16173,
+        "edges": 376812,
+        "global_start": 4979301,
+        "global_stop": 4995474
+      },
+      {
+        "path": "00306.pt",
+        "sha256": "611becea82ac8589d938b56ca3eec6eb86e625516c4327a3499471334202c4f6",
+        "scenes": 195,
+        "nodes": 16364,
+        "edges": 375192,
+        "global_start": 4995474,
+        "global_stop": 5011838
+      },
+      {
+        "path": "00307.pt",
+        "sha256": "74581ebb2cf3cccd1039fa4fd74fe45fa8ee8249dabcc8855a95085e81d5affa",
+        "scenes": 169,
+        "nodes": 16225,
+        "edges": 336400,
+        "global_start": 5011838,
+        "global_stop": 5028063
+      },
+      {
+        "path": "00308.pt",
+        "sha256": "cff0263aee6923dbec713e6809be6bd6d3347a76a99e4d794854014f70ff4c39",
+        "scenes": 180,
+        "nodes": 16280,
+        "edges": 366368,
+        "global_start": 5028063,
+        "global_stop": 5044343
+      },
+      {
+        "path": "00309.pt",
+        "sha256": "565ca5df139dffe53befec879dfa54124398d5dfb85b6b60b8d3f89c72afcdbe",
+        "scenes": 194,
+        "nodes": 16306,
+        "edges": 344488,
+        "global_start": 5044343,
+        "global_stop": 5060649
+      },
+      {
+        "path": "00310.pt",
+        "sha256": "12904678679c823b0f5d157ffda13d0b99043dcedcf95ef13c1c5010558ef4bc",
+        "scenes": 191,
+        "nodes": 16228,
+        "edges": 353750,
+        "global_start": 5060649,
+        "global_stop": 5076877
+      },
+      {
+        "path": "00311.pt",
+        "sha256": "d3f4953e1eb5bbaa98e95b2343223a08d3b08b2850a159dec8b4bc8530330030",
+        "scenes": 169,
+        "nodes": 16319,
+        "edges": 368738,
+        "global_start": 5076877,
+        "global_stop": 5093196
+      },
+      {
+        "path": "00312.pt",
+        "sha256": "ce8bdc20e60bd9c145c2168c309d97769100269edf83676d58aa62cc639dbb69",
+        "scenes": 168,
+        "nodes": 16133,
+        "edges": 363518,
+        "global_start": 5093196,
+        "global_stop": 5109329
+      },
+      {
+        "path": "00313.pt",
+        "sha256": "47de9c85702e8ac5af499d0eee62b47bf3cfebfaf681199eb47ca5fe5f68ae0f",
+        "scenes": 167,
+        "nodes": 16155,
+        "edges": 354714,
+        "global_start": 5109329,
+        "global_stop": 5125484
+      },
+      {
+        "path": "00314.pt",
+        "sha256": "940ab046f5a0525fbf0a1f69800459a08b86cf36a2bf785b028562330b9d9ec6",
+        "scenes": 163,
+        "nodes": 16372,
+        "edges": 380460,
+        "global_start": 5125484,
+        "global_stop": 5141856
+      },
+      {
+        "path": "00315.pt",
+        "sha256": "8060493ec891f4f058554accfc963db9a91424a3393d95fccae070254156499a",
+        "scenes": 206,
+        "nodes": 16284,
+        "edges": 356716,
+        "global_start": 5141856,
+        "global_stop": 5158140
+      },
+      {
+        "path": "00316.pt",
+        "sha256": "599e4605a5c034f288873e94187a83470b6cad052cd8828b27e4d23ed285c639",
+        "scenes": 169,
+        "nodes": 16310,
+        "edges": 379640,
+        "global_start": 5158140,
+        "global_stop": 5174450
+      },
+      {
+        "path": "00317.pt",
+        "sha256": "928c4246aa23a85621ffc86e7a1d1b7de137d51b70519ed1c6945ec68bc39343",
+        "scenes": 189,
+        "nodes": 16256,
+        "edges": 349272,
+        "global_start": 5174450,
+        "global_stop": 5190706
+      },
+      {
+        "path": "00318.pt",
+        "sha256": "ff3821125942c6329480fe75f77736fb5ff4cfbeea6b71b8d342eeea62f8fe92",
+        "scenes": 27,
+        "nodes": 3135,
+        "edges": 90182,
+        "global_start": 5190706,
+        "global_stop": 5193841
+      }
+    ],
+    "evaluation_subgroups": {
+      "": 115490
+    }
+  },
+  "dev": {
+    "scenes": 128,
+    "groups": 128,
+    "pair_nodes": 5450,
+    "pair_edges": 99762,
+    "eligible": 2223,
+    "positive": 280,
+    "targets": 112,
+    "moving_targets": 31,
+    "zero_pair_scenes": 0,
+    "shards": [
+      {
+        "path": "00000.pt",
+        "sha256": "737a4cc56a787f2bac931203008c6b1b78b870dd4f4c145b4763990560cf007e",
+        "scenes": 128,
+        "nodes": 5450,
+        "edges": 99762,
+        "global_start": 0,
+        "global_stop": 5450
+      }
+    ],
+    "evaluation_subgroups": {
+      "historical_dev128": 128
+    }
+  },
+  "audit": {
+    "scenes": 1280,
+    "groups": 1280,
+    "pair_nodes": 58480,
+    "pair_edges": 1054120,
+    "eligible": 24064,
+    "positive": 2731,
+    "targets": 1113,
+    "moving_targets": 280,
+    "zero_pair_scenes": 0,
+    "shards": [
+      {
+        "path": "00000.pt",
+        "sha256": "23b19663be505c5650f8d131a4af4aab71646db899bb72674116a13f782ec3ba",
+        "scenes": 370,
+        "nodes": 16279,
+        "edges": 294938,
+        "global_start": 0,
+        "global_stop": 16279
+      },
+      {
+        "path": "00001.pt",
+        "sha256": "51d9180be2a28210cde82c0b8549f04a44616c00a741ac3c854574fad79701ac",
+        "scenes": 322,
+        "nodes": 16381,
+        "edges": 320418,
+        "global_start": 16279,
+        "global_stop": 32660
+      },
+      {
+        "path": "00002.pt",
+        "sha256": "a7477817c78fb8ab70c81a9475c237fcaac9e67305be413d5fa2f65262382d4e",
+        "scenes": 376,
+        "nodes": 16359,
+        "edges": 270272,
+        "global_start": 32660,
+        "global_stop": 49019
+      },
+      {
+        "path": "00003.pt",
+        "sha256": "4320417335824888d37fc61d056d9e3ae245c3e247a5196928875755880ea607",
+        "scenes": 212,
+        "nodes": 9461,
+        "edges": 168492,
+        "global_start": 49019,
+        "global_stop": 58480
+      }
+    ],
+    "evaluation_subgroups": {
+      "historical_audit256": 256,
+      "historical_confirmation1024": 1024
+    }
+  },
+  "asset_sha256": {
+    "audit_manifest.csv": "41ec57219cee6f1a7acff93343d1ec11680dcad8ec4c3844b4c691790c4245fa",
+    "audit_population.pt": "bc4fc1b67c95319b37b065c9ed6ab28e07e4b2442defb53dc40ea70e789ef015",
+    "dev_manifest.csv": "9930636bbd19de1772edec5f3bd505e5b46f1acba45d6e0da4346f168e5f5457",
+    "dev_population.pt": "32f64078b0f269c9922313424c6be4948f6817c054ade4c281020bab60ebfe33",
+    "normalizer.npz": "ae03b5d59c5193f5345b30c993aa402ebcbf8c5b596a7289a09bd915111869ca",
+    "registration.json": "d907b29baf126481fea3bd472ded7a9c71bd900696bd6a0b1ca0ccb70d3e09f3",
+    "train_manifest.csv": "fbe45eb9b6743986e5ff90a2092673bf367afbfed332d066a421a09d5e5c2edc",
+    "train_population.pt": "ff8fd7a8b64e3492eb2f49d535611e02ec5027f03d3c3f6c2a873ea3e42fc28b"
+  },
+  "elapsed_seconds": 1159.9650731838774,
+  "experiment_identity": "av2_formal_main_full_corrected_gpu_cache_v2_20261111",
+  "source_graph_root": "/home/mizhou/JCAS/graphs/av2mf_graph_v4",
+  "source_cache": "/home/mizhou/JCAS/results/av2_formal_main_10seed_20261106_v1/data",
+  "cache_reused_read_only": true,
+  "normalization_contract": {
+    "fit_role": "train",
+    "fit_scope": "all 5,193,841 registered TRAIN pair nodes",
+    "statistics": "population mean/std across TRAIN; minimum scale 1e-6",
+    "clip": [
+      -10,
+      10
+    ],
+    "dev_audit_reuse_train_statistics": true
+  },
+  "corrected_protocol": {
+    "recording_group_exclusion": "all DEV/AUDIT groups excluded from TRAIN",
+    "official_validation_loaded": false,
+    "official_test_loaded": false,
+    "clean_supervision": "20 percent of 2,188,291 eligible TRAIN pairs per seed",
+    "clean_supervision_count": 437658,
+    "attachment_count": 5865,
+    "victim_supervision_count": 443523
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "scope": "eight representative frozen AV2 scene batches, warmed file cache, fresh disposable GraphSAGE; zero optimizer steps; concurrent main run untouched",
+  "samples": [
+    {
+      "shard": "00001.pt",
+      "nodes": 16352,
+      "edges": 217610,
+      "scenes": 583,
+      "load": 0.1429651619400829,
+      "combine": 0.005252324976027012,
+      "transfer": 0.0015099840238690376,
+      "gpu_forward_backward": 0.0054280750919133425,
+      "total": 0.1551555460318923
+    },
+    {
+      "shard": "00040.pt",
+      "nodes": 16341,
+      "edges": 277364,
+      "scenes": 425,
+      "load": 0.13745529181323946,
+      "combine": 0.0049993740394711494,
+      "transfer": 0.0015491209924221039,
+      "gpu_forward_backward": 0.005057007074356079,
+      "total": 0.1490607939194888
+    },
+    {
+      "shard": "00080.pt",
+      "nodes": 16348,
+      "edges": 305038,
+      "scenes": 351,
+      "load": 0.1347731901332736,
+      "combine": 0.004752021050080657,
+      "transfer": 0.0014439979568123817,
+      "gpu_forward_backward": 0.005123728886246681,
+      "total": 0.14609293802641332
+    },
+    {
+      "shard": "00120.pt",
+      "nodes": 16332,
+      "edges": 298368,
+      "scenes": 313,
+      "load": 0.13646117504686117,
+      "combine": 0.0046134889125823975,
+      "transfer": 0.0014993271324783564,
+      "gpu_forward_backward": 0.00511708902195096,
+      "total": 0.14769108011387289
+    },
+    {
+      "shard": "00160.pt",
+      "nodes": 16362,
+      "edges": 299282,
+      "scenes": 269,
+      "load": 0.13467993400990963,
+      "combine": 0.0045586880296468735,
+      "transfer": 0.0015136159490793943,
+      "gpu_forward_backward": 0.005141776986420155,
+      "total": 0.14589401497505605
+    },
+    {
+      "shard": "00200.pt",
+      "nodes": 16336,
+      "edges": 267208,
+      "scenes": 451,
+      "load": 0.13962597795762122,
+      "combine": 0.005011037923395634,
+      "transfer": 0.0015126240905374289,
+      "gpu_forward_backward": 0.0050294219981879,
+      "total": 0.15117906196974218
+    },
+    {
+      "shard": "00240.pt",
+      "nodes": 16359,
+      "edges": 268132,
+      "scenes": 442,
+      "load": 0.14069538819603622,
+      "combine": 0.005230883834883571,
+      "transfer": 0.0015747540164738894,
+      "gpu_forward_backward": 0.005538861965760589,
+      "total": 0.15303988801315427
+    },
+    {
+      "shard": "00280.pt",
+      "nodes": 16297,
+      "edges": 345318,
+      "scenes": 177,
+      "load": 0.12562718498520553,
+      "combine": 0.005177618935704231,
+      "transfer": 0.0014861749950796366,
+      "gpu_forward_backward": 0.0059014500584453344,
+      "total": 0.13819242897443473
+    }
+  ],
+  "means": {
+    "load": 0.13653541301027872,
+    "combine": 0.004949429712723941,
+    "transfer": 0.0015111998945940286,
+    "gpu_forward_backward": 0.00529217638541013,
+    "total": 0.14828821900300682
+  },
+  "optimizer_steps": 0
+}

@@ -1,0 +1,41 @@
+{
+  "role": "clean_reference",
+  "seed": 20364112,
+  "epochs": 200,
+  "optimizer_steps": 200,
+  "selected_epoch": 194,
+  "selection_policy": "earliest_strict_maximum_clean_dev_auc",
+  "best_dev_score": 0.9699139769134623,
+  "initial_state_sha256": "4bdf005a8c29a5b5acf258d4a114ab797fa733cd76e048eb2c54394cd118a8a3",
+  "final_epoch_state_sha256": "4497c03cb2969d78d273a45dca8054d818b4170d3b03ed6ca6c8712dcba1143c",
+  "selected_state_sha256": "15707b1e44615c93cfdf10e6228c3dc36ba195bab171882c27986428c3a3acf1",
+  "fresh_initialization": true,
+  "historical_checkpoint_loaded": false,
+  "train_supervision_count": 437658,
+  "train_indices_sha256": "d6f6462de431d6e654e0ec3c7e456220fee211e69c8b7e23ff9dbf53dfe4b740",
+  "data_summary_sha256": "2da7ac95ca4a7d6cb96293e9e28ecb5beaa5d62441aeb5580dac88efe45ee871",
+  "implementation_sha256": "aefe7fa34434ed28121ff4dc5bb37d436935896bed9b3e1b0ef6c3e3097565d3",
+  "device": "cuda:0",
+  "dtype": "float32",
+  "amp": false,
+  "tf32": false,
+  "model_kind": "gnn",
+  "optimizer": {
+    "name": "Adam",
+    "lr": 0.01,
+    "weight_decay": 0.0005
+  },
+  "execution": {
+    "mode": "complete_disconnected_scene_batches_global_gradient_accumulation",
+    "optimizer_steps_per_epoch": 1,
+    "scene_sampling": false,
+    "neighbor_sampling": false,
+    "dropout_rng": "fresh seed; registered ascending scene-batch order; not historical full-tensor bitwise replay",
+    "max_nodes": 16384
+  },
+  "dataset": "AV2",
+  "source_dataset_split": "train",
+  "optimizer_steps_this_attempt": 200,
+  "restored_optimizer_steps": 0,
+  "recovery": null
+}

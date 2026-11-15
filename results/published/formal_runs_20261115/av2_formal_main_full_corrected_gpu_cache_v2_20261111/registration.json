@@ -1,0 +1,20 @@
+{
+  "plan_sha256": "7d8d224cacb46940c78ad814ecf0daf12fb68e3a359c2a02645cf84615880ddd",
+  "child_plan_sha256": {
+    "20261111": "a45d68ff6c6366e24463a156edee1c53aa1ab1479b9c6b1837bde5dee4ef0461",
+    "20261112": "9d55c610824c5cc26e9246350a78938f153e490f6ce36274a5a01dceabe4b6c1",
+    "20261113": "964bd17710da3ffff5af043620b42cd1aefff74d688086db077d2674ffa5414e",
+    "20261114": "eeb346df8d772c32f18429e2c02ea73e292569aa432feb8ac3626617457523ab",
+    "20261115": "35c92364b63e32020c4a1b897d022083d5a03ebc22e7946928fd1f12808844ae"
+  },
+  "seeds": [
+    20261111,
+    20261112,
+    20261113,
+    20261114,
+    20261115
+  ],
+  "experiment_identity": "av2_formal_main_full_corrected_gpu_cache_v2_20261111",
+  "retry_of": "av2_formal_main_full_corrected_v1_retry1_20261109",
+  "at": "2026-11-10T17:25:06.290718+00:00"
+}

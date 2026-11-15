@@ -1,0 +1,5434 @@
+{
+  "status": "PARTIAL",
+  "at": "2026-11-15T03:21:11.808940+00:00",
+  "expected_seeds": [
+    20261126,
+    20261127,
+    20261128,
+    20261129,
+    20261130
+  ],
+  "completed_seeds": [
+    20261126
+  ],
+  "failed_seeds": [],
+  "pending_seeds": [
+    20261127,
+    20261128,
+    20261129,
+    20261130
+  ],
+  "completed": 1,
+  "failed": 0,
+  "total": 5,
+  "metrics": {
+    "dev.victim.targets.all.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10163
+        }
+      ],
+      "n": 1,
+      "mean": 10163,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.all.absolute_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.6500049198071436
+        }
+      ],
+      "n": 1,
+      "mean": 0.6500049198071436,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.all.triggered_target_class_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 6606
+        }
+      ],
+      "n": 1,
+      "mean": 6606,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.all.incremental_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.6412476630916069
+        }
+      ],
+      "n": 1,
+      "mean": 0.6412476630916069,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.all.incremental_flips": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 6517
+        }
+      ],
+      "n": 1,
+      "mean": 6517,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.all.conditional_flip": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.6469128449473893
+        }
+      ],
+      "n": 1,
+      "mean": 0.6469128449473893,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.all.clean_negative_targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10074
+        }
+      ],
+      "n": 1,
+      "mean": 10074,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.all.clean_activation_rate": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.008757256715536751
+        }
+      ],
+      "n": 1,
+      "mean": 0.008757256715536751,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.all.target_probability_delta_mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.568460659105405
+        }
+      ],
+      "n": 1,
+      "mean": 0.568460659105405,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.slow.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 7157
+        }
+      ],
+      "n": 1,
+      "mean": 7157,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.slow.absolute_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.5155791532765125
+        }
+      ],
+      "n": 1,
+      "mean": 0.5155791532765125,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.slow.triggered_target_class_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 3690
+        }
+      ],
+      "n": 1,
+      "mean": 3690,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.slow.incremental_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.5088724325834847
+        }
+      ],
+      "n": 1,
+      "mean": 0.5088724325834847,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.slow.incremental_flips": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 3642
+        }
+      ],
+      "n": 1,
+      "mean": 3642,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.slow.conditional_flip": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.5123083415388944
+        }
+      ],
+      "n": 1,
+      "mean": 0.5123083415388944,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.slow.clean_negative_targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 7109
+        }
+      ],
+      "n": 1,
+      "mean": 7109,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.slow.clean_activation_rate": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.006706720693027805
+        }
+      ],
+      "n": 1,
+      "mean": 0.006706720693027805,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.slow.target_probability_delta_mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.4522690120038264
+        }
+      ],
+      "n": 1,
+      "mean": 0.4522690120038264,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.moving.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 3006
+        }
+      ],
+      "n": 1,
+      "mean": 3006,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.moving.absolute_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9700598802395209
+        }
+      ],
+      "n": 1,
+      "mean": 0.9700598802395209,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.moving.triggered_target_class_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2916
+        }
+      ],
+      "n": 1,
+      "mean": 2916,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.moving.incremental_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.956420492348636
+        }
+      ],
+      "n": 1,
+      "mean": 0.956420492348636,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.moving.incremental_flips": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2875
+        }
+      ],
+      "n": 1,
+      "mean": 2875,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.moving.conditional_flip": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.96964586846543
+        }
+      ],
+      "n": 1,
+      "mean": 0.96964586846543,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.moving.clean_negative_targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2965
+        }
+      ],
+      "n": 1,
+      "mean": 2965,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.moving.clean_activation_rate": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.013639387890884896
+        }
+      ],
+      "n": 1,
+      "mean": 0.013639387890884896,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.targets.moving.target_probability_delta_mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8451019160268947
+        }
+      ],
+      "n": 1,
+      "mean": 0.8451019160268947,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.normal_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1106722
+        }
+      ],
+      "n": 1,
+      "mean": 1106722,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.normal_positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 66913
+        }
+      ],
+      "n": 1,
+      "mean": 66913,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.normal_negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1039809
+        }
+      ],
+      "n": 1,
+      "mean": 1039809,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_pair_auc": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9730035141652275
+        }
+      ],
+      "n": 1,
+      "mean": 0.9730035141652275,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_pair_accuracy": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9590610830904238
+        }
+      ],
+      "n": 1,
+      "mean": 0.9590610830904238,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_pair_positive_recall": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.3518897673097903
+        }
+      ],
+      "n": 1,
+      "mean": 0.3518897673097903,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_prediction_distribution.class_0": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1081235
+        }
+      ],
+      "n": 1,
+      "mean": 1081235,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_prediction_distribution.class_1": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 25487
+        }
+      ],
+      "n": 1,
+      "mean": 25487,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_confusion_matrix.true_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1037868
+        }
+      ],
+      "n": 1,
+      "mean": 1037868,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_confusion_matrix.false_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1941
+        }
+      ],
+      "n": 1,
+      "mean": 1941,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_confusion_matrix.false_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 43367
+        }
+      ],
+      "n": 1,
+      "mean": 43367,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_confusion_matrix.true_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 23546
+        }
+      ],
+      "n": 1,
+      "mean": 23546,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_class_one_probability_min": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2.7239288949432172e-11
+        }
+      ],
+      "n": 1,
+      "mean": 2.7239288949432172e-11,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_class_one_probability_max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9966943860054016
+        }
+      ],
+      "n": 1,
+      "mean": 0.9966943860054016,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_pair_ap": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.7897357478180492
+        }
+      ],
+      "n": 1,
+      "mean": 0.7897357478180492,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_negative_fpr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0018666889784566204
+        }
+      ],
+      "n": 1,
+      "mean": 0.0018666889784566204,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.all.clean_pair_brier": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.028568334474521274
+        }
+      ],
+      "n": 1,
+      "mean": 0.028568334474521274,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.normal_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1040339
+        }
+      ],
+      "n": 1,
+      "mean": 1040339,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.normal_positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 57201
+        }
+      ],
+      "n": 1,
+      "mean": 57201,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.normal_negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 983138
+        }
+      ],
+      "n": 1,
+      "mean": 983138,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_pair_auc": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9776542940562479
+        }
+      ],
+      "n": 1,
+      "mean": 0.9776542940562479,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_pair_accuracy": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9641107369809264
+        }
+      ],
+      "n": 1,
+      "mean": 0.9641107369809264,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_pair_positive_recall": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.37373472491739657
+        }
+      ],
+      "n": 1,
+      "mean": 0.37373472491739657,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_prediction_distribution.class_0": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1017447
+        }
+      ],
+      "n": 1,
+      "mean": 1017447,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_prediction_distribution.class_1": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 22892
+        }
+      ],
+      "n": 1,
+      "mean": 22892,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_confusion_matrix.true_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 981624
+        }
+      ],
+      "n": 1,
+      "mean": 981624,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_confusion_matrix.false_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1514
+        }
+      ],
+      "n": 1,
+      "mean": 1514,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_confusion_matrix.false_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 35823
+        }
+      ],
+      "n": 1,
+      "mean": 35823,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_confusion_matrix.true_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 21378
+        }
+      ],
+      "n": 1,
+      "mean": 21378,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_class_one_probability_min": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2.7239288949432172e-11
+        }
+      ],
+      "n": 1,
+      "mean": 2.7239288949432172e-11,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_class_one_probability_max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9966943860054016
+        }
+      ],
+      "n": 1,
+      "mean": 0.9966943860054016,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_pair_ap": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8140213229769093
+        }
+      ],
+      "n": 1,
+      "mean": 0.8140213229769093,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_negative_fpr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0015399669222428592
+        }
+      ],
+      "n": 1,
+      "mean": 0.0015399669222428592,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.slow.clean_pair_brier": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.024950367848196497
+        }
+      ],
+      "n": 1,
+      "mean": 0.024950367848196497,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.normal_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 66383
+        }
+      ],
+      "n": 1,
+      "mean": 66383,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.normal_positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 9712
+        }
+      ],
+      "n": 1,
+      "mean": 9712,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.normal_negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 56671
+        }
+      ],
+      "n": 1,
+      "mean": 56671,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_pair_auc": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8796260383969474
+        }
+      ],
+      "n": 1,
+      "mean": 0.8796260383969474,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_pair_accuracy": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8799240769474113
+        }
+      ],
+      "n": 1,
+      "mean": 0.8799240769474113,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_pair_positive_recall": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.22322899505766064
+        }
+      ],
+      "n": 1,
+      "mean": 0.22322899505766064,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_prediction_distribution.class_0": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 63788
+        }
+      ],
+      "n": 1,
+      "mean": 63788,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_prediction_distribution.class_1": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2595
+        }
+      ],
+      "n": 1,
+      "mean": 2595,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_confusion_matrix.true_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 56244
+        }
+      ],
+      "n": 1,
+      "mean": 56244,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_confusion_matrix.false_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 427
+        }
+      ],
+      "n": 1,
+      "mean": 427,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_confusion_matrix.false_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 7544
+        }
+      ],
+      "n": 1,
+      "mean": 7544,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_confusion_matrix.true_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2168
+        }
+      ],
+      "n": 1,
+      "mean": 2168,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_class_one_probability_min": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2.2259534215862686e-09
+        }
+      ],
+      "n": 1,
+      "mean": 2.2259534215862686e-09,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_class_one_probability_max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9960917830467224
+        }
+      ],
+      "n": 1,
+      "mean": 0.9960917830467224,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_pair_ap": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.6314756253823381
+        }
+      ],
+      "n": 1,
+      "mean": 0.6314756253823381,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_negative_fpr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.007534717933334509
+        }
+      ],
+      "n": 1,
+      "mean": 0.007534717933334509,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.normal.moving.clean_pair_brier": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0852682694287127
+        }
+      ],
+      "n": 1,
+      "mean": 0.0852682694287127,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.collateral.adjacent.negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 141359
+        }
+      ],
+      "n": 1,
+      "mean": 141359,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.collateral.adjacent.incremental_fp_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 57
+        }
+      ],
+      "n": 1,
+      "mean": 57,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.collateral.adjacent.incremental_fp": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0004032286589463706
+        }
+      ],
+      "n": 1,
+      "mean": 0.0004032286589463706,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.collateral.adjacent.positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 13200
+        }
+      ],
+      "n": 1,
+      "mean": 13200,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.collateral.adjacent.positive_suppression_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 5
+        }
+      ],
+      "n": 1,
+      "mean": 5,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.collateral.adjacent.positive_suppression": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0003787878787878788
+        }
+      ],
+      "n": 1,
+      "mean": 0.0003787878787878788,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.collateral.nonincident.negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 888287
+        }
+      ],
+      "n": 1,
+      "mean": 888287,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.collateral.nonincident.incremental_fp_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 13
+        }
+      ],
+      "n": 1,
+      "mean": 13,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.collateral.nonincident.incremental_fp": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1.4634909663205699e-05
+        }
+      ],
+      "n": 1,
+      "mean": 1.4634909663205699e-05,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.collateral.nonincident.positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 53563
+        }
+      ],
+      "n": 1,
+      "mean": 53563,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.collateral.nonincident.positive_suppression_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0
+        }
+      ],
+      "n": 1,
+      "mean": 0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.collateral.nonincident.positive_suppression": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0
+        }
+      ],
+      "n": 1,
+      "mean": 0.0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10163
+        }
+      ],
+      "n": 1,
+      "mean": 10163,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.changed_coordinates.mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 24.0
+        }
+      ],
+      "n": 1,
+      "mean": 24.0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.changed_coordinates.max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 24.0
+        }
+      ],
+      "n": 1,
+      "mean": 24.0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.changed_coordinates.p95": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 24.0
+        }
+      ],
+      "n": 1,
+      "mean": 24.0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.delta_l1.mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 37.07212959331598
+        }
+      ],
+      "n": 1,
+      "mean": 37.07212959331598,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.delta_l1.max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 180.58728650957346
+        }
+      ],
+      "n": 1,
+      "mean": 180.58728650957346,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.delta_l1.p95": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 103.77496909042816
+        }
+      ],
+      "n": 1,
+      "mean": 103.77496909042816,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.delta_l2.mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 9.91326782157261
+        }
+      ],
+      "n": 1,
+      "mean": 9.91326782157261,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.delta_l2.max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 49.21353963709174
+        }
+      ],
+      "n": 1,
+      "mean": 49.21353963709174,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.delta_l2.p95": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 28.15717253925878
+        }
+      ],
+      "n": 1,
+      "mean": 28.15717253925878,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.delta_linf.mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 5.145022401465029
+        }
+      ],
+      "n": 1,
+      "mean": 5.145022401465029,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.delta_linf.max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 27.162127923220396
+        }
+      ],
+      "n": 1,
+      "mean": 27.162127923220396,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.victim.modification.delta_linf.p95": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 15.405154561251395
+        }
+      ],
+      "n": 1,
+      "mean": 15.405154561251395,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.all.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10163
+        }
+      ],
+      "n": 1,
+      "mean": 10163,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.all.absolute_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0038374495719767786
+        }
+      ],
+      "n": 1,
+      "mean": 0.0038374495719767786,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.all.triggered_target_class_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 39
+        }
+      ],
+      "n": 1,
+      "mean": 39,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.all.incremental_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0008855652858407951
+        }
+      ],
+      "n": 1,
+      "mean": 0.0008855652858407951,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.all.incremental_flips": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 9
+        }
+      ],
+      "n": 1,
+      "mean": 9,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.all.conditional_flip": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0008896797153024911
+        }
+      ],
+      "n": 1,
+      "mean": 0.0008896797153024911,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.all.clean_negative_targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10116
+        }
+      ],
+      "n": 1,
+      "mean": 10116,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.all.clean_activation_rate": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.004624618714946374
+        }
+      ],
+      "n": 1,
+      "mean": 0.004624618714946374,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.all.target_probability_delta_mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0012657032042252315
+        }
+      ],
+      "n": 1,
+      "mean": 0.0012657032042252315,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.slow.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 7157
+        }
+      ],
+      "n": 1,
+      "mean": 7157,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.slow.absolute_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0040519770853709655
+        }
+      ],
+      "n": 1,
+      "mean": 0.0040519770853709655,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.slow.triggered_target_class_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 29
+        }
+      ],
+      "n": 1,
+      "mean": 29,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.slow.incremental_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0008383400866284756
+        }
+      ],
+      "n": 1,
+      "mean": 0.0008383400866284756,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.slow.incremental_flips": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 6
+        }
+      ],
+      "n": 1,
+      "mean": 6,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.slow.conditional_flip": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0008423417099536712
+        }
+      ],
+      "n": 1,
+      "mean": 0.0008423417099536712,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.slow.clean_negative_targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 7123
+        }
+      ],
+      "n": 1,
+      "mean": 7123,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.slow.clean_activation_rate": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.004750593824228029
+        }
+      ],
+      "n": 1,
+      "mean": 0.004750593824228029,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.slow.target_probability_delta_mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.00023418447627320075
+        }
+      ],
+      "n": 1,
+      "mean": 0.00023418447627320075,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.moving.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 3006
+        }
+      ],
+      "n": 1,
+      "mean": 3006,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.moving.absolute_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.00332667997338656
+        }
+      ],
+      "n": 1,
+      "mean": 0.00332667997338656,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.moving.triggered_target_class_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10
+        }
+      ],
+      "n": 1,
+      "mean": 10,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.moving.incremental_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.000998003992015968
+        }
+      ],
+      "n": 1,
+      "mean": 0.000998003992015968,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.moving.incremental_flips": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 3
+        }
+      ],
+      "n": 1,
+      "mean": 3,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.moving.conditional_flip": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0010023387905111927
+        }
+      ],
+      "n": 1,
+      "mean": 0.0010023387905111927,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.moving.clean_negative_targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2993
+        }
+      ],
+      "n": 1,
+      "mean": 2993,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.moving.clean_activation_rate": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.004324683965402528
+        }
+      ],
+      "n": 1,
+      "mean": 0.004324683965402528,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.targets.moving.target_probability_delta_mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0037216511536439555
+        }
+      ],
+      "n": 1,
+      "mean": 0.0037216511536439555,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.normal_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1106722
+        }
+      ],
+      "n": 1,
+      "mean": 1106722,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.normal_positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 66913
+        }
+      ],
+      "n": 1,
+      "mean": 66913,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.normal_negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1039809
+        }
+      ],
+      "n": 1,
+      "mean": 1039809,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_pair_auc": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9727872787238598
+        }
+      ],
+      "n": 1,
+      "mean": 0.9727872787238598,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_pair_accuracy": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.960490529690383
+        }
+      ],
+      "n": 1,
+      "mean": 0.960490529690383,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_pair_positive_recall": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.3724836728288972
+        }
+      ],
+      "n": 1,
+      "mean": 0.3724836728288972,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_prediction_distribution.class_0": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1080061
+        }
+      ],
+      "n": 1,
+      "mean": 1080061,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_prediction_distribution.class_1": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 26661
+        }
+      ],
+      "n": 1,
+      "mean": 26661,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_confusion_matrix.true_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1038072
+        }
+      ],
+      "n": 1,
+      "mean": 1038072,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_confusion_matrix.false_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1737
+        }
+      ],
+      "n": 1,
+      "mean": 1737,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_confusion_matrix.false_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 41989
+        }
+      ],
+      "n": 1,
+      "mean": 41989,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_confusion_matrix.true_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 24924
+        }
+      ],
+      "n": 1,
+      "mean": 24924,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_class_one_probability_min": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 9.655972112268336e-18
+        }
+      ],
+      "n": 1,
+      "mean": 9.655972112268336e-18,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_class_one_probability_max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9961017966270447
+        }
+      ],
+      "n": 1,
+      "mean": 0.9961017966270447,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_pair_ap": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.80028901774611
+        }
+      ],
+      "n": 1,
+      "mean": 0.80028901774611,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_negative_fpr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0016704991012772537
+        }
+      ],
+      "n": 1,
+      "mean": 0.0016704991012772537,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.all.clean_pair_brier": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.028181630716102444
+        }
+      ],
+      "n": 1,
+      "mean": 0.028181630716102444,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.normal_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1040339
+        }
+      ],
+      "n": 1,
+      "mean": 1040339,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.normal_positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 57201
+        }
+      ],
+      "n": 1,
+      "mean": 57201,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.normal_negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 983138
+        }
+      ],
+      "n": 1,
+      "mean": 983138,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_pair_auc": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9777331790123712
+        }
+      ],
+      "n": 1,
+      "mean": 0.9777331790123712,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_pair_accuracy": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9658274850793828
+        }
+      ],
+      "n": 1,
+      "mean": 0.9658274850793828,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_pair_positive_recall": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.404520899984266
+        }
+      ],
+      "n": 1,
+      "mean": 0.404520899984266,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_prediction_distribution.class_0": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1015711
+        }
+      ],
+      "n": 1,
+      "mean": 1015711,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_prediction_distribution.class_1": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 24628
+        }
+      ],
+      "n": 1,
+      "mean": 24628,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_confusion_matrix.true_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 981649
+        }
+      ],
+      "n": 1,
+      "mean": 981649,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_confusion_matrix.false_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1489
+        }
+      ],
+      "n": 1,
+      "mean": 1489,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_confusion_matrix.false_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 34062
+        }
+      ],
+      "n": 1,
+      "mean": 34062,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_confusion_matrix.true_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 23139
+        }
+      ],
+      "n": 1,
+      "mean": 23139,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_class_one_probability_min": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 9.655972112268336e-18
+        }
+      ],
+      "n": 1,
+      "mean": 9.655972112268336e-18,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_class_one_probability_max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9961017966270447
+        }
+      ],
+      "n": 1,
+      "mean": 0.9961017966270447,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_pair_ap": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8254701002192737
+        }
+      ],
+      "n": 1,
+      "mean": 0.8254701002192737,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_negative_fpr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0015145381421529836
+        }
+      ],
+      "n": 1,
+      "mean": 0.0015145381421529836,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.slow.clean_pair_brier": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.024391710291417873
+        }
+      ],
+      "n": 1,
+      "mean": 0.024391710291417873,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.normal_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 66383
+        }
+      ],
+      "n": 1,
+      "mean": 66383,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.normal_positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 9712
+        }
+      ],
+      "n": 1,
+      "mean": 9712,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.normal_negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 56671
+        }
+      ],
+      "n": 1,
+      "mean": 56671,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_pair_auc": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.874140843634101
+        }
+      ],
+      "n": 1,
+      "mean": 0.874140843634101,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_pair_accuracy": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8768510010092946
+        }
+      ],
+      "n": 1,
+      "mean": 0.8768510010092946,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_pair_positive_recall": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.18379324546952225
+        }
+      ],
+      "n": 1,
+      "mean": 0.18379324546952225,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_prediction_distribution.class_0": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 64350
+        }
+      ],
+      "n": 1,
+      "mean": 64350,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_prediction_distribution.class_1": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2033
+        }
+      ],
+      "n": 1,
+      "mean": 2033,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_confusion_matrix.true_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 56423
+        }
+      ],
+      "n": 1,
+      "mean": 56423,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_confusion_matrix.false_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 248
+        }
+      ],
+      "n": 1,
+      "mean": 248,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_confusion_matrix.false_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 7927
+        }
+      ],
+      "n": 1,
+      "mean": 7927,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_confusion_matrix.true_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1785
+        }
+      ],
+      "n": 1,
+      "mean": 1785,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_class_one_probability_min": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2.0361463706554563e-16
+        }
+      ],
+      "n": 1,
+      "mean": 2.0361463706554563e-16,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_class_one_probability_max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9935188293457031
+        }
+      ],
+      "n": 1,
+      "mean": 0.9935188293457031,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_pair_ap": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.6239881176110464
+        }
+      ],
+      "n": 1,
+      "mean": 0.6239881176110464,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_negative_fpr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.00437613594254557
+        }
+      ],
+      "n": 1,
+      "mean": 0.00437613594254557,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.normal.moving.clean_pair_brier": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.08757638576929257
+        }
+      ],
+      "n": 1,
+      "mean": 0.08757638576929257,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.collateral.adjacent.negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 141359
+        }
+      ],
+      "n": 1,
+      "mean": 141359,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.collateral.adjacent.incremental_fp_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2
+        }
+      ],
+      "n": 1,
+      "mean": 2,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.collateral.adjacent.incremental_fp": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1.4148373998118266e-05
+        }
+      ],
+      "n": 1,
+      "mean": 1.4148373998118266e-05,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.collateral.adjacent.positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 13200
+        }
+      ],
+      "n": 1,
+      "mean": 13200,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.collateral.adjacent.positive_suppression_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 16
+        }
+      ],
+      "n": 1,
+      "mean": 16,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.collateral.adjacent.positive_suppression": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0012121212121212121
+        }
+      ],
+      "n": 1,
+      "mean": 0.0012121212121212121,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.collateral.nonincident.negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 888287
+        }
+      ],
+      "n": 1,
+      "mean": 888287,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.collateral.nonincident.incremental_fp_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0
+        }
+      ],
+      "n": 1,
+      "mean": 0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.collateral.nonincident.incremental_fp": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0
+        }
+      ],
+      "n": 1,
+      "mean": 0.0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.collateral.nonincident.positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 53563
+        }
+      ],
+      "n": 1,
+      "mean": 53563,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.collateral.nonincident.positive_suppression_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1
+        }
+      ],
+      "n": 1,
+      "mean": 1,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "dev.clean_reference.collateral.nonincident.positive_suppression": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1.8669604017698783e-05
+        }
+      ],
+      "n": 1,
+      "mean": 1.8669604017698783e-05,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.all.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10172
+        }
+      ],
+      "n": 1,
+      "mean": 10172,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.all.absolute_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.6546401887534408
+        }
+      ],
+      "n": 1,
+      "mean": 0.6546401887534408,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.all.triggered_target_class_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 6659
+        }
+      ],
+      "n": 1,
+      "mean": 6659,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.all.incremental_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.6463822257176564
+        }
+      ],
+      "n": 1,
+      "mean": 0.6463822257176564,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.all.incremental_flips": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 6575
+        }
+      ],
+      "n": 1,
+      "mean": 6575,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.all.conditional_flip": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.6517644726407613
+        }
+      ],
+      "n": 1,
+      "mean": 0.6517644726407613,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.all.clean_negative_targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10088
+        }
+      ],
+      "n": 1,
+      "mean": 10088,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.all.clean_activation_rate": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.008257963035784506
+        }
+      ],
+      "n": 1,
+      "mean": 0.008257963035784506,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.all.target_probability_delta_mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.5740758739231859
+        }
+      ],
+      "n": 1,
+      "mean": 0.5740758739231859,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.slow.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 7154
+        }
+      ],
+      "n": 1,
+      "mean": 7154,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.slow.absolute_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.5201285993849595
+        }
+      ],
+      "n": 1,
+      "mean": 0.5201285993849595,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.slow.triggered_target_class_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 3721
+        }
+      ],
+      "n": 1,
+      "mean": 3721,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.slow.incremental_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.5134190662566397
+        }
+      ],
+      "n": 1,
+      "mean": 0.5134190662566397,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.slow.incremental_flips": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 3673
+        }
+      ],
+      "n": 1,
+      "mean": 3673,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.slow.conditional_flip": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.5168871376301717
+        }
+      ],
+      "n": 1,
+      "mean": 0.5168871376301717,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.slow.clean_negative_targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 7106
+        }
+      ],
+      "n": 1,
+      "mean": 7106,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.slow.clean_activation_rate": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.006709533128319821
+        }
+      ],
+      "n": 1,
+      "mean": 0.006709533128319821,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.slow.target_probability_delta_mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.45834298499389486
+        }
+      ],
+      "n": 1,
+      "mean": 0.45834298499389486,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.moving.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 3018
+        }
+      ],
+      "n": 1,
+      "mean": 3018,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.moving.absolute_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9734923790589795
+        }
+      ],
+      "n": 1,
+      "mean": 0.9734923790589795,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.moving.triggered_target_class_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2938
+        }
+      ],
+      "n": 1,
+      "mean": 2938,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.moving.incremental_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9615639496355202
+        }
+      ],
+      "n": 1,
+      "mean": 0.9615639496355202,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.moving.incremental_flips": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2902
+        }
+      ],
+      "n": 1,
+      "mean": 2902,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.moving.conditional_flip": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9731723675385647
+        }
+      ],
+      "n": 1,
+      "mean": 0.9731723675385647,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.moving.clean_negative_targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2982
+        }
+      ],
+      "n": 1,
+      "mean": 2982,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.moving.clean_activation_rate": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.011928429423459244
+        }
+      ],
+      "n": 1,
+      "mean": 0.011928429423459244,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.targets.moving.target_probability_delta_mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8484142063950709
+        }
+      ],
+      "n": 1,
+      "mean": 0.8484142063950709,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.normal_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1090095
+        }
+      ],
+      "n": 1,
+      "mean": 1090095,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.normal_positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 66102
+        }
+      ],
+      "n": 1,
+      "mean": 66102,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.normal_negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1023993
+        }
+      ],
+      "n": 1,
+      "mean": 1023993,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_pair_auc": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9740658101052525
+        }
+      ],
+      "n": 1,
+      "mean": 0.9740658101052525,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_pair_accuracy": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9580871391942904
+        }
+      ],
+      "n": 1,
+      "mean": 0.9580871391942904,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_pair_positive_recall": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.33924843423799583
+        }
+      ],
+      "n": 1,
+      "mean": 0.33924843423799583,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_prediction_distribution.class_0": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1065658
+        }
+      ],
+      "n": 1,
+      "mean": 1065658,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_prediction_distribution.class_1": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 24437
+        }
+      ],
+      "n": 1,
+      "mean": 24437,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_confusion_matrix.true_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1021981
+        }
+      ],
+      "n": 1,
+      "mean": 1021981,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_confusion_matrix.false_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2012
+        }
+      ],
+      "n": 1,
+      "mean": 2012,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_confusion_matrix.false_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 43677
+        }
+      ],
+      "n": 1,
+      "mean": 43677,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_confusion_matrix.true_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 22425
+        }
+      ],
+      "n": 1,
+      "mean": 22425,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_class_one_probability_min": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1.20559786112584e-11
+        }
+      ],
+      "n": 1,
+      "mean": 1.20559786112584e-11,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_class_one_probability_max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9980826377868652
+        }
+      ],
+      "n": 1,
+      "mean": 0.9980826377868652,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_pair_ap": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.7877861114377681
+        }
+      ],
+      "n": 1,
+      "mean": 0.7877861114377681,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_negative_fpr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0019648571816408902
+        }
+      ],
+      "n": 1,
+      "mean": 0.0019648571816408902,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.all.clean_pair_brier": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.02869202786392021
+        }
+      ],
+      "n": 1,
+      "mean": 0.02869202786392021,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.normal_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1021832
+        }
+      ],
+      "n": 1,
+      "mean": 1021832,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.normal_positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 56040
+        }
+      ],
+      "n": 1,
+      "mean": 56040,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.normal_negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 965792
+        }
+      ],
+      "n": 1,
+      "mean": 965792,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_pair_auc": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9789980861786811
+        }
+      ],
+      "n": 1,
+      "mean": 0.9789980861786811,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_pair_accuracy": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9634127723539682
+        }
+      ],
+      "n": 1,
+      "mean": 0.9634127723539682,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_pair_positive_recall": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.36156316916488224
+        }
+      ],
+      "n": 1,
+      "mean": 0.36156316916488224,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_prediction_distribution.class_0": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 999962
+        }
+      ],
+      "n": 1,
+      "mean": 999962,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_prediction_distribution.class_1": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 21870
+        }
+      ],
+      "n": 1,
+      "mean": 21870,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_confusion_matrix.true_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 964184
+        }
+      ],
+      "n": 1,
+      "mean": 964184,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_confusion_matrix.false_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1608
+        }
+      ],
+      "n": 1,
+      "mean": 1608,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_confusion_matrix.false_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 35778
+        }
+      ],
+      "n": 1,
+      "mean": 35778,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_confusion_matrix.true_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 20262
+        }
+      ],
+      "n": 1,
+      "mean": 20262,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_class_one_probability_min": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1.20559786112584e-11
+        }
+      ],
+      "n": 1,
+      "mean": 1.20559786112584e-11,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_class_one_probability_max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9929481148719788
+        }
+      ],
+      "n": 1,
+      "mean": 0.9929481148719788,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_pair_ap": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8126297624203532
+        }
+      ],
+      "n": 1,
+      "mean": 0.8126297624203532,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_negative_fpr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0016649547728703488
+        }
+      ],
+      "n": 1,
+      "mean": 0.0016649547728703488,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.slow.clean_pair_brier": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.024845315595077057
+        }
+      ],
+      "n": 1,
+      "mean": 0.024845315595077057,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.normal_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 68263
+        }
+      ],
+      "n": 1,
+      "mean": 68263,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.normal_positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10062
+        }
+      ],
+      "n": 1,
+      "mean": 10062,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.normal_negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 58201
+        }
+      ],
+      "n": 1,
+      "mean": 58201,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_pair_auc": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8792875496811097
+        }
+      ],
+      "n": 1,
+      "mean": 0.8792875496811097,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_pair_accuracy": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8783674904413812
+        }
+      ],
+      "n": 1,
+      "mean": 0.8783674904413812,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_pair_positive_recall": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.21496720333929636
+        }
+      ],
+      "n": 1,
+      "mean": 0.21496720333929636,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_prediction_distribution.class_0": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 65696
+        }
+      ],
+      "n": 1,
+      "mean": 65696,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_prediction_distribution.class_1": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2567
+        }
+      ],
+      "n": 1,
+      "mean": 2567,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_confusion_matrix.true_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 57797
+        }
+      ],
+      "n": 1,
+      "mean": 57797,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_confusion_matrix.false_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 404
+        }
+      ],
+      "n": 1,
+      "mean": 404,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_confusion_matrix.false_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 7899
+        }
+      ],
+      "n": 1,
+      "mean": 7899,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_confusion_matrix.true_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2163
+        }
+      ],
+      "n": 1,
+      "mean": 2163,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_class_one_probability_min": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1.3275542443125232e-08
+        }
+      ],
+      "n": 1,
+      "mean": 1.3275542443125232e-08,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_class_one_probability_max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9980826377868652
+        }
+      ],
+      "n": 1,
+      "mean": 0.9980826377868652,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_pair_ap": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.6303570737783272
+        }
+      ],
+      "n": 1,
+      "mean": 0.6303570737783272,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_negative_fpr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.006941461486916032
+        }
+      ],
+      "n": 1,
+      "mean": 0.006941461486916032,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.normal.moving.clean_pair_brier": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.08627364149204288
+        }
+      ],
+      "n": 1,
+      "mean": 0.08627364149204288,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.collateral.adjacent.negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 139820
+        }
+      ],
+      "n": 1,
+      "mean": 139820,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.collateral.adjacent.incremental_fp_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 65
+        }
+      ],
+      "n": 1,
+      "mean": 65,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.collateral.adjacent.incremental_fp": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.00046488342154198255
+        }
+      ],
+      "n": 1,
+      "mean": 0.00046488342154198255,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.collateral.adjacent.positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 13318
+        }
+      ],
+      "n": 1,
+      "mean": 13318,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.collateral.adjacent.positive_suppression_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 4
+        }
+      ],
+      "n": 1,
+      "mean": 4,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.collateral.adjacent.positive_suppression": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0003003453972067878
+        }
+      ],
+      "n": 1,
+      "mean": 0.0003003453972067878,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.collateral.nonincident.negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 874001
+        }
+      ],
+      "n": 1,
+      "mean": 874001,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.collateral.nonincident.incremental_fp_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 17
+        }
+      ],
+      "n": 1,
+      "mean": 17,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.collateral.nonincident.incremental_fp": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1.9450778660436315e-05
+        }
+      ],
+      "n": 1,
+      "mean": 1.9450778660436315e-05,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.collateral.nonincident.positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 52643
+        }
+      ],
+      "n": 1,
+      "mean": 52643,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.collateral.nonincident.positive_suppression_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0
+        }
+      ],
+      "n": 1,
+      "mean": 0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.collateral.nonincident.positive_suppression": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0
+        }
+      ],
+      "n": 1,
+      "mean": 0.0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10172
+        }
+      ],
+      "n": 1,
+      "mean": 10172,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.changed_coordinates.mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 24.0
+        }
+      ],
+      "n": 1,
+      "mean": 24.0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.changed_coordinates.max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 24.0
+        }
+      ],
+      "n": 1,
+      "mean": 24.0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.changed_coordinates.p95": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 24.0
+        }
+      ],
+      "n": 1,
+      "mean": 24.0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.delta_l1.mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 37.20032706447225
+        }
+      ],
+      "n": 1,
+      "mean": 37.20032706447225,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.delta_l1.max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 182.76034662872553
+        }
+      ],
+      "n": 1,
+      "mean": 182.76034662872553,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.delta_l1.p95": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 103.25062949126584
+        }
+      ],
+      "n": 1,
+      "mean": 103.25062949126584,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.delta_l2.mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 9.94786168880052
+        }
+      ],
+      "n": 1,
+      "mean": 9.94786168880052,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.delta_l2.max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 50.18672957137849
+        }
+      ],
+      "n": 1,
+      "mean": 50.18672957137849,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.delta_l2.p95": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 28.0871268688461
+        }
+      ],
+      "n": 1,
+      "mean": 28.0871268688461,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.delta_linf.mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 5.175612471386684
+        }
+      ],
+      "n": 1,
+      "mean": 5.175612471386684,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.delta_linf.max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 29.815597008913755
+        }
+      ],
+      "n": 1,
+      "mean": 29.815597008913755,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.victim.modification.delta_linf.p95": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 15.341133434511718
+        }
+      ],
+      "n": 1,
+      "mean": 15.341133434511718,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.all.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10172
+        }
+      ],
+      "n": 1,
+      "mean": 10172,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.all.absolute_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.005112072355485647
+        }
+      ],
+      "n": 1,
+      "mean": 0.005112072355485647,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.all.triggered_target_class_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 52
+        }
+      ],
+      "n": 1,
+      "mean": 52,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.all.incremental_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.001081399921352733
+        }
+      ],
+      "n": 1,
+      "mean": 0.001081399921352733,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.all.incremental_flips": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 11
+        }
+      ],
+      "n": 1,
+      "mean": 11,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.all.conditional_flip": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0010867417506421656
+        }
+      ],
+      "n": 1,
+      "mean": 0.0010867417506421656,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.all.clean_negative_targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10122
+        }
+      ],
+      "n": 1,
+      "mean": 10122,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.all.clean_activation_rate": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.004915454187966968
+        }
+      ],
+      "n": 1,
+      "mean": 0.004915454187966968,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.all.target_probability_delta_mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.001964334564609571
+        }
+      ],
+      "n": 1,
+      "mean": 0.001964334564609571,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.slow.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 7154
+        }
+      ],
+      "n": 1,
+      "mean": 7154,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.slow.absolute_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.005171931786413195
+        }
+      ],
+      "n": 1,
+      "mean": 0.005171931786413195,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.slow.triggered_target_class_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 37
+        }
+      ],
+      "n": 1,
+      "mean": 37,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.slow.incremental_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0008386916410399776
+        }
+      ],
+      "n": 1,
+      "mean": 0.0008386916410399776,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.slow.incremental_flips": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 6
+        }
+      ],
+      "n": 1,
+      "mean": 6,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.slow.conditional_flip": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0008432888264230499
+        }
+      ],
+      "n": 1,
+      "mean": 0.0008432888264230499,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.slow.clean_negative_targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 7115
+        }
+      ],
+      "n": 1,
+      "mean": 7115,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.slow.clean_activation_rate": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.005451495666759855
+        }
+      ],
+      "n": 1,
+      "mean": 0.005451495666759855,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.slow.target_probability_delta_mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0009464458815360632
+        }
+      ],
+      "n": 1,
+      "mean": 0.0009464458815360632,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.moving.targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 3018
+        }
+      ],
+      "n": 1,
+      "mean": 3018,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.moving.absolute_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.004970178926441352
+        }
+      ],
+      "n": 1,
+      "mean": 0.004970178926441352,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.moving.triggered_target_class_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 15
+        }
+      ],
+      "n": 1,
+      "mean": 15,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.moving.incremental_asr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0016567263088137839
+        }
+      ],
+      "n": 1,
+      "mean": 0.0016567263088137839,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.moving.incremental_flips": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 5
+        }
+      ],
+      "n": 1,
+      "mean": 5,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.moving.conditional_flip": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0016627868307283007
+        }
+      ],
+      "n": 1,
+      "mean": 0.0016627868307283007,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.moving.clean_negative_targets": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 3007
+        }
+      ],
+      "n": 1,
+      "mean": 3007,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.moving.clean_activation_rate": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.003644797879390325
+        }
+      ],
+      "n": 1,
+      "mean": 0.003644797879390325,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.targets.moving.target_probability_delta_mean": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.00437718268876725
+        }
+      ],
+      "n": 1,
+      "mean": 0.00437718268876725,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.normal_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1090095
+        }
+      ],
+      "n": 1,
+      "mean": 1090095,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.normal_positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 66102
+        }
+      ],
+      "n": 1,
+      "mean": 66102,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.normal_negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1023993
+        }
+      ],
+      "n": 1,
+      "mean": 1023993,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_pair_auc": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9739007857593098
+        }
+      ],
+      "n": 1,
+      "mean": 0.9739007857593098,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_pair_accuracy": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9597860736908251
+        }
+      ],
+      "n": 1,
+      "mean": 0.9597860736908251,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_pair_positive_recall": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.36422498562827144
+        }
+      ],
+      "n": 1,
+      "mean": 0.36422498562827144,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_prediction_distribution.class_0": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1064208
+        }
+      ],
+      "n": 1,
+      "mean": 1064208,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_prediction_distribution.class_1": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 25887
+        }
+      ],
+      "n": 1,
+      "mean": 25887,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_confusion_matrix.true_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1022182
+        }
+      ],
+      "n": 1,
+      "mean": 1022182,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_confusion_matrix.false_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1811
+        }
+      ],
+      "n": 1,
+      "mean": 1811,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_confusion_matrix.false_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 42026
+        }
+      ],
+      "n": 1,
+      "mean": 42026,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_confusion_matrix.true_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 24076
+        }
+      ],
+      "n": 1,
+      "mean": 24076,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_class_one_probability_min": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 5.0801773775977025e-17
+        }
+      ],
+      "n": 1,
+      "mean": 5.0801773775977025e-17,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_class_one_probability_max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.989559531211853
+        }
+      ],
+      "n": 1,
+      "mean": 0.989559531211853,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_pair_ap": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.7982621653840916
+        }
+      ],
+      "n": 1,
+      "mean": 0.7982621653840916,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_negative_fpr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0017685667773119542
+        }
+      ],
+      "n": 1,
+      "mean": 0.0017685667773119542,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.all.clean_pair_brier": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.028326875078675637
+        }
+      ],
+      "n": 1,
+      "mean": 0.028326875078675637,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.normal_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1021832
+        }
+      ],
+      "n": 1,
+      "mean": 1021832,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.normal_positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 56040
+        }
+      ],
+      "n": 1,
+      "mean": 56040,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.normal_negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 965792
+        }
+      ],
+      "n": 1,
+      "mean": 965792,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_pair_auc": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9790998199639536
+        }
+      ],
+      "n": 1,
+      "mean": 0.9790998199639536,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_pair_accuracy": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9654356097675547
+        }
+      ],
+      "n": 1,
+      "mean": 0.9654356097675547,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_pair_positive_recall": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.3974660956459672
+        }
+      ],
+      "n": 1,
+      "mean": 0.3974660956459672,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_prediction_distribution.class_0": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 998005
+        }
+      ],
+      "n": 1,
+      "mean": 998005,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_prediction_distribution.class_1": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 23827
+        }
+      ],
+      "n": 1,
+      "mean": 23827,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_confusion_matrix.true_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 964239
+        }
+      ],
+      "n": 1,
+      "mean": 964239,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_confusion_matrix.false_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1553
+        }
+      ],
+      "n": 1,
+      "mean": 1553,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_confusion_matrix.false_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 33766
+        }
+      ],
+      "n": 1,
+      "mean": 33766,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_confusion_matrix.true_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 22274
+        }
+      ],
+      "n": 1,
+      "mean": 22274,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_class_one_probability_min": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 5.0801773775977025e-17
+        }
+      ],
+      "n": 1,
+      "mean": 5.0801773775977025e-17,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_class_one_probability_max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.9841103553771973
+        }
+      ],
+      "n": 1,
+      "mean": 0.9841103553771973,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_pair_ap": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8244823500232855
+        }
+      ],
+      "n": 1,
+      "mean": 0.8244823500232855,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_negative_fpr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0016080066929525197
+        }
+      ],
+      "n": 1,
+      "mean": 0.0016080066929525197,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.slow.clean_pair_brier": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.024299823229132288
+        }
+      ],
+      "n": 1,
+      "mean": 0.024299823229132288,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.normal_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 68263
+        }
+      ],
+      "n": 1,
+      "mean": 68263,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.normal_positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 10062
+        }
+      ],
+      "n": 1,
+      "mean": 10062,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.normal_negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 58201
+        }
+      ],
+      "n": 1,
+      "mean": 58201,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_pair_auc": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8737610043106874
+        }
+      ],
+      "n": 1,
+      "mean": 0.8737610043106874,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_pair_accuracy": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.8752179072118131
+        }
+      ],
+      "n": 1,
+      "mean": 0.8752179072118131,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_pair_positive_recall": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.17908964420592327
+        }
+      ],
+      "n": 1,
+      "mean": 0.17908964420592327,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_prediction_distribution.class_0": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 66203
+        }
+      ],
+      "n": 1,
+      "mean": 66203,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_prediction_distribution.class_1": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 2060
+        }
+      ],
+      "n": 1,
+      "mean": 2060,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_confusion_matrix.true_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 57943
+        }
+      ],
+      "n": 1,
+      "mean": 57943,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_confusion_matrix.false_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 258
+        }
+      ],
+      "n": 1,
+      "mean": 258,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_confusion_matrix.false_negative": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 8260
+        }
+      ],
+      "n": 1,
+      "mean": 8260,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_confusion_matrix.true_positive": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 1802
+        }
+      ],
+      "n": 1,
+      "mean": 1802,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_class_one_probability_min": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 3.6850063338212877e-14
+        }
+      ],
+      "n": 1,
+      "mean": 3.6850063338212877e-14,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_class_one_probability_max": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.989559531211853
+        }
+      ],
+      "n": 1,
+      "mean": 0.989559531211853,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_pair_ap": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.6202075442637048
+        }
+      ],
+      "n": 1,
+      "mean": 0.6202075442637048,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_negative_fpr": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.004432913523822615
+        }
+      ],
+      "n": 1,
+      "mean": 0.004432913523822615,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.normal.moving.clean_pair_brier": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.08860800022000517
+        }
+      ],
+      "n": 1,
+      "mean": 0.08860800022000517,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.collateral.adjacent.negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 139820
+        }
+      ],
+      "n": 1,
+      "mean": 139820,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.collateral.adjacent.incremental_fp_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 6
+        }
+      ],
+      "n": 1,
+      "mean": 6,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.collateral.adjacent.incremental_fp": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 4.291231583464454e-05
+        }
+      ],
+      "n": 1,
+      "mean": 4.291231583464454e-05,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.collateral.adjacent.positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 13318
+        }
+      ],
+      "n": 1,
+      "mean": 13318,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.collateral.adjacent.positive_suppression_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 11
+        }
+      ],
+      "n": 1,
+      "mean": 11,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.collateral.adjacent.positive_suppression": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0008259498423186665
+        }
+      ],
+      "n": 1,
+      "mean": 0.0008259498423186665,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.collateral.nonincident.negative_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 874001
+        }
+      ],
+      "n": 1,
+      "mean": 874001,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.collateral.nonincident.incremental_fp_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0
+        }
+      ],
+      "n": 1,
+      "mean": 0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.collateral.nonincident.incremental_fp": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0
+        }
+      ],
+      "n": 1,
+      "mean": 0.0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.collateral.nonincident.positive_pairs": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 52643
+        }
+      ],
+      "n": 1,
+      "mean": 52643,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.collateral.nonincident.positive_suppression_count": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0
+        }
+      ],
+      "n": 1,
+      "mean": 0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    },
+    "audit.clean_reference.collateral.nonincident.positive_suppression": {
+      "per_seed": [
+        {
+          "seed": 20261126,
+          "value": 0.0
+        }
+      ],
+      "n": 1,
+      "mean": 0.0,
+      "sample_sd": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "ci95_method": null
+    }
+  },
+  "sample_sd_ddof": 1,
+  "failure_is_zero_asr": false,
+  "blind_evaluation": false,
+  "independent_unit": "fresh full method seed; repeated evaluation pools are not new independent targets"
+}

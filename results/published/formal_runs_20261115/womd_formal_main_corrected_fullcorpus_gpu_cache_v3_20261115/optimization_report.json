@@ -1,0 +1,50 @@
+{
+  "status": "VALIDATED_HANDOFF_ARMED",
+  "at": "2026-11-14T20:10:43.699022+00:00",
+  "execution_plan": "/home/mizhou/JCAS_vehicle_lane/artifacts/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/plan.json",
+  "handoff_status": "/home/mizhou/JCAS_vehicle_lane/artifacts/womd_formal_main_corrected_fullcorpus_gpu_cache_v3_20261115/handoff_watch.json",
+  "watcher_pid": 1929648,
+  "current_seed": 20261126,
+  "current_progress": {
+    "stage": "continuation_a",
+    "epoch": 166,
+    "inner_nll": 0.22015411804022733,
+    "outer_terms": [
+      0.22222274594241753,
+      4.562230039205188e-05,
+      0.002783704552199201
+    ],
+    "surrogate_updates": 167,
+    "generator_updates": 167
+  },
+  "source_seed_running": true,
+  "optimization_active_for_training": false,
+  "activation_boundary": "after 200 complete continuation_a epochs, before a committed continuation_b epoch",
+  "gpu_validation": {
+    "path": "/home/mizhou/JCAS_vehicle_lane/artifacts/womd_gpu_cache_acceptance_20261115_v1/result.json",
+    "status": "PASS",
+    "optimizer_steps": 0,
+    "minimum_available_gib": 62.65019607543945,
+    "cache_build_seconds": 177.74235027097166,
+    "train_batches": 469,
+    "dev_batches": 161
+  },
+  "cpu_validation": {
+    "path": "/home/mizhou/JCAS_vehicle_lane/artifacts/womd_gpu_cache_cpu_checks_20261115_v1.json",
+    "tests": 30,
+    "status": "PASS"
+  },
+  "supply_seconds": {
+    "train": {
+      "streaming": 81.19837660295889,
+      "cache": 0.29358783597126603
+    },
+    "dev": {
+      "streaming": 38.648935487959534,
+      "cache": 0.15182769810780883
+    }
+  },
+  "timing_scope": "full-role data supply only; complete training epoch speedup not measured",
+  "remaining_seeds_use_fresh_full_pipeline": true,
+  "automatic_parameter_retry": false
+}
